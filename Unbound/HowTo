@@ -21,3 +21,7 @@ service unbound status
 
 ```
 it need also libevent (http://libevent.org/), libsodium (https://download.libsodium.org/doc/installation/) and openssl (https://www.openssl.org/)
+
+you could also test it with dig ns google.com @127.0.1.1
+
+if it runs, configure your router to forward port 443 or 8443 (it belongs what you configure in the unbound.conf or in the unbound.conf.d/dnscrypt.conf) to your unbound server
