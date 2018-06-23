@@ -1,0 +1,11 @@
+#!/bin/sh
+
+unbound-anchor -a /etc/unbound/root.key
+wget -S -N https://www.internic.net/domain/named.cache -O /etc/unbound/root.hints
+
+dnscrypt-wrapper --gen-cert-file --crypt-secretkey-file=/etc/unbound/1.key --provider-cert-file=/etc/unbound/1.cert --provider-publickey-file=/etc/unbound/public.key --provider-secretkey-file=/etc/unbound/secret.key
+
+chown unbound:unbound /etc/unbound/1.key
+chown unbound:unbound /etc/unbound/1.cert
+
+service unbound restart
