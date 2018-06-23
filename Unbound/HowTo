@@ -11,7 +11,7 @@ then i updated the unbound binary file by installing from sources
 wget http://www.unbound.net/downloads/unbound-latest.tar.gz
 tar -xvf unbound
 cd unbound-1.7.3/
-./configure --with-libevent --enable-dnscrypt  #https://www.unbound.net/documentation/howto_optimise.html
+./configure --with-libevent --enable-dnscrypt --with-libsodium #https://www.unbound.net/documentation/howto_optimise.html
 make && make install
 service unbound stop
 cp /usr/sbin/unbound /usr/sbin/unbound-org
