@@ -2,3 +2,6 @@ Unbound Server - How To (Debian 9)
 
 Config Files of my DNSCRYPT Server on a BananaPi M64
 
+Key for DNSCRYPT are generated like on https://github.com/cofyc/dnscrypt-wrapper#quick-start
+
+i also did a chrony daily job
