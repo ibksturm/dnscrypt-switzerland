@@ -1,0 +1,21 @@
+First you have to Install unbound, i did it like this
+
+
+```
+apt update && apt install unbound
+```
+
+then i updated the unbound binary file by installing from sources
+
+```
+wget http://www.unbound.net/downloads/unbound-latest.tar.gz
+tar -xvf unbound
+cd unbound-1.7.3/
+./configure --with-libevent #https://www.unbound.net/documentation/howto_optimise.html
+make && make install
+cp /usr/sbin/unbound /usr/sbin/unbound-org
+cp /usr/local/sbin/unbound /usr/sbin/unbound
+service unbound restart
+service unbound status
+
+```
