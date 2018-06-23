@@ -20,4 +20,4 @@ service unbound restart
 service unbound status
 
 ```
-it need also libevent (http://libevent.org/) and openssl (https://www.openssl.org/)
+it need also libevent (http://libevent.org/), libsodium (https://download.libsodium.org/doc/installation/) and openssl (https://www.openssl.org/)
