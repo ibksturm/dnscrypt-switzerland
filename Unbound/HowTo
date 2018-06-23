@@ -2,7 +2,7 @@ First you have to Install unbound, i did it like this
 
 
 ```
-apt update && apt install unbound
+apt update && apt install unbound libevent-dev openssl
 ```
 
 then i updated the unbound binary file by installing from sources
@@ -20,3 +20,4 @@ service unbound restart
 service unbound status
 
 ```
+it need also libevent (http://libevent.org/) and openssl (https://www.openssl.org/)
