@@ -21,7 +21,11 @@ service unbound status
 ```
 it need also libevent (http://libevent.org/), libsodium (https://download.libsodium.org/doc/installation/), dnscrypt-wrapper (https://github.com/cofyc/dnscrypt-wrapper) and openssl (https://www.openssl.org/)
 
-you could also test it with 
+all needed config files are in the github repo free to download, edit and use
+
+be sure, that your /etc/unbound/ folder is owned by unbound:unbound 
+
+you could test it with 
 
 dig ns google.com @127.0.1.1 #standard internet
 dig ns opennic.glue @127.0.1.1 #opennic internet
