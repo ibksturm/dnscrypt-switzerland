@@ -1,6 +1,7 @@
 #!/bin/sh
 
-dnscrypt-wrapper --gen-cert-file --crypt-secretkey-file=/etc/unbound/2.key --provider-cert-file=/etc/unbound/2.cert --provider-publickey-file=/etc/unbound/public.key --provider-secretkey-file=/etc/unbound/secret.key
+dnscrypt-wrapper --gen-cert-file --crypt-secretkey-file=/etc/unbound/1.key --provider-cert-file=/etc/unbound/2.cert --provider-publickey-file=/etc/unbound/public.key --provider-secretkey-file=/etc/unbound/secret.key
 
-chown unbound:unbound /etc/unbound/2.key
 chown unbound:unbound /etc/unbound/2.cert
+
+service dnscrypt-wrapper restart
