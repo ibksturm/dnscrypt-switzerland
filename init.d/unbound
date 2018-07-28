@@ -22,7 +22,16 @@ test -x $DAEMON || exit 0
 
 #download the root hints
 
-sudo wget -S -N https://www.internic.net/domain/named.cache -O /etc/unbound/root.hints
+hwclock -s
+
+
+ wget -S -N https://www.internic.net/domain/named.cache -O /etc/unbound/root.hints
+
+
+
+#running dnscrypt-wrapper 
+
+#dnscrypt-wrapper --resolver-address=127.0.1.1:53 --listen-address=192.168.0.191:8443 --provider-name=2.dnscrypt-cert.ibksturm --crypt-secretkey-file=/etc/unbound/1.key --provider-cert-file=/etc/unbound/1.cert,/etc/unbound/2.cert  --logfile=/var/log/dnscrypt/wrapper.log -d --user=unbound
 
 
 # Override this variable by editing or creating /etc/default/unbound.
@@ -88,13 +97,5 @@ case "$1" in
         exit 1
         ;;
 esac
-
-#running dnscrypt-wrapper 
-
-cd /etc/unbound/
-
-dnscrypt-wrapper --resolver-address=127.0.1.1:53 --listen-address=192.168.0.191:8443 --provider-name=2.dnscrypt-cert.ibksturm --crypt-secretkey-file=1.key,2.key --provider-cert-file=1.cert,2.cert  --logfile=/var/log/dnscrypt/wrapper.log -d --user=unbound
-
-
 
 exit 0

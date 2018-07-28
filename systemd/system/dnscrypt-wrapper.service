@@ -1,0 +1,22 @@
+[Unit]
+Description=Encrypted/authenticated DNS wrapper
+#ConditionFileIsExecutable=/usr/local/sbin/dnscrypt-wrapper
+After=unbound.service
+
+[Service]
+#StartLimitInterval=5
+#StartLimitBurst=10
+Type=simple
+
+ExecStart=/usr/local/sbin/dnscrypt-wrapper --user=unbound --resolver-address=127.0.1.1:53 --listen-address=192.168.0.191:8443  --provider-name=2.dnscrypt-cert.ibksturm  --crypt-secretkey-file=/etc/unbound/1.key --provider-cert-file=/etc/unbound/1.cert,/etc/unbound/2.cert --logfile=/var/log/dnscrypt/wrapper.log --user=unbound --verbose
+
+
+#WorkingDirectory=/etc/dnscrypt-wrapper
+
+#Restart=always
+#RestartSec=120
+#EnvironmentFile=-/etc/sysconfig/dnscrypt-wrapper
+
+[Install]
+#WantedBy=multi-user.target
+WantedBy=default.target
