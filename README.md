@@ -3,6 +3,8 @@
 Here's Something i learned about dnscrypt, own server structur and something other funny things
 
 
+
+
 Update November 2018 - March 2019
 
 Infrastructur ist now like that
@@ -16,8 +18,10 @@ Router -> NGINX (LoadBalancer)
 -> DNSCRYPT (dnscrypt-wrapper - AGH) 
 
 
+
 Software i Used
  
+
 
 Nginx (https://nginx.org/en/download.html (by Source) 
 
