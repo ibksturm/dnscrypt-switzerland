@@ -2,8 +2,29 @@
 
 Here's Something i learned about dnscrypt, own server structur and something other funny things
 
+i'm using a intel nuc with ubuntu server 16.04 LTS 
+
+----------------------
+
+Update April 2019
+
+Running AGH on Port 57
+
+Use nginx as Loadbalancer on Port 53 (dns)
+forward querys to multiple IPv4:57 and [IPv6]:57 local adresses (shown on AGH Webinterface)
+
+External Querys rises up to 1.5m / 24h
 
 
+
+running 3 instances of Unbound (unbound-1.service, unbound-2.service, unbound-3.service)
+
+there a 3 main config file configure the internal ip
+
+other things are configured in /etc/unbound/unbound.conf.d
+
+
+----------------------------
 
 Update November 2018 - March 2019
 
