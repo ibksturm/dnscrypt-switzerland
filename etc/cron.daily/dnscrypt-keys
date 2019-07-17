@@ -1,16 +1,5 @@
 #! /bin/sh
 
-#dirKeys="/etc/dnscrypt-wrapper/"
-
-#cd $dirKeys
-
-#sudo dnscrypt-wrapper --gen-cert-file \
-#		      --crypt-secretkey-file=1.key \
-#                      --provider-cert-file=1.cert \
-#                      --provider-publickey-file=public.key \
-#		      --provider-secretkey-file=secret.key \
- #                     -x --nolog --nofilter --dnssec \
-#      		--  cert-file-expire-days=1
 
 KEYS_DIR="/etc/dnscrypt-wrapper"
 STKEYS_DIR="${KEYS_DIR}/short-keys"

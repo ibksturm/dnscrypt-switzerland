@@ -5,53 +5,17 @@ echo "dnsserver"
 rm /etc/AdGuard/data/*.json.1
 rm /var/log/nginx/*log.*
 
-wget https://www.internic.net/domain/named.root -O /etc/unbound/root.hints
+#wget https://www.internic.net/domain/named.root -O /etc/unbound/root.hints
 
-
-#cd /etc/cron.hourly
-
-#echo " " > dnsserver.log
 
 /bin/sh /etc/cron.daily/dnscrypt-keys
 
 /bin/sh /etc/cron.weekly/dnscrypt-keys
 
 echo "crypto keys generated"
-#echo "crypto keys" >> dnsserver.log
-
 
 sudo service dnscrypt-8440 restart
 sudo service dnscrypt-8441 restart
 sudo service dnscrypt-8442 restart
 
-#echo "dnscrypt" >> dnsserver.log
-
-#sudo service httpproxy-8540 restart
-#sudo service httpproxy-8541 restart
-#sudo service httpproxy-8542 restart
-
-#echo "httpproxy" >> dnsserver.log
-
-sudo service nginx restart
-
-#echo "nginx "   >> dnsserver.log
-
-sudo service unbound-1 restart
-sudo service unbound-2 restart
-sudo service unbound-3 restart
-
-
-echo "unbound" >> dnsserver.log
-
-
-
-
-
-#sudo service AdGuardHome restart
-
-#echo "adguard" >> dnsserver.log
-
-
-
-
-#echo "finished @" $(date) >> dnsserver.log
+echo "finished @" $(date) 

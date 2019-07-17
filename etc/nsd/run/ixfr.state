@@ -16,53 +16,38 @@ NSDXFRD2
 # Note: if you edit this file while nsd is running,
 #       it will be overwritten on exit by nsd.
 
-filetime: 1554058210	# Sun Mar 31 18:50:10 2019
+filetime: 1563371842	# Wed Jul 17 13:57:22 2019
 
 # The number of zone entries in this file
-numzones: 26
-
-zone: 	name: .
-	state: 0 # OK
-	master: 0
-	next_master: -1
-	round_num: -1
-	next_timeout: 1481	# = 24m 41s
-	backoff: 0
-	soa_nsd_acquired: 1554056579	# was 27m 11s ago
-	soa_nsd: 6 1 86400 1792 ns0.opennic.glue. hostmaster.opennic.glue. 2019033116 1800 900 604800 3600
-	# refresh = 30m retry = 15m expire = 7d minimum = 1h
-	soa_disk_acquired: 1554057397	# was 13m 33s ago
-	soa_disk: 6 1 86400 1792 ns0.opennic.glue. hostmaster.opennic.glue. 2019033116 1800 900 604800 3600
-	# refresh = 30m retry = 15m expire = 7d minimum = 1h
-	soa_notify_acquired: 0
+numzones: 23
 
 zone: 	name: bbs
 	state: 0 # OK
 	master: 0
 	next_master: -1
 	round_num: -1
-	next_timeout: 5237	# = 1h 27m 17s
+	next_timeout: 10579	# = 2h 56m 19s
 	backoff: 0
-	soa_nsd_acquired: 1554049292	# was 2h 28m 38s ago
+	soa_nsd_acquired: 1563367260	# was 1h 16m 22s ago
 	soa_nsd: 6 1 86400 1792 ns6.opennic.glue. texnofobix.gmail.com. 2016111002 10800 3600 604800 38400
 	# refresh = 3h retry = 1h expire = 7d minimum = 10h 40m
-	soa_disk_acquired: 1554057397	# was 13m 33s ago
+	soa_disk_acquired: 1563367260	# was 1h 16m 22s ago
 	soa_disk: 6 1 86400 1792 ns6.opennic.glue. texnofobix.gmail.com. 2016111002 10800 3600 604800 38400
 	# refresh = 3h retry = 1h expire = 7d minimum = 10h 40m
 	soa_notify_acquired: 0
 
 zone: 	name: bit
 	state: 0 # OK
-	master: 0
+	master: 8
 	next_master: -1
 	round_num: -1
 	next_timeout: 293	# = 4m 53s
-	backoff: 0
-	soa_nsd_acquired: 1554057961	# was 4m 9s ago
-	soa_nsd: 6 1 86400 1792 ns9.opennic.glue. jonah.opennic.org. 445336000 300 180 604800 3600
+	backoff: 64
+	soa_nsd_acquired: 1563371589	# was 4m 13s ago
+	soa_nsd: 6 1 86400 1792 ns9.opennic.glue. jonah.opennic.org. 452805000 300 180 604800 3600
 	# refresh = 5m retry = 3m expire = 7d minimum = 1h
-	soa_disk_acquired: 1554057961	# was 4m 9s ago
-	soa_disk: 6 1 86400 1792 ns9.opennic.glue. jonah.opennic.org. 445336000 300 180 604800 3600
+	soa_disk_acquired: 1563371589	# was 4m 13s ago
+	soa_disk: 6 1 86400 1792 ns9.opennic.glue. jonah.opennic.org. 452805000 300 180 604800 3600
 	# refresh = 5m retry = 3m expire = 7d minimum = 1h
 	soa_notify_acquired: 0
 
@@ -71,36 +56,14 @@ zone: 	name: chan
 	master: 0
 	next_master: -1
 	round_num: -1
-	next_timeout: 3388	# = 56m 28s
+	next_timeout: 7039	# = 1h 57m 19s
 	backoff: 0
-	soa_nsd_acquired: 1554049290	# was 2h 28m 40s ago
-	soa_nsd: 6 1 86400 1792 ns0.opennic.chan. hostmaster.opennic.chan. 4164594592 7200 900 604800 86400
+	soa_nsd_acquired: 1563371414	# was 7m 8s ago
+	soa_nsd: 6 1 86400 1792 ns0.opennic.chan. hostmaster.opennic.chan. 1556850798 7200 900 604800 86400
 	# refresh = 2h retry = 15m expire = 7d minimum = 1d
-	soa_disk_acquired: 1554057397	# was 13m 33s ago
-	soa_disk: 6 1 86400 1792 ns0.opennic.chan. hostmaster.opennic.chan. 4164594592 7200 900 604800 86400
+	soa_disk_acquired: 1563371414	# was 7m 8s ago
+	soa_disk: 6 1 86400 1792 ns0.opennic.chan. hostmaster.opennic.chan. 1556850798 7200 900 604800 86400
 	# refresh = 2h retry = 15m expire = 7d minimum = 1d
-	soa_notify_acquired: 0
-
-zone: 	name: google.com
-	state: 1 # refreshing
-	master: 2
-	next_master: -1
-	round_num: 0
-	next_timeout: 0
-	backoff: 1
-	soa_nsd_acquired: 0
-	soa_disk_acquired: 0
-	soa_notify_acquired: 0
-
-zone: 	name: youtube.com
-	state: 1 # refreshing
-	master: 1
-	next_master: -1
-	round_num: 0
-	next_timeout: 0
-	backoff: 1
-	soa_nsd_acquired: 0
-	soa_disk_acquired: 0
 	soa_notify_acquired: 0
 
 zone: 	name: cyb
@@ -108,28 +71,28 @@ zone: 	name: cyb
 	master: 0
 	next_master: -1
 	round_num: -1
-	next_timeout: 1664	# = 27m 44s
+	next_timeout: 1788	# = 29m 48s
 	backoff: 0
-	soa_nsd_acquired: 1554056066	# was 35m 44s ago
-	soa_nsd: 6 1 86400 1792 ns12.opennic.glue. hostmaster.opennic.cyb. 1553284801 1800 15 604800 3600
+	soa_nsd_acquired: 1563371603	# was 3m 59s ago
+	soa_nsd: 6 1 86400 1792 ns12.opennic.glue. hostmaster.opennic.cyb. 1563135181 1800 15 604800 3600
 	# refresh = 30m retry = 15s expire = 7d minimum = 1h
-	soa_disk_acquired: 1554057397	# was 13m 33s ago
-	soa_disk: 6 1 86400 1792 ns12.opennic.glue. hostmaster.opennic.cyb. 1553284801 1800 15 604800 3600
+	soa_disk_acquired: 1563371603	# was 3m 59s ago
+	soa_disk: 6 1 86400 1792 ns12.opennic.glue. hostmaster.opennic.cyb. 1563135181 1800 15 604800 3600
 	# refresh = 30m retry = 15s expire = 7d minimum = 1h
 	soa_notify_acquired: 0
 
 zone: 	name: dyn
 	state: 0 # OK
-	master: 0
+	master: 3
 	next_master: -1
 	round_num: -1
-	next_timeout: 58	# = 58s
+	next_timeout: 56	# = 56s
 	backoff: 0
-	soa_nsd_acquired: 1554058186	# was 24s ago
-	soa_nsd: 6 1 300 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1903311848 60 120 3600 300
+	soa_nsd_acquired: 1563371795	# was 47s ago
+	soa_nsd: 6 1 300 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1907171342 60 120 3600 300
 	# refresh = 1m retry = 2m expire = 1h minimum = 5m
-	soa_disk_acquired: 1554058186	# was 24s ago
-	soa_disk: 6 1 300 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1903311848 60 120 3600 300
+	soa_disk_acquired: 1563371795	# was 47s ago
+	soa_disk: 6 1 300 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1907171342 60 120 3600 300
 	# refresh = 1m retry = 2m expire = 1h minimum = 5m
 	soa_notify_acquired: 0
 
@@ -138,13 +101,13 @@ zone: 	name: fur
 	master: 2
 	next_master: -1
 	round_num: -1
-	next_timeout: 398815	# = 4d 14h 46m 55s
+	next_timeout: 89017	# = 1d 43m 37s
 	backoff: 0
-	soa_nsd_acquired: 1554049290	# was 2h 28m 40s ago
-	soa_nsd: 6 1 300 1792 ns15.nic.fur. furnic-operators.fellig.org. 580369 604800 86400 2419200 1200
+	soa_nsd_acquired: 1561085958	# was 26d 10h 58m 4s ago
+	soa_nsd: 6 1 300 1792 ns15.nic.fur. furnic-operators.fellig.org. 592097 604800 86400 2419200 1200
 	# refresh = 7d retry = 1d expire = 28d minimum = 20m
-	soa_disk_acquired: 1554057397	# was 13m 33s ago
-	soa_disk: 6 1 300 1792 ns15.nic.fur. furnic-operators.fellig.org. 580369 604800 86400 2419200 1200
+	soa_disk_acquired: 1563337506	# was 9h 32m 16s ago
+	soa_disk: 6 1 300 1792 ns15.nic.fur. furnic-operators.fellig.org. 592097 604800 86400 2419200 1200
 	# refresh = 7d retry = 1d expire = 28d minimum = 20m
 	soa_notify_acquired: 0
 
@@ -153,13 +116,13 @@ zone: 	name: geek
 	master: 0
 	next_master: -1
 	round_num: -1
-	next_timeout: 2949	# = 49m 9s
+	next_timeout: 3550	# = 59m 10s
 	backoff: 0
-	soa_nsd_acquired: 1554055376	# was 47m 14s ago
-	soa_nsd: 6 1 86400 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1903311708 3600 7200 604800 86400
+	soa_nsd_acquired: 1563368295	# was 59m 7s ago
+	soa_nsd: 6 1 86400 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1907171023 3600 7200 604800 86400
 	# refresh = 1h retry = 2h expire = 7d minimum = 1d
-	soa_disk_acquired: 1554057397	# was 13m 33s ago
-	soa_disk: 6 1 86400 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1903311708 3600 7200 604800 86400
+	soa_disk_acquired: 1563368295	# was 59m 7s ago
+	soa_disk: 6 1 86400 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1907171023 3600 7200 604800 86400
 	# refresh = 1h retry = 2h expire = 7d minimum = 1d
 	soa_notify_acquired: 0
 
@@ -168,13 +131,13 @@ zone: 	name: opennic.glue
 	master: 0
 	next_master: -1
 	round_num: -1
-	next_timeout: 6581	# = 1h 49m 41s
+	next_timeout: 10235	# = 2h 50m 35s
 	backoff: 0
-	soa_nsd_acquired: 1554049291	# was 2h 28m 39s ago
-	soa_nsd: 6 1 7200 1792 ns0.opennic.glue. ns0.opennic.glue. 1903301701 10800 7200 86400 7200
+	soa_nsd_acquired: 1563367955	# was 1h 4m 47s ago
+	soa_nsd: 6 1 7200 1792 ns0.opennic.glue. ns0.opennic.glue. 1907170401 10800 7200 86400 7200
 	# refresh = 3h retry = 2h expire = 1d minimum = 2h
-	soa_disk_acquired: 1554057397	# was 13m 33s ago
-	soa_disk: 6 1 7200 1792 ns0.opennic.glue. ns0.opennic.glue. 1903301701 10800 7200 86400 7200
+	soa_disk_acquired: 1563367955	# was 1h 4m 47s ago
+	soa_disk: 6 1 7200 1792 ns0.opennic.glue. ns0.opennic.glue. 1907170401 10800 7200 86400 7200
 	# refresh = 3h retry = 2h expire = 1d minimum = 2h
 	soa_notify_acquired: 0
 
@@ -183,13 +146,13 @@ zone: 	name: dns.opennic.glue
 	master: 0
 	next_master: -1
 	round_num: -1
-	next_timeout: 25200	# = 7h
+	next_timeout: 40580	# = 11h 16m 20s
 	backoff: 0
-	soa_nsd_acquired: 1554049304	# was 2h 28m 26s ago
-	soa_nsd: 6 1 86400 1792 ns0.opennic.glue. root.opennic.glue. 2019033115 43200 7200 604800 86400
+	soa_nsd_acquired: 1563330958	# was 11h 21m 24s ago
+	soa_nsd: 6 1 86400 1792 ns0.opennic.glue. root.opennic.glue. 2019071703 43200 7200 604800 86400
 	# refresh = 12h retry = 2h expire = 7d minimum = 1d
-	soa_disk_acquired: 1554057397	# was 13m 33s ago
-	soa_disk: 6 1 86400 1792 ns0.opennic.glue. root.opennic.glue. 2019033115 43200 7200 604800 86400
+	soa_disk_acquired: 1563337506	# was 9h 32m 16s ago
+	soa_disk: 6 1 86400 1792 ns0.opennic.glue. root.opennic.glue. 2019071703 43200 7200 604800 86400
 	# refresh = 12h retry = 2h expire = 7d minimum = 1d
 	soa_notify_acquired: 0
 
@@ -198,28 +161,28 @@ zone: 	name: gopher
 	master: 0
 	next_master: -1
 	round_num: -1
-	next_timeout: 3111	# = 51m 51s
+	next_timeout: 3450	# = 57m 30s
 	backoff: 0
-	soa_nsd_acquired: 1554055862	# was 39m 8s ago
-	soa_nsd: 6 1 86400 1792 ns2.opennic.glue. hostmaster.dns.gopher. 1903311224 3600 3600 604800 86400
+	soa_nsd_acquired: 1563368716	# was 52m 6s ago
+	soa_nsd: 6 1 86400 1792 ns2.opennic.glue. hostmaster.dns.gopher. 1907170042 3600 3600 604800 86400
 	# refresh = 1h retry = 1h expire = 7d minimum = 1d
-	soa_disk_acquired: 1554057397	# was 13m 33s ago
-	soa_disk: 6 1 86400 1792 ns2.opennic.glue. hostmaster.dns.gopher. 1903311224 3600 3600 604800 86400
+	soa_disk_acquired: 1563368716	# was 52m 6s ago
+	soa_disk: 6 1 86400 1792 ns2.opennic.glue. hostmaster.dns.gopher. 1907170042 3600 3600 604800 86400
 	# refresh = 1h retry = 1h expire = 7d minimum = 1d
 	soa_notify_acquired: 0
 
 zone: 	name: indy
 	state: 0 # OK
-	master: 0
+	master: 3
 	next_master: -1
 	round_num: -1
-	next_timeout: 2865	# = 47m 45s
+	next_timeout: 3435	# = 57m 15s
 	backoff: 0
-	soa_nsd_acquired: 1554055398	# was 46m 52s ago
-	soa_nsd: 6 1 86400 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1903311701 3600 7200 604800 86400
+	soa_nsd_acquired: 1563371837	# was 5s ago
+	soa_nsd: 6 1 86400 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1907171304 3600 7200 604800 86400
 	# refresh = 1h retry = 2h expire = 7d minimum = 1d
-	soa_disk_acquired: 1554057397	# was 13m 33s ago
-	soa_disk: 6 1 86400 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1903311701 3600 7200 604800 86400
+	soa_disk_acquired: 1563371837	# was 5s ago
+	soa_disk: 6 1 86400 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1907171304 3600 7200 604800 86400
 	# refresh = 1h retry = 2h expire = 7d minimum = 1d
 	soa_notify_acquired: 0
 
@@ -228,38 +191,42 @@ zone: 	name: ku
 	master: 0
 	next_master: -1
 	round_num: -1
-	next_timeout: 4138	# = 1h 8m 58s
-	backoff: 256
-	soa_nsd_acquired: 0
-	soa_disk_acquired: 0
+	next_timeout: 116	# = 1m 56s
+	backoff: 4
+	soa_nsd_acquired: 1563371645	# was 3m 17s ago
+	soa_nsd: 6 1 30 1792 ns1.new-nations.ku. contact.new-nations.net. 1563367386 60 30 2419200 604800
+	# refresh = 1m retry = 30s expire = 28d minimum = 7d
+	soa_disk_acquired: 1563371645	# was 3m 17s ago
+	soa_disk: 6 1 30 1792 ns1.new-nations.ku. contact.new-nations.net. 1563367386 60 30 2419200 604800
+	# refresh = 1m retry = 30s expire = 28d minimum = 7d
 	soa_notify_acquired: 0
 
 zone: 	name: libre
 	state: 0 # OK
-	master: 0
+	master: 3
 	next_master: -1
 	round_num: -1
-	next_timeout: 2837	# = 47m 17s
+	next_timeout: 3472	# = 57m 52s
 	backoff: 0
-	soa_nsd_acquired: 1554055148	# was 51m 2s ago
-	soa_nsd: 6 1 0 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1903311702 3600 7200 6048 0
+	soa_nsd_acquired: 1563371838	# was 4s ago
+	soa_nsd: 6 1 0 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1907171305 3600 7200 6048 0
 	# refresh = 1h retry = 2h expire = 1h 40m 48s minimum = 0s
-	soa_disk_acquired: 1554057397	# was 13m 33s ago
-	soa_disk: 6 1 0 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1903311702 3600 7200 6048 0
+	soa_disk_acquired: 1563371838	# was 4s ago
+	soa_disk: 6 1 0 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1907171305 3600 7200 6048 0
 	# refresh = 1h retry = 2h expire = 1h 40m 48s minimum = 0s
 	soa_notify_acquired: 0
 
 zone: 	name: neo
-	state: 0 # OK
+	state: 1 # refreshing
 	master: 0
 	next_master: -1
 	round_num: -1
-	next_timeout: 10	# = 10s
-	backoff: 0
-	soa_nsd_acquired: 1554058209	# was 1s ago
+	next_timeout: 261657	# = 3d 40m 57s
+	backoff: 128
+	soa_nsd_acquired: 1562521407	# was 9d 20h 13m 55s ago
 	soa_nsd: 6 1 86400 1792 ns3.opennic.glue. admin.opennic.neo. 2017110300 10 3600 604800 38400
 	# refresh = 10s retry = 1h expire = 7d minimum = 10h 40m
-	soa_disk_acquired: 1554058209	# was 1s ago
+	soa_disk_acquired: 1563337506	# was 9h 32m 16s ago
 	soa_disk: 6 1 86400 1792 ns3.opennic.glue. admin.opennic.neo. 2017110300 10 3600 604800 38400
 	# refresh = 10s retry = 1h expire = 7d minimum = 10h 40m
 	soa_notify_acquired: 0
@@ -269,28 +236,28 @@ zone: 	name: null
 	master: 0
 	next_master: -1
 	round_num: -1
-	next_timeout: 3256	# = 54m 16s
+	next_timeout: 3374	# = 56m 14s
 	backoff: 0
-	soa_nsd_acquired: 1554055000	# was 53m 30s ago
-	soa_nsd: 6 1 86400 1792 ns10.opennic.glue. dns.bambusoft.com. 2019033145 3600 7200 604800 86400
+	soa_nsd_acquired: 1563368775	# was 51m 7s ago
+	soa_nsd: 6 1 86400 1792 ns10.opennic.glue. dns.bambusoft.com. 2019071726 3600 7200 604800 86400
 	# refresh = 1h retry = 2h expire = 7d minimum = 1d
-	soa_disk_acquired: 1554057397	# was 13m 33s ago
-	soa_disk: 6 1 86400 1792 ns10.opennic.glue. dns.bambusoft.com. 2019033145 3600 7200 604800 86400
+	soa_disk_acquired: 1563368775	# was 51m 7s ago
+	soa_disk: 6 1 86400 1792 ns10.opennic.glue. dns.bambusoft.com. 2019071726 3600 7200 604800 86400
 	# refresh = 1h retry = 2h expire = 7d minimum = 1d
 	soa_notify_acquired: 0
 
 zone: 	name: o
 	state: 0 # OK
-	master: 0
+	master: 3
 	next_master: -1
 	round_num: -1
-	next_timeout: 277	# = 4m 37s
-	backoff: 0
-	soa_nsd_acquired: 1554057935	# was 4m 35s ago
-	soa_nsd: 6 1 86400 1792 ns11.opennic.glue. jonah.opennic.org. 1553903269 300 180 604800 3600
+	next_timeout: 275	# = 4m 35s
+	backoff: 16
+	soa_nsd_acquired: 1563371790	# was 52s ago
+	soa_nsd: 6 1 7200 1792 ns11.opennic.glue. jonah.opennic.org. 1561164338 300 180 604800 3600
 	# refresh = 5m retry = 3m expire = 7d minimum = 1h
-	soa_disk_acquired: 1554057935	# was 4m 35s ago
-	soa_disk: 6 1 86400 1792 ns11.opennic.glue. jonah.opennic.org. 1553903269 300 180 604800 3600
+	soa_disk_acquired: 1563371790	# was 52s ago
+	soa_disk: 6 1 7200 1792 ns11.opennic.glue. jonah.opennic.org. 1561164338 300 180 604800 3600
 	# refresh = 5m retry = 3m expire = 7d minimum = 1h
 	soa_notify_acquired: 0
 
@@ -299,13 +266,13 @@ zone: 	name: oss
 	master: 0
 	next_master: -1
 	round_num: -1
-	next_timeout: 3214	# = 53m 34s
+	next_timeout: 3543	# = 59m 3s
 	backoff: 0
-	soa_nsd_acquired: 1554055172	# was 50m 38s ago
-	soa_nsd: 6 1 86400 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1903311706 3600 7200 604800 86400
+	soa_nsd_acquired: 1563371439	# was 6m 43s ago
+	soa_nsd: 6 1 86400 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1907171303 3600 7200 604800 86400
 	# refresh = 1h retry = 2h expire = 7d minimum = 1d
-	soa_disk_acquired: 1554057397	# was 13m 33s ago
-	soa_disk: 6 1 86400 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1903311706 3600 7200 604800 86400
+	soa_disk_acquired: 1563371439	# was 6m 43s ago
+	soa_disk: 6 1 86400 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1907171303 3600 7200 604800 86400
 	# refresh = 1h retry = 2h expire = 7d minimum = 1d
 	soa_notify_acquired: 0
 
@@ -314,28 +281,28 @@ zone: 	name: oz
 	master: 0
 	next_master: -1
 	round_num: -1
-	next_timeout: 3162	# = 52m 42s
+	next_timeout: 3484	# = 58m 4s
 	backoff: 0
-	soa_nsd_acquired: 1554055287	# was 48m 43s ago
-	soa_nsd: 6 1 86400 1792 ns10.opennic.glue. dns.bambusoft.com. 2019033142 3600 7200 604800 86400
+	soa_nsd_acquired: 1563371616	# was 3m 46s ago
+	soa_nsd: 6 1 86400 1792 ns10.opennic.glue. dns.bambusoft.com. 2019062970 3600 7200 604800 86400
 	# refresh = 1h retry = 2h expire = 7d minimum = 1d
-	soa_disk_acquired: 1554057397	# was 13m 33s ago
-	soa_disk: 6 1 86400 1792 ns10.opennic.glue. dns.bambusoft.com. 2019033142 3600 7200 604800 86400
+	soa_disk_acquired: 1563371616	# was 3m 46s ago
+	soa_disk: 6 1 86400 1792 ns10.opennic.glue. dns.bambusoft.com. 2019062970 3600 7200 604800 86400
 	# refresh = 1h retry = 2h expire = 7d minimum = 1d
 	soa_notify_acquired: 0
 
 zone: 	name: parody
 	state: 0 # OK
-	master: 0
+	master: 3
 	next_master: -1
 	round_num: -1
-	next_timeout: 2956	# = 49m 16s
+	next_timeout: 3416	# = 56m 56s
 	backoff: 0
-	soa_nsd_acquired: 1554055077	# was 52m 13s ago
-	soa_nsd: 6 1 86400 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1903302032 3600 7200 604800 86400
+	soa_nsd_acquired: 1563371668	# was 2m 54s ago
+	soa_nsd: 6 1 86400 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1907151926 3600 7200 604800 86400
 	# refresh = 1h retry = 2h expire = 7d minimum = 1d
-	soa_disk_acquired: 1554057397	# was 13m 33s ago
-	soa_disk: 6 1 86400 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1903302032 3600 7200 604800 86400
+	soa_disk_acquired: 1563371668	# was 2m 54s ago
+	soa_disk: 6 1 86400 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1907151926 3600 7200 604800 86400
 	# refresh = 1h retry = 2h expire = 7d minimum = 1d
 	soa_notify_acquired: 0
 
@@ -344,13 +311,13 @@ zone: 	name: pirate
 	master: 0
 	next_master: -1
 	round_num: -1
-	next_timeout: 2896	# = 48m 16s
+	next_timeout: 3278	# = 54m 38s
 	backoff: 0
-	soa_nsd_acquired: 1554055445	# was 46m 5s ago
-	soa_nsd: 6 1 86400 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1903311457 3600 7200 604800 86400
+	soa_nsd_acquired: 1563370959	# was 14m 43s ago
+	soa_nsd: 6 1 86400 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1907171206 3600 7200 604800 86400
 	# refresh = 1h retry = 2h expire = 7d minimum = 1d
-	soa_disk_acquired: 1554057397	# was 13m 33s ago
-	soa_disk: 6 1 86400 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1903311457 3600 7200 604800 86400
+	soa_disk_acquired: 1563370959	# was 14m 43s ago
+	soa_disk: 6 1 86400 1792 ns2.opennic.glue. shdwdrgn.sourpuss.net. 1907171206 3600 7200 604800 86400
 	# refresh = 1h retry = 2h expire = 7d minimum = 1d
 	soa_notify_acquired: 0
 
@@ -359,10 +326,14 @@ zone: 	name: te
 	master: 0
 	next_master: -1
 	round_num: -1
-	next_timeout: 2857	# = 47m 37s
-	backoff: 256
-	soa_nsd_acquired: 0
-	soa_disk_acquired: 0
+	next_timeout: 110	# = 1m 50s
+	backoff: 4
+	soa_nsd_acquired: 1563371655	# was 3m 7s ago
+	soa_nsd: 6 1 30 1792 ns1.new-nations.te. contact.new-nations.net. 1563367383 60 30 2419200 604800
+	# refresh = 1m retry = 30s expire = 28d minimum = 7d
+	soa_disk_acquired: 1563371655	# was 3m 7s ago
+	soa_disk: 6 1 30 1792 ns1.new-nations.te. contact.new-nations.net. 1563367383 60 30 2419200 604800
+	# refresh = 1m retry = 30s expire = 28d minimum = 7d
 	soa_notify_acquired: 0
 
 zone: 	name: ti
@@ -370,10 +341,14 @@ zone: 	name: ti
 	master: 0
 	next_master: -1
 	round_num: -1
-	next_timeout: 2277	# = 37m 57s
-	backoff: 256
-	soa_nsd_acquired: 0
-	soa_disk_acquired: 0
+	next_timeout: 113	# = 1m 53s
+	backoff: 4
+	soa_nsd_acquired: 1563371645	# was 3m 17s ago
+	soa_nsd: 6 1 30 1792 ns1.new-nations.ti. contact.new-nations.net. 1563367381 60 30 2419200 604800
+	# refresh = 1m retry = 30s expire = 28d minimum = 7d
+	soa_disk_acquired: 1563371645	# was 3m 17s ago
+	soa_disk: 6 1 30 1792 ns1.new-nations.ti. contact.new-nations.net. 1563367381 60 30 2419200 604800
+	# refresh = 1m retry = 30s expire = 28d minimum = 7d
 	soa_notify_acquired: 0
 
 zone: 	name: uu
@@ -381,10 +356,14 @@ zone: 	name: uu
 	master: 0
 	next_master: -1
 	round_num: -1
-	next_timeout: 7261	# = 2h 1m 1s
-	backoff: 512
-	soa_nsd_acquired: 0
-	soa_disk_acquired: 0
+	next_timeout: 119	# = 1m 59s
+	backoff: 4
+	soa_nsd_acquired: 1563371626	# was 3m 36s ago
+	soa_nsd: 6 1 30 1792 ns1.new-nations.uu. contact.new-nations.net. 1563367386 60 30 2419200 604800
+	# refresh = 1m retry = 30s expire = 28d minimum = 7d
+	soa_disk_acquired: 1563371626	# was 3m 36s ago
+	soa_disk: 6 1 30 1792 ns1.new-nations.uu. contact.new-nations.net. 1563367386 60 30 2419200 604800
+	# refresh = 1m retry = 30s expire = 28d minimum = 7d
 	soa_notify_acquired: 0
 
 NSDXFRD2

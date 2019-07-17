@@ -8,8 +8,6 @@ sudo service nginx restart
 sudo service nsd restart
 
 sudo service unbound-1 restart
-sudo service unbound-2 restart
-sudo service unbound-3 restart
 
 sudo service AdGuardHome restart
 

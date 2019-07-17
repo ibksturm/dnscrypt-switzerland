@@ -2,22 +2,35 @@
 Description=Unbound DNS server
 Documentation=man:unbound(8)
 After=network.target
+#Before=nss-lookup.target
+#Wants=nss-lookup.target
 
 [Service]
+#Type=forking
 Type=simple
 Restart=on-failure
 EnvironmentFile=-/etc/default/unbound
 ExecStartPre=-/usr/lib/unbound/package-helper chroot_setup
 ExecStartPre=-/usr/lib/unbound/package-helper root_trust_anchor_update
-ExecStart=/usr/sbin/unbound -c /etc/unbound/unbound-1.conf -d $DAEMON_OPTS
+#ExecStart=/usr/sbin/unbound -d $DAEMON_OPTS
+#ExecStart=/usr/sbin/unbound -c /etc/unbound/unbound-1.conf -d $DAEMON_OPTS
 
+ExecStart=/usr/local/sbin/unbound -c /etc/unbound/unbound-1.conf -d $DAEMON_OPTS
 
 ExecReload=/usr/sbin/unbound-control reload
 PIDFile=/run/unbound.pid
 	
+#AmbientCapabilities=CAP_NET_BIND_SERVICE
+
+#LimitNOFILE=1000000
 LimitFSIZE=infinity
 LimitCPU=infinity
 LimitAS=infinity
+#LimitNPROC=495000
+
+#[Slice]
+#CPUQuota=80%
+#MemoryLimit=8G
 
 
 [Install]
