@@ -1,7 +1,7 @@
 bind_host: 192.168.0.191
 bind_port: 3000
-auth_name: admin
-auth_pass: D4n1malL3s
+auth_name: usr
+auth_pass: pwd
 language: ""
 rlimit_nofile: 0
 dns:
