@@ -1,0 +1,202 @@
+####################################################
+#                                                  #
+#        Encrypted DNS Server configuration        #
+#                                                  #
+####################################################
+
+
+
+##################################
+#         Global settings        #
+##################################
+
+
+## IP addresses and ports to listen to, as well as their external IP
+## If there is no NAT involved, `local` and `external` can be the same.
+## As many addresses as needed can be configured here, IPv4 and/or IPv6.
+## You should at least change the `external` IP address.
+
+### Example with both IPv4 and IPv6 addresses:
+# listen_addrs = [
+#     { local = "0.0.0.0:443",    external = "198.51.100.1:443" },
+#     { local = "[::]:443",       external = "[2001:db8::1]:443" }
+# ]
+
+listen_addrs = [
+    { local = "127.0.5.1:8441",    external = "[ExternalIP]:[Port]" }
+]
+
+
+## Upstream DNS server and port
+
+upstream_addr = "127.0.0.1:53"
+
+
+## File name to save the state to
+
+state_file = "encrypted-dns.state"
+
+
+## UDP timeout in seconds
+
+udp_timeout = 10
+
+
+## TCP timeout in seconds
+
+tcp_timeout = 10
+
+
+## Maximum active UDP sockets
+
+udp_max_active_connections = 1000
+
+
+## Maximum active TCP connections
+
+tcp_max_active_connections = 100
+
+
+## IP address to connect to upstream servers from.
+## You probably do not want to change this. `0.0.0.0` should be fine.
+
+external_addr = "0.0.0.0"
+
+
+## Built-in DNS cache capacity
+
+cache_capacity = 50000
+
+
+## DNS cache: minimum TTL
+
+cache_ttl_min = 60
+
+
+## DNS cache: max TTL
+
+cache_ttl_max = 3600
+
+
+## DNS cache: error TTL
+
+cache_ttl_error = 60
+
+
+## Run as a background process
+
+daemonize = false
+
+
+## Log file
+
+ log_file = "/var/log/encrypted-dns/encrypted-dns-8441.log"
+
+
+## PID file
+
+ pid_file = "/tmp/encrypted-dns-8440.pid"
+
+
+## User name to drop privileges to, when started as root.
+
+# user = "unbound"
+
+
+## Group name to drop privileges to, when started as root.
+
+# group = "dnscrypt"
+
+
+## Path to chroot() to, when started as root.
+## The path to the state file is relative to the chroot base.
+
+# chroot = "/var/empty"
+
+
+
+####################################
+#         DNSCrypt settings        #
+####################################
+
+[dnscrypt]
+
+## Provider name (with or without the `2.dnscrypt-cert.` prefix)
+
+provider_name = "ProviderName"
+
+
+## Does the server support DNSSEC?
+
+dnssec = true
+
+
+## Does the server always returns correct answers (no filtering, including ad blocking)?
+
+no_filters = true
+
+
+## Set to `true` if the server doesn't keep any information that can be used to identify users
+
+no_logs = true
+
+
+## Key cache capacity, per certificate
+
+key_cache_capacity = 10000
+
+
+
+###############################
+#         TLS settings        #
+###############################
+
+[tls]
+
+## Where to prooxy TLS connections to (e.g. DoH server)
+
+ upstream_addr = "127.0.0.1:8080"
+
+#######################################
+#        Server-side filtering        #
+#######################################
+
+[filtering]
+
+## List of domains to block, one per line
+
+# domain_blacklist = "/etc/domain_blacklist.txt"
+
+
+
+#########################
+#        Metrics        #
+#########################
+
+# [metrics]
+
+# type = "prometheus"
+# listen_addr = "0.0.0.0:9100"
+# path = "/metrics"
+
+
+
+################################
+#        Anonymized DNS        #
+################################
+
+[anonymized_dns]
+
+# Enable relaying support for Anonymized DNS
+
+enabled = true
+
+
+# Allowed upstream ports
+
+allowed_ports = [ 443,8443 ]
+
+
+# Blacklisted upstream IP addresses
+
+blacklisted_ips = [ "PublicIP" ]

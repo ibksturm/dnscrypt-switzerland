@@ -1,8 +1,9 @@
-; zone bbs written by NSD 4.1.27 on Sun Jun  9 21:57:54 2019
-; received update to serial 2016111002 at 2019-06-09T19:20:36 from 45.56.115.189
+; zone bbs written by NSD 4.2.2 on Wed Feb  5 06:02:32 2020
+; received update to serial 2020020402 at 2020-02-05T05:55:23 from 45.56.115.189
 $ORIGIN .
 bbs	86400	IN	SOA	ns6.opennic.glue. texnofobix.gmail.com. (
-		2016111002 10800 3600 604800 38400 )
+		2020020402 10800 3600 604800 38400 )
+	86400	IN	TXT	"Bulletin Board System"
 	86400	IN	NS	ns2.opennic.glue.
 	86400	IN	NS	ns3.opennic.glue.
 	86400	IN	NS	ns4.opennic.glue.
@@ -11,7 +12,6 @@ bbs	86400	IN	SOA	ns6.opennic.glue. texnofobix.gmail.com. (
 	86400	IN	NS	ns7.opennic.glue.
 	86400	IN	NS	ns8.opennic.glue.
 	86400	IN	NS	ns10.opennic.glue.
-	86400	IN	TXT	"Bulletin Board System"
 $ORIGIN bbs.
 1984	86400	IN	A	64.150.165.47
 2400baud	86400	IN	CNAME	triton.2400baud.net.
@@ -50,10 +50,15 @@ maze	86400	IN	NS	dns1.maze.io.
 	86400	IN	NS	dns3.maze.io.
 menga	86400	IN	NS	ns1.fluidhosting.com.
 	86400	IN	NS	ns2.fluidhosting.com.
+mmn	86400	IN	A	82.253.33.24
+$ORIGIN mmn.bbs.
+www	86400	IN	CNAME	mmn.bbs.
+$ORIGIN bbs.
+mufasha	86400	IN	A	104.129.183.213
 multi-vpn	86400	IN	A	195.211.221.49
 multivpn	86400	IN	CNAME	multi-vpn.bbs.
-opennic	86400	IN	A	207.192.71.13
-	86400	IN	MX	10 darkdna.net.
+opennic	86400	IN	MX	10 darkdna.net.
+	86400	IN	A	207.192.71.13
 $ORIGIN opennic.bbs.
 example	86400	IN	CNAME	opennic.bbs.
 www	86400	IN	CNAME	opennic.bbs.
@@ -63,6 +68,9 @@ $ORIGIN opennictest.bbs.
 www	86400	IN	CNAME	opennictest.bbs.
 $ORIGIN bbs.
 orcinus	86400	IN	CNAME	hosting.orcinus.ru.
+pereceh	86400	IN	NS	hans.ns.cloudflare.com.
+	86400	IN	NS	mimi.ns.cloudflare.com.
+r2lotw	86400	IN	CNAME	bbs.r2lotw.com.
 register	86400	IN	CNAME	opennic.bbs.
 $ORIGIN register.bbs.
 www	86400	IN	CNAME	opennic.bbs.

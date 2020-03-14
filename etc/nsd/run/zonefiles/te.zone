@@ -1,8 +1,8 @@
-; zone te written by NSD 4.1.27 on Wed Jul 17 13:25:06 2019
-; received update to serial 1563367383 at 2019-07-17T12:47:13 from 5.45.96.220
+; zone te written by NSD 4.2.2 on Mon Mar  9 07:38:36 2020
+; received update to serial 1583738523 at 2020-03-09T07:26:17 from 5.45.96.220
 $ORIGIN .
 te	30	IN	SOA	ns1.new-nations.te. contact.new-nations.net. (
-		1563367383 60 30 2419200 604800 )
+		1583738523 60 30 2419200 604800 )
 	30	IN	NS	ns1.new-nations.te.
 	30	IN	NS	ns2.new-nations.te.
 $ORIGIN te.
@@ -272,9 +272,9 @@ adiestra	30	IN	A	192.185.43.112
 $ORIGIN adiestra.te.
 \042	30	IN	A	192.185.43.112
 $ORIGIN te.
-admin	30	IN	A	139.99.56.58
+admin	30	IN	A	107.173.213.7
 $ORIGIN admin.te.
-\042	30	IN	A	139.99.56.58
+\042	30	IN	A	107.173.213.7
 $ORIGIN te.
 administra	30	IN	CNAME	parked.te.
 $ORIGIN administra.te.
@@ -308,6 +308,8 @@ adslgate	30	IN	CNAME	proxify.te.
 $ORIGIN adslgate.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
+adul	30	IN	NS	80.74.157.22.te.
+	30	IN	NS	80.74.157.23.te.
 advancedpaininstitu	30	IN	CNAME	proxify.te.
 $ORIGIN advancedpaininstitu.te.
 \042	30	IN	CNAME	proxify.te.
@@ -375,6 +377,10 @@ $ORIGIN agarra.te.
 $ORIGIN te.
 agen	30	IN	CNAME	parked.te.
 $ORIGIN agen.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
+agenda	30	IN	CNAME	parked.te.
+$ORIGIN agenda.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
 aggrava	30	IN	CNAME	parked.te.
@@ -449,6 +455,10 @@ ajuda	30	IN	CNAME	parked.te.
 $ORIGIN ajuda.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+ajudan	30	IN	CNAME	parked.te.
+$ORIGIN ajudan.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 ak	30	IN	A	69.58.188.49
 $ORIGIN ak.te.
 \042	30	IN	A	69.58.188.49
@@ -475,6 +485,10 @@ $ORIGIN al.te.
 $ORIGIN te.
 alacar	30	IN	CNAME	proxify.te.
 $ORIGIN alacar.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
+alafe	30	IN	CNAME	proxify.te.
+$ORIGIN alafe.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
 alakar	30	IN	A	187.45.181.83
@@ -595,6 +609,10 @@ allano	30	IN	CNAME	proxify.te.
 $ORIGIN allano.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
+alle	30	IN	CNAME	parked.te.
+$ORIGIN alle.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 allertonbywater-kara	30	IN	CNAME	parked.te.
 $ORIGIN allertonbywater-kara.te.
 \042	30	IN	CNAME	parked.te.
@@ -667,6 +685,8 @@ $ORIGIN ama.te.
 $ORIGIN te.
 amacian	30	IN	NS	8.8.4.4.te.
 	30	IN	NS	8.8.8.8.te.
+amagen	30	IN	NS	162.159.24.210.te.
+	30	IN	NS	189.38.95.2.te.
 amalgama	30	IN	CNAME	proxify.te.
 $ORIGIN amalgama.te.
 \042	30	IN	CNAME	proxify.te.
@@ -741,6 +761,10 @@ anattempttoarticula	30	IN	CNAME	parked.te.
 $ORIGIN anattempttoarticula.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+anchori	30	IN	CNAME	proxify.te.
+$ORIGIN anchori.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
 anda	30	IN	CNAME	parked.te.
 $ORIGIN anda.te.
 \042	30	IN	CNAME	parked.te.
@@ -785,6 +809,10 @@ $ORIGIN angelra.te.
 $ORIGIN te.
 anima	30	IN	NS	8.8.4.4.te.
 	30	IN	NS	8.8.8.8.te.
+animar	30	IN	CNAME	proxify.te.
+$ORIGIN animar.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
 anime	30	IN	CNAME	proxify.te.
 $ORIGIN anime.te.
 \042	30	IN	CNAME	proxify.te.
@@ -1049,6 +1077,10 @@ ar	30	IN	CNAME	parked.te.
 $ORIGIN ar.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+araby	30	IN	CNAME	parked.te.
+$ORIGIN araby.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 arav	30	IN	CNAME	parked.te.
 $ORIGIN arav.te.
 \042	30	IN	CNAME	parked.te.
@@ -1093,6 +1125,10 @@ arman	30	IN	CNAME	parked.te.
 $ORIGIN arman.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+armatupaque	30	IN	CNAME	parked.te.
+$ORIGIN armatupaque.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 armoniza	30	IN	CNAME	parked.te.
 $ORIGIN armoniza.te.
 \042	30	IN	CNAME	parked.te.
@@ -1105,6 +1141,7 @@ aromati	30	IN	A	46.40.126.252
 $ORIGIN aromati.te.
 \042	30	IN	A	46.40.126.252
 $ORIGIN te.
+arouca	30	IN	NS	5.253.128.101.te.
 arrema	30	IN	CNAME	proxify.te.
 $ORIGIN arrema.te.
 \042	30	IN	CNAME	proxify.te.
@@ -1796,6 +1833,10 @@ billigs	30	IN	A	104.155.25.52
 $ORIGIN billigs.te.
 \042	30	IN	A	104.155.25.52
 $ORIGIN te.
+billsla	30	IN	CNAME	parked.te.
+$ORIGIN billsla.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 bilma	30	IN	CNAME	parked.te.
 $ORIGIN bilma.te.
 \042	30	IN	CNAME	parked.te.
@@ -2041,6 +2082,10 @@ bowset	30	IN	CNAME	proxify.te.
 $ORIGIN bowset.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
+boxyby	30	IN	CNAME	proxify.te.
+$ORIGIN boxyby.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
 bqua	30	IN	CNAME	parked.te.
 $ORIGIN bqua.te.
 \042	30	IN	CNAME	parked.te.
@@ -2110,6 +2155,10 @@ $ORIGIN te.
 bro	30	IN	A	35.197.120.139
 $ORIGIN bro.te.
 \042	30	IN	A	35.197.120.139
+$ORIGIN te.
+broka	30	IN	CNAME	parked.te.
+$ORIGIN broka.te.
+\042	30	IN	CNAME	parked.te.
 $ORIGIN te.
 bros	30	IN	CNAME	parked.te.
 $ORIGIN bros.te.
@@ -2212,6 +2261,10 @@ $ORIGIN te.
 bustaman	30	IN	CNAME	proxify.te.
 $ORIGIN bustaman.te.
 \042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
+bustby	30	IN	A	37.139.28.50
+$ORIGIN bustby.te.
+\042	30	IN	A	37.139.28.50
 $ORIGIN te.
 but	30	IN	CNAME	parked.te.
 $ORIGIN but.te.
@@ -3117,6 +3170,10 @@ cola	30	IN	CNAME	parked.te.
 $ORIGIN cola.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+colabora	30	IN	CNAME	parked.te.
+$ORIGIN colabora.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 coldfa	30	IN	NS	142.4.223.46.te.
 	30	IN	NS	192.95.17.206.te.
 cole	30	IN	CNAME	parked.te.
@@ -3526,6 +3583,10 @@ corne	30	IN	CNAME	proxify.te.
 $ORIGIN corne.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
+coronaroulet	30	IN	A	34.66.36.204
+$ORIGIN coronaroulet.te.
+\042	30	IN	A	34.66.36.204
+$ORIGIN te.
 corpora	30	IN	NS	64.191.12.54.te.
 	30	IN	NS	64.191.12.55.te.
 corporacionsie	30	IN	CNAME	proxify.te.
@@ -3673,6 +3734,10 @@ $ORIGIN te.
 crimina	30	IN	A	23.226.137.173
 $ORIGIN crimina.te.
 \042	30	IN	A	23.226.137.173
+$ORIGIN te.
+cristhianzara	30	IN	CNAME	parked.te.
+$ORIGIN cristhianzara.te.
+\042	30	IN	CNAME	parked.te.
 $ORIGIN te.
 cristianiza	30	IN	NS	31.170.164.248.te.
 	30	IN	NS	31.170.167.6.te.
@@ -3998,6 +4063,10 @@ dateni	30	IN	CNAME	proxify.te.
 $ORIGIN dateni.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
+datera	30	IN	CNAME	parked.te.
+$ORIGIN datera.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 datesui	30	IN	CNAME	proxify.te.
 $ORIGIN datesui.te.
 \042	30	IN	CNAME	proxify.te.
@@ -4044,6 +4113,10 @@ $ORIGIN dayquo.te.
 $ORIGIN te.
 db	30	IN	CNAME	proxify.te.
 $ORIGIN db.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
+dba	30	IN	CNAME	proxify.te.
+$ORIGIN dba.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
 dco	30	IN	CNAME	proxify.te.
@@ -4270,6 +4343,10 @@ $ORIGIN te.
 demo	30	IN	CNAME	parked.te.
 $ORIGIN demo.te.
 \042	30	IN	CNAME	parked.te.
+$ORIGIN te.
+democracia	30	IN	CNAME	proxify.te.
+$ORIGIN democracia.te.
+\042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
 demodula	30	IN	NS	89.145.82.162.te.
 	30	IN	NS	89.145.82.163.te.
@@ -4586,9 +4663,17 @@ $ORIGIN digiry.te.
 $ORIGIN te.
 digita	30	IN	NS	89.145.82.162.te.
 	30	IN	NS	89.145.82.163.te.
+digitaliza	30	IN	CNAME	parked.te.
+$ORIGIN digitaliza.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 digitalmidni	30	IN	CNAME	parked.te.
 $ORIGIN digitalmidni.te.
 \042	30	IN	CNAME	parked.te.
+$ORIGIN te.
+dila	30	IN	CNAME	proxify.te.
+$ORIGIN dila.te.
+\042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
 dilettan	30	IN	CNAME	parked.te.
 $ORIGIN dilettan.te.
@@ -5008,6 +5093,10 @@ dumague	30	IN	CNAME	proxify.te.
 $ORIGIN dumague.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
+dumai	30	IN	A	37.120.188.105
+$ORIGIN dumai.te.
+\042	30	IN	A	37.120.188.105
+$ORIGIN te.
 duna	30	IN	CNAME	parked.te.
 $ORIGIN duna.te.
 \042	30	IN	CNAME	parked.te.
@@ -5098,6 +5187,12 @@ $ORIGIN te.
 ebem	30	IN	A	95.87.255.118
 $ORIGIN ebem.te.
 \042	30	IN	A	95.87.255.118
+$ORIGIN te.
+ebenis	30	IN	NS	80.74.157.22.te.
+	30	IN	NS	80.74.157.23.te.
+eboni	30	IN	CNAME	proxify.te.
+$ORIGIN eboni.te.
+\042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
 ebsi	30	IN	CNAME	proxify.te.
 $ORIGIN ebsi.te.
@@ -5241,6 +5336,8 @@ ejacula	30	IN	CNAME	parked.te.
 $ORIGIN ejacula.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+ekar	30	IN	NS	37.1.145.20.te.
+	30	IN	NS	178.18.193.35.te.
 ekoo	30	IN	NS	66.33.206.206.te.
 	30	IN	NS	208.97.182.10.te.
 ekriirke	30	IN	CNAME	proxify.te.
@@ -5353,6 +5450,10 @@ ely	30	IN	CNAME	parked.te.
 $ORIGIN ely.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+elya	30	IN	CNAME	parked.te.
+$ORIGIN elya.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 emagina	30	IN	CNAME	parked.te.
 $ORIGIN emagina.te.
 \042	30	IN	CNAME	parked.te.
@@ -5417,6 +5518,10 @@ $ORIGIN emo.te.
 $ORIGIN te.
 emociona	30	IN	NS	8.8.4.4.te.
 	30	IN	NS	8.8.8.8.te.
+emocionando	30	IN	CNAME	proxify.te.
+$ORIGIN emocionando.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
 emojira	30	IN	CNAME	proxify.te.
 $ORIGIN emojira.te.
 \042	30	IN	CNAME	proxify.te.
@@ -5561,6 +5666,10 @@ eno	30	IN	CNAME	proxify.te.
 $ORIGIN eno.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
+enormepu	30	IN	CNAME	proxify.te.
+$ORIGIN enormepu.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
 enova	30	IN	CNAME	proxify.te.
 $ORIGIN enova.te.
 \042	30	IN	CNAME	proxify.te.
@@ -5628,7 +5737,15 @@ epiphy	30	IN	CNAME	parked.te.
 $ORIGIN epiphy.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+epoca-san	30	IN	CNAME	proxify.te.
+$ORIGIN epoca-san.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
 epprecia	30	IN	NS	192.254.189.169.te.
+eq	30	IN	CNAME	proxify.te.
+$ORIGIN eq.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
 equa	30	IN	CNAME	parked.te.
 $ORIGIN equa.te.
 \042	30	IN	CNAME	parked.te.
@@ -5695,6 +5812,10 @@ $ORIGIN erudia.te.
 $ORIGIN te.
 es	30	IN	CNAME	proxify.te.
 $ORIGIN es.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
+escabox	30	IN	CNAME	proxify.te.
+$ORIGIN escabox.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
 escala	30	IN	CNAME	proxify.te.
@@ -5805,6 +5926,10 @@ $ORIGIN et.te.
 $ORIGIN te.
 etaby	30	IN	CNAME	parked.te.
 $ORIGIN etaby.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
+eterni	30	IN	CNAME	parked.te.
+$ORIGIN eterni.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
 eti	30	IN	CNAME	parked.te.
@@ -6302,6 +6427,10 @@ fivesi	30	IN	A	18.208.35.21
 $ORIGIN fivesi.te.
 \042	30	IN	A	18.208.35.21
 $ORIGIN te.
+fix	30	IN	CNAME	parked.te.
+$ORIGIN fix.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 fixa	30	IN	NS	69.89.16.4.te.
 	30	IN	NS	74.220.195.31.te.
 fixmycommu	30	IN	CNAME	parked.te.
@@ -6528,6 +6657,10 @@ fotografia	30	IN	CNAME	parked.te.
 $ORIGIN fotografia.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+fotografiando	30	IN	CNAME	proxify.te.
+$ORIGIN fotografiando.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
 fotografisem	30	IN	CNAME	parked.te.
 $ORIGIN fotografisem.te.
 \042	30	IN	CNAME	parked.te.
@@ -6553,6 +6686,10 @@ $ORIGIN fourthesta.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
 foxmail	30	IN	NS	84.2.173.244.te.
+fra	30	IN	CNAME	proxify.te.
+$ORIGIN fra.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
 frabrica	30	IN	CNAME	proxify.te.
 $ORIGIN frabrica.te.
 \042	30	IN	CNAME	proxify.te.
@@ -6741,6 +6878,10 @@ gaaremon	30	IN	CNAME	proxify.te.
 $ORIGIN gaaremon.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
+gaby	30	IN	CNAME	parked.te.
+$ORIGIN gaby.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 gae	30	IN	NS	146.66.101.174.te.
 	30	IN	NS	146.66.103.207.te.
 gahe	30	IN	NS	192.227.170.123.te.
@@ -6861,6 +7002,10 @@ gazze	30	IN	CNAME	parked.te.
 $ORIGIN gazze.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+gear	30	IN	CNAME	proxify.te.
+$ORIGIN gear.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
 gebrauchtboo	30	IN	CNAME	proxify.te.
 $ORIGIN gebrauchtboo.te.
 \042	30	IN	CNAME	proxify.te.
@@ -6973,6 +7118,10 @@ $ORIGIN getfor.te.
 $ORIGIN te.
 getinvi	30	IN	NS	178.63.92.178.te.
 	30	IN	NS	178.63.92.186.te.
+getquo	30	IN	CNAME	parked.te.
+$ORIGIN getquo.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 getrektma	30	IN	A	87.209.5.219
 $ORIGIN getrektma.te.
 \042	30	IN	A	87.209.5.219
@@ -7278,6 +7427,10 @@ $ORIGIN te.
 granitesta	30	IN	CNAME	parked.te.
 $ORIGIN granitesta.te.
 \042	30	IN	CNAME	parked.te.
+$ORIGIN te.
+graodegen	30	IN	CNAME	proxify.te.
+$ORIGIN graodegen.te.
+\042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
 grapecra	30	IN	CNAME	parked.te.
 $ORIGIN grapecra.te.
@@ -7897,6 +8050,10 @@ hotelslastminu	30	IN	CNAME	parked.te.
 $ORIGIN hotelslastminu.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+house	30	IN	CNAME	proxify.te.
+$ORIGIN house.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
 housema	30	IN	CNAME	parked.te.
 $ORIGIN housema.te.
 \042	30	IN	CNAME	parked.te.
@@ -8207,6 +8364,10 @@ imagina	30	IN	CNAME	parked.te.
 $ORIGIN imagina.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+imaginan	30	IN	CNAME	proxify.te.
+$ORIGIN imaginan.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
 imaginet	30	IN	CNAME	proxify.te.
 $ORIGIN imaginet.te.
 \042	30	IN	CNAME	proxify.te.
@@ -8297,9 +8458,15 @@ $ORIGIN impresiona.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
 impresionar	30	IN	NS	3.214.135.229.te.
+impriman	30	IN	NS	80.74.157.22.te.
+	30	IN	NS	80.74.157.23.te.
 impu	30	IN	CNAME	proxify.te.
 $ORIGIN impu.te.
 \042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
+imremo	30	IN	CNAME	parked.te.
+$ORIGIN imremo.te.
+\042	30	IN	CNAME	parked.te.
 $ORIGIN te.
 imula	30	IN	NS	89.145.82.162.te.
 	30	IN	NS	89.145.82.163.te.
@@ -8660,6 +8827,10 @@ interestra	30	IN	CNAME	proxify.te.
 $ORIGIN interestra.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
+intern	30	IN	CNAME	parked.te.
+$ORIGIN intern.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 interne	30	IN	CNAME	proxify.te.
 $ORIGIN interne.te.
 \042	30	IN	CNAME	proxify.te.
@@ -8767,6 +8938,10 @@ $ORIGIN te.
 ioremo	30	IN	CNAME	proxify.te.
 $ORIGIN ioremo.te.
 \042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
+ip	30	IN	CNAME	parked.te.
+$ORIGIN ip.te.
+\042	30	IN	CNAME	parked.te.
 $ORIGIN te.
 ipas	30	IN	A	199.231.227.17
 $ORIGIN ipas.te.
@@ -9058,6 +9233,10 @@ $ORIGIN te.
 jel	30	IN	CNAME	parked.te.
 $ORIGIN jel.te.
 \042	30	IN	CNAME	parked.te.
+$ORIGIN te.
+jen	30	IN	CNAME	proxify.te.
+$ORIGIN jen.te.
+\042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
 jenandpe	30	IN	CNAME	parked.te.
 $ORIGIN jenandpe.te.
@@ -9498,6 +9677,10 @@ $ORIGIN te.
 kk	30	IN	CNAME	parked.te.
 $ORIGIN kk.te.
 \042	30	IN	CNAME	parked.te.
+$ORIGIN te.
+kl	30	IN	A	193.225.40.94
+$ORIGIN kl.te.
+\042	30	IN	A	193.225.40.94
 $ORIGIN te.
 klapacius	30	IN	CNAME	proxify.te.
 $ORIGIN klapacius.te.
@@ -10118,6 +10301,10 @@ lezes	30	IN	CNAME	parked.te.
 $ORIGIN lezes.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+lf	30	IN	CNAME	proxify.te.
+$ORIGIN lf.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
 lgen	30	IN	NS	187.45.214.252.te.
 	30	IN	NS	187.45.214.253.te.
 li	30	IN	CNAME	parked.te.
@@ -10202,6 +10389,7 @@ linhku	30	IN	CNAME	parked.te.
 $ORIGIN linhku.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+link	30	IN	NS	89.163.140.247.te.
 linkedin	30	IN	CNAME	proxify.te.
 $ORIGIN linkedin.te.
 \042	30	IN	CNAME	proxify.te.
@@ -10392,6 +10580,10 @@ lot	30	IN	CNAME	parked.te.
 $ORIGIN lot.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+lothringer	30	IN	CNAME	parked.te.
+$ORIGIN lothringer.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 lotto	30	IN	CNAME	proxify.te.
 $ORIGIN lotto.te.
 \042	30	IN	CNAME	proxify.te.
@@ -10506,6 +10698,18 @@ lunet	30	IN	NS	89.145.82.162.te.
 	30	IN	NS	89.145.82.163.te.
 lupes	30	IN	NS	64.90.62.230.te.
 	30	IN	NS	208.97.182.10.te.
+luxcars	30	IN	CNAME	parked.te.
+$ORIGIN luxcars.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
+luxury	30	IN	CNAME	parked.te.
+$ORIGIN luxury.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
+luxury-cars	30	IN	CNAME	parked.te.
+$ORIGIN luxury-cars.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 lwcrea	30	IN	NS	192.99.21.12.te.
 	30	IN	NS	198.50.196.1.te.
 ly	30	IN	CNAME	parked.te.
@@ -10515,6 +10719,10 @@ $ORIGIN te.
 lybra	30	IN	CNAME	proxify.te.
 $ORIGIN lybra.te.
 \042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
+lynet	30	IN	CNAME	parked.te.
+$ORIGIN lynet.te.
+\042	30	IN	CNAME	parked.te.
 $ORIGIN te.
 lynnet	30	IN	CNAME	parked.te.
 $ORIGIN lynnet.te.
@@ -11271,6 +11479,10 @@ mist	30	IN	CNAME	parked.te.
 $ORIGIN mist.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+mistercatapul	30	IN	CNAME	proxify.te.
+$ORIGIN mistercatapul.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
 misterwhi	30	IN	CNAME	parked.te.
 $ORIGIN misterwhi.te.
 \042	30	IN	CNAME	parked.te.
@@ -11347,6 +11559,10 @@ mobili	30	IN	CNAME	proxify.te.
 $ORIGIN mobili.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
+mocha	30	IN	CNAME	parked.te.
+$ORIGIN mocha.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 modera	30	IN	CNAME	parked.te.
 $ORIGIN modera.te.
 \042	30	IN	CNAME	parked.te.
@@ -11411,6 +11627,10 @@ $ORIGIN monsieurmargueri.te.
 $ORIGIN te.
 monumente	30	IN	CNAME	proxify.te.
 $ORIGIN monumente.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
+moo	30	IN	CNAME	proxify.te.
+$ORIGIN moo.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
 moois	30	IN	CNAME	proxify.te.
@@ -11489,6 +11709,10 @@ $ORIGIN te.
 mpresen	30	IN	CNAME	parked.te.
 $ORIGIN mpresen.te.
 \042	30	IN	CNAME	parked.te.
+$ORIGIN te.
+mpu	30	IN	CNAME	proxify.te.
+$ORIGIN mpu.te.
+\042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
 mrba	30	IN	A	213.166.70.174
 $ORIGIN mrba.te.
@@ -11579,6 +11803,10 @@ $ORIGIN te.
 multiby	30	IN	CNAME	proxify.te.
 $ORIGIN multiby.te.
 \042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
+multisi	30	IN	CNAME	parked.te.
+$ORIGIN multisi.te.
+\042	30	IN	CNAME	parked.te.
 $ORIGIN te.
 multivpn	30	IN	A	195.211.221.49
 $ORIGIN multivpn.te.
@@ -11754,6 +11982,8 @@ nabijem	30	IN	CNAME	parked.te.
 $ORIGIN nabijem.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+nac	30	IN	NS	192.185.41.25.te.
+	30	IN	NS	192.185.41.241.te.
 nada	30	IN	CNAME	parked.te.
 $ORIGIN nada.te.
 \042	30	IN	CNAME	parked.te.
@@ -11924,6 +12154,10 @@ neighborhoodclima	30	IN	CNAME	parked.te.
 $ORIGIN neighborhoodclima.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+nekrocerdo	30	IN	CNAME	proxify.te.
+$ORIGIN nekrocerdo.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
 nekuri	30	IN	CNAME	parked.te.
 $ORIGIN nekuri.te.
 \042	30	IN	CNAME	parked.te.
@@ -12051,6 +12285,10 @@ nightby	30	IN	CNAME	parked.te.
 $ORIGIN nightby.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+nightgen	30	IN	CNAME	proxify.te.
+$ORIGIN nightgen.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
 nihon	30	IN	A	157.7.174.190
 $ORIGIN nihon.te.
 \042	30	IN	A	157.7.174.190
@@ -12058,6 +12296,10 @@ $ORIGIN te.
 nike	30	IN	CNAME	proxify.te.
 $ORIGIN nike.te.
 \042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
+nini	30	IN	CNAME	parked.te.
+$ORIGIN nini.te.
+\042	30	IN	CNAME	parked.te.
 $ORIGIN te.
 ninjano	30	IN	CNAME	proxify.te.
 $ORIGIN ninjano.te.
@@ -12095,6 +12337,10 @@ $ORIGIN nki.te.
 $ORIGIN te.
 nloca	30	IN	CNAME	proxify.te.
 $ORIGIN nloca.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
+nms	30	IN	CNAME	proxify.te.
+$ORIGIN nms.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
 nn	30	IN	CNAME	proxify.te.
@@ -12358,6 +12604,8 @@ obraczkizlo	30	IN	CNAME	proxify.te.
 $ORIGIN obraczkizlo.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
+obriga	30	IN	NS	94.126.169.1.te.
+	30	IN	NS	94.126.169.2.te.
 obsole	30	IN	CNAME	proxify.te.
 $ORIGIN obsole.te.
 \042	30	IN	CNAME	proxify.te.
@@ -12484,6 +12732,10 @@ $ORIGIN olejniczaksi.te.
 $ORIGIN te.
 olho	30	IN	CNAME	proxify.te.
 $ORIGIN olho.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
+oliverkwhi	30	IN	CNAME	proxify.te.
+$ORIGIN oliverkwhi.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
 oliverwhi	30	IN	CNAME	proxify.te.
@@ -12616,6 +12868,10 @@ openloca	30	IN	CNAME	parked.te.
 $ORIGIN openloca.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+openno	30	IN	CNAME	parked.te.
+$ORIGIN openno.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 openou	30	IN	CNAME	proxify.te.
 $ORIGIN openou.te.
 \042	30	IN	CNAME	proxify.te.
@@ -12656,6 +12912,8 @@ optimizar	30	IN	CNAME	proxify.te.
 $ORIGIN optimizar.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
+opypas	30	IN	NS	173.245.58.101.te.
+	30	IN	NS	173.245.59.222.te.
 or	30	IN	CNAME	parked.te.
 $ORIGIN or.te.
 \042	30	IN	CNAME	parked.te.
@@ -13296,6 +13554,10 @@ phoonpas	30	IN	A	199.34.228.59
 $ORIGIN phoonpas.te.
 \042	30	IN	A	199.34.228.59
 $ORIGIN te.
+phosphophylli	30	IN	CNAME	proxify.te.
+$ORIGIN phosphophylli.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
 photochu	30	IN	CNAME	parked.te.
 $ORIGIN photochu.te.
 \042	30	IN	CNAME	parked.te.
@@ -13625,6 +13887,10 @@ pollina	30	IN	CNAME	parked.te.
 $ORIGIN pollina.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+pollo	30	IN	CNAME	proxify.te.
+$ORIGIN pollo.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
 polloyo	30	IN	CNAME	proxify.te.
 $ORIGIN polloyo.te.
 \042	30	IN	CNAME	proxify.te.
@@ -13789,6 +14055,10 @@ $ORIGIN powerathle.te.
 $ORIGIN te.
 poweredbyha	30	IN	NS	85.25.253.5.te.
 	30	IN	NS	184.172.206.242.te.
+pozri	30	IN	CNAME	parked.te.
+$ORIGIN pozri.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 pp	30	IN	CNAME	parked.te.
 $ORIGIN pp.te.
 \042	30	IN	CNAME	parked.te.
@@ -14055,6 +14325,10 @@ prostitua	30	IN	CNAME	proxify.te.
 $ORIGIN prostitua.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
+prostosi	30	IN	A	185.143.172.169
+$ORIGIN prostosi.te.
+\042	30	IN	A	185.143.172.169
+$ORIGIN te.
 prota	30	IN	CNAME	proxify.te.
 $ORIGIN prota.te.
 \042	30	IN	CNAME	proxify.te.
@@ -14074,6 +14348,10 @@ $ORIGIN te.
 prova	30	IN	CNAME	proxify.te.
 $ORIGIN prova.te.
 \042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
+providerlis	30	IN	A	195.201.13.62
+$ORIGIN providerlis.te.
+\042	30	IN	A	195.201.13.62
 $ORIGIN te.
 provos	30	IN	CNAME	parked.te.
 $ORIGIN provos.te.
@@ -14105,6 +14383,10 @@ $ORIGIN prueba.te.
 $ORIGIN te.
 psi	30	IN	CNAME	proxify.te.
 $ORIGIN psi.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
+psie	30	IN	CNAME	proxify.te.
+$ORIGIN psie.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
 psisyndica	30	IN	CNAME	proxify.te.
@@ -14505,6 +14787,10 @@ raquet	30	IN	CNAME	parked.te.
 $ORIGIN raquet.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+rasi	30	IN	CNAME	parked.te.
+$ORIGIN rasi.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 rasou	30	IN	CNAME	proxify.te.
 $ORIGIN rasou.te.
 \042	30	IN	CNAME	proxify.te.
@@ -14525,6 +14811,8 @@ rauta	30	IN	CNAME	proxify.te.
 $ORIGIN rauta.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
+ravera	30	IN	NS	162.159.24.201.te.
+	30	IN	NS	162.159.25.42.te.
 ravia	30	IN	NS	67.199.248.12.te.
 	30	IN	NS	67.199.248.13.te.
 rawconcre	30	IN	CNAME	proxify.te.
@@ -15231,6 +15519,10 @@ $ORIGIN rouwet.te.
 $ORIGIN te.
 royalwhi	30	IN	NS	31.170.167.6.te.
 	30	IN	NS	64.120.10.10.te.
+rozika	30	IN	CNAME	parked.te.
+$ORIGIN rozika.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 rr	30	IN	CNAME	parked.te.
 $ORIGIN rr.te.
 \042	30	IN	CNAME	parked.te.
@@ -15372,6 +15664,10 @@ samsung	30	IN	NS	89.145.82.162.te.
 samwhi	30	IN	CNAME	proxify.te.
 $ORIGIN samwhi.te.
 \042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
+samwit	30	IN	CNAME	parked.te.
+$ORIGIN samwit.te.
+\042	30	IN	CNAME	parked.te.
 $ORIGIN te.
 san	30	IN	CNAME	parked.te.
 $ORIGIN san.te.
@@ -15556,6 +15852,10 @@ $ORIGIN te.
 sebwhi	30	IN	CNAME	proxify.te.
 $ORIGIN sebwhi.te.
 \042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
+sec	30	IN	A	46.105.54.103
+$ORIGIN sec.te.
+\042	30	IN	A	46.105.54.103
 $ORIGIN te.
 secondo	30	IN	CNAME	proxify.te.
 $ORIGIN secondo.te.
@@ -15798,6 +16098,8 @@ shii	30	IN	CNAME	proxify.te.
 $ORIGIN shii.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
+sho	30	IN	NS	173.208.215.107.te.
+	30	IN	NS	173.208.215.109.te.
 shockby	30	IN	CNAME	proxify.te.
 $ORIGIN shockby.te.
 \042	30	IN	CNAME	proxify.te.
@@ -15842,6 +16144,10 @@ showrou	30	IN	NS	65.19.178.10.te.
 	30	IN	NS	69.93.127.10.te.
 shr	30	IN	CNAME	proxify.te.
 $ORIGIN shr.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
+shrly	30	IN	CNAME	proxify.te.
+$ORIGIN shrly.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
 shu	30	IN	NS	89.145.82.162.te.
@@ -16690,6 +16996,10 @@ $ORIGIN sukane.te.
 $ORIGIN te.
 sukasa	30	IN	NS	192.227.236.66.te.
 	30	IN	NS	192.227.236.67.te.
+sukisugi	30	IN	A	81.197.10.64
+$ORIGIN sukisugi.te.
+\042	30	IN	A	81.197.10.64
+$ORIGIN te.
 sulfi	30	IN	CNAME	proxify.te.
 $ORIGIN sulfi.te.
 \042	30	IN	CNAME	proxify.te.
@@ -17603,6 +17913,10 @@ todoma	30	IN	CNAME	parked.te.
 $ORIGIN todoma.te.
 \042	30	IN	CNAME	parked.te.
 $ORIGIN te.
+toilet	30	IN	CNAME	proxify.te.
+$ORIGIN toilet.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
 tokyo2020	30	IN	A	157.7.174.190
 $ORIGIN tokyo2020.te.
 \042	30	IN	A	157.7.174.190
@@ -17783,6 +18097,10 @@ $ORIGIN trampolin.te.
 $ORIGIN te.
 transferwebsi	30	IN	NS	108.163.248.12.te.
 	30	IN	NS	108.163.248.13.te.
+transforma	30	IN	CNAME	parked.te.
+$ORIGIN transforma.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 transiden	30	IN	CNAME	proxify.te.
 $ORIGIN transiden.te.
 \042	30	IN	CNAME	proxify.te.
@@ -17928,6 +18246,10 @@ tsokola	30	IN	CNAME	proxify.te.
 $ORIGIN tsokola.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
+tsun	30	IN	CNAME	proxify.te.
+$ORIGIN tsun.te.
+\042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
 tsve	30	IN	CNAME	parked.te.
 $ORIGIN tsve.te.
 \042	30	IN	CNAME	parked.te.
@@ -17997,6 +18319,10 @@ $ORIGIN te.
 twi	30	IN	A	185.25.119.13
 $ORIGIN twi.te.
 \042	30	IN	A	185.25.119.13
+$ORIGIN te.
+twili	30	IN	CNAME	proxify.te.
+$ORIGIN twili.te.
+\042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
 twinma	30	IN	CNAME	parked.te.
 $ORIGIN twinma.te.
@@ -18068,6 +18394,8 @@ $ORIGIN uc.te.
 $ORIGIN te.
 uca	30	IN	NS	65.19.178.10.te.
 	30	IN	NS	69.93.127.10.te.
+ucan	30	IN	NS	173.245.58.189.te.
+	30	IN	NS	173.245.59.174.te.
 ucupa	30	IN	NS	18.222.247.229.te.
 udona	30	IN	CNAME	proxify.te.
 $ORIGIN udona.te.
@@ -18300,6 +18628,10 @@ $ORIGIN usb-loca.te.
 $ORIGIN te.
 uslugi	30	IN	NS	91.196.124.225.te.
 	30	IN	NS	91.196.125.225.te.
+uszy	30	IN	CNAME	parked.te.
+$ORIGIN uszy.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
 utahb	30	IN	A	70.40.221.22
 $ORIGIN utahb.te.
 \042	30	IN	A	70.40.221.22
@@ -18340,6 +18672,8 @@ uwotma	30	IN	A	69.164.203.209
 $ORIGIN uwotma.te.
 \042	30	IN	A	69.164.203.209
 $ORIGIN te.
+uwri	30	IN	NS	94.177.210.13.te.
+	30	IN	NS	95.110.136.8.te.
 uz	30	IN	CNAME	proxify.te.
 $ORIGIN uz.te.
 \042	30	IN	CNAME	proxify.te.
@@ -18363,6 +18697,10 @@ vacilla	30	IN	NS	89.145.82.162.te.
 vagini	30	IN	CNAME	proxify.te.
 $ORIGIN vagini.te.
 \042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
+vagnercon	30	IN	CNAME	parked.te.
+$ORIGIN vagnercon.te.
+\042	30	IN	CNAME	parked.te.
 $ORIGIN te.
 vakda	30	IN	CNAME	proxify.te.
 $ORIGIN vakda.te.
@@ -18648,6 +18986,10 @@ viran	30	IN	CNAME	proxify.te.
 $ORIGIN viran.te.
 \042	30	IN	CNAME	proxify.te.
 $ORIGIN te.
+virtual-remo	30	IN	A	52.184.145.7
+$ORIGIN virtual-remo.te.
+\042	30	IN	A	52.184.145.7
+$ORIGIN te.
 virtualmen	30	IN	CNAME	proxify.te.
 $ORIGIN virtualmen.te.
 \042	30	IN	CNAME	proxify.te.
@@ -18701,6 +19043,8 @@ vkontak	30	IN	A	91.218.228.60
 $ORIGIN vkontak.te.
 \042	30	IN	A	91.218.228.60
 $ORIGIN te.
+vkxli	30	IN	NS	31.170.163.241.te.
+	30	IN	NS	31.220.23.1.te.
 vmes	30	IN	CNAME	proxify.te.
 $ORIGIN vmes.te.
 \042	30	IN	CNAME	proxify.te.
@@ -18862,6 +19206,18 @@ $ORIGIN te.
 walkla	30	IN	CNAME	proxify.te.
 $ORIGIN walkla.te.
 \042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
+wallstpe	30	IN	CNAME	parked.te.
+$ORIGIN wallstpe.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
+wallstreetepe	30	IN	CNAME	parked.te.
+$ORIGIN wallstreetepe.te.
+\042	30	IN	CNAME	parked.te.
+$ORIGIN te.
+wallstreetpe	30	IN	CNAME	parked.te.
+$ORIGIN wallstreetpe.te.
+\042	30	IN	CNAME	parked.te.
 $ORIGIN te.
 wano	30	IN	CNAME	proxify.te.
 $ORIGIN wano.te.
@@ -19356,6 +19712,10 @@ $ORIGIN te.
 y-si	30	IN	CNAME	proxify.te.
 $ORIGIN y-si.te.
 \042	30	IN	CNAME	proxify.te.
+$ORIGIN te.
+ya	30	IN	CNAME	parked.te.
+$ORIGIN ya.te.
+\042	30	IN	CNAME	parked.te.
 $ORIGIN te.
 yadona	30	IN	CNAME	parked.te.
 $ORIGIN yadona.te.

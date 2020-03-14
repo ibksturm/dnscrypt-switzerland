@@ -1,0 +1,12 @@
+#! /bin/sh
+
+/etc/cron.daily/dnscrypt-keys
+
+sleep 15s && service encrypted-8440 restart && echo "8440 restart"
+sleep 15s && service encrypted-8441 restart && echo "8441 restart"
+sleep 15s && service encrypted-8442 restart && echo "8441 restart"
+
+sleep 15s && service doh-8540 restart && echo "8540 restart" 
+sleep 15s && service doh-8541 restart && echo "8541 restart" 
+sleep 15s && service doh-8542 restart && echo "8542 restart" 
+sleep 15s && service doh-8543 restart && echo "8543 restart" 

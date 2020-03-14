@@ -18,26 +18,15 @@
 
 # Default server configuration
 #
-server {
-	listen 80 default_server;
-	listen [::]:80 default_server;
+
+#server {
+#	listen 80 default_server;
+#	listen [::]:80 default_server;
 
 	# SSL configuration
 	#
-	 listen 443 ssl default_server;
-	 listen [::]:443 ssl default_server;
-
-
-#         listen 8443 ssl default_server reuseport;
-#         listen [::]:8443 ssl default_server reuseport;
-
-
-#    ssl_certificate           /etc/dyncert.d/fullchain.pem;
-#    ssl_certificate_key       /etc/dyncert.d/privkey.pem;
-#    ssl_protocols              TLSv1.2 TLSv1.3;
-#    ssl_dhparam               /etc/dyncert.d/dh2048.pem;
-
-
+	# listen 443 ssl default_server;
+	# listen [::]:443 ssl default_server;
 	#
 	# Note: You should disable gzip for SSL traffic.
 	# See: https://bugs.debian.org/773332
@@ -50,18 +39,18 @@ server {
 	#
 	# include snippets/snakeoil.conf;
 
-	root /var/www/html;
+#	root /var/www/html;
 
 	# Add index.php to the list if you are using PHP
-	index index.html index.htm index.nginx-debian.html;
+#	index index.html index.htm index.nginx-debian.html;
 
-	server_name _;
+#	server_name _;
 
-	location / {
+#	location / {
 		# First attempt to serve request as file, then
 		# as directory, then fall back to displaying a 404.
-		try_files $uri $uri/ =404;
-	}
+#		try_files $uri $uri/ =404;
+#	}
 
 	# pass PHP scripts to FastCGI server
 	#
@@ -80,9 +69,17 @@ server {
 	#location ~ /\.ht {
 	#	deny all;
 	#}
-}
 
-## virtual Host configuration for example.com
+#	location /nginx_status {
+#	stub_status on;
+#	access_log off;
+
+#	}
+
+#}
+
+
+# Virtual Host configuration for example.com
 #
 # You can move that to a different file under sites-available/ and symlink that
 # to sites-enabled/ to enable it.
@@ -90,13 +87,21 @@ server {
 #server {
 #	listen 80;
 #	listen [::]:80;
-#
-#	server_name example.com;
-#
-#	root /var/www/example.com;
+
+#	server_name localhost;
+
+#	root /var/www/ibksturm;
 #	index index.html;
-#
+
 #	location / {
 #		try_files $uri $uri/ =404;
 #	}
+
+#	location /nginx_status{
+
+#	stub_status;
+
+#	}
+
+	
 #}

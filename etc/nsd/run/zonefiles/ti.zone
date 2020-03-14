@@ -1,8 +1,8 @@
-; zone ti written by NSD 4.1.27 on Wed Jul 17 13:25:06 2019
-; received update to serial 1563367381 at 2019-07-17T12:45:15 from 5.45.96.220
+; zone ti written by NSD 4.2.2 on Mon Mar  9 07:38:36 2020
+; received update to serial 1583738521 at 2020-03-09T07:25:18 from 5.45.96.220
 $ORIGIN .
 ti	30	IN	SOA	ns1.new-nations.ti. contact.new-nations.net. (
-		1563367381 60 30 2419200 604800 )
+		1583738521 60 30 2419200 604800 )
 	30	IN	NS	ns1.new-nations.ti.
 	30	IN	NS	ns2.new-nations.ti.
 $ORIGIN ti.
@@ -139,6 +139,10 @@ $ORIGIN ti.
 adipa	30	IN	NS	66.40.52.47.ti.
 	30	IN	NS	66.40.66.152.ti.
 admsys	30	IN	NS	23.253.156.152.ti.
+adop	30	IN	CNAME	proxify.ti.
+$ORIGIN adop.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
 ads	30	IN	CNAME	proxify.ti.
 $ORIGIN ads.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -170,6 +174,10 @@ $ORIGIN ti.
 afi	30	IN	A	104.236.62.130
 $ORIGIN afi.ti.
 \042	30	IN	A	104.236.62.130
+$ORIGIN ti.
+afini	30	IN	CNAME	proxify.ti.
+$ORIGIN afini.ti.
+\042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
 aga	30	IN	CNAME	parked.ti.
 $ORIGIN aga.ti.
@@ -227,6 +235,10 @@ $ORIGIN airbnb.ti.
 $ORIGIN ti.
 ais	30	IN	CNAME	parked.ti.
 $ORIGIN ais.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+aish	30	IN	CNAME	parked.ti.
+$ORIGIN aish.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
 aj	30	IN	CNAME	parked.ti.
@@ -326,6 +338,10 @@ alexandre	30	IN	A	50.63.80.1
 $ORIGIN alexandre.ti.
 \042	30	IN	A	50.63.80.1
 $ORIGIN ti.
+alexgu	30	IN	CNAME	parked.ti.
+$ORIGIN alexgu.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 alf	30	IN	CNAME	proxify.ti.
 $ORIGIN alf.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -411,6 +427,10 @@ $ORIGIN ti.
 ama	30	IN	CNAME	proxify.ti.
 $ORIGIN ama.ti.
 \042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
+amamos	30	IN	CNAME	parked.ti.
+$ORIGIN amamos.ti.
+\042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
 amana	30	IN	CNAME	proxify.ti.
 $ORIGIN amana.ti.
@@ -571,6 +591,10 @@ anecdote	30	IN	CNAME	proxify.ti.
 $ORIGIN anecdote.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
+anggimot	30	IN	CNAME	parked.ti.
+$ORIGIN anggimot.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 ani	30	IN	CNAME	parked.ti.
 $ORIGIN ani.ti.
 \042	30	IN	CNAME	parked.ti.
@@ -729,6 +753,10 @@ argonau	30	IN	CNAME	parked.ti.
 $ORIGIN argonau.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
+arhitek	30	IN	CNAME	parked.ti.
+$ORIGIN arhitek.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 ariel	30	IN	NS	89.145.82.162.ti.
 	30	IN	NS	89.145.82.163.ti.
 ariocot	30	IN	NS	78.129.178.49.ti.
@@ -869,6 +897,10 @@ $ORIGIN atmin.ti.
 $ORIGIN ti.
 atom	30	IN	NS	89.145.82.162.ti.
 	30	IN	NS	89.145.82.163.ti.
+atrani	30	IN	CNAME	parked.ti.
+$ORIGIN atrani.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 attorney	30	IN	CNAME	parked.ti.
 $ORIGIN attorney.ti.
 \042	30	IN	CNAME	parked.ti.
@@ -880,6 +912,10 @@ $ORIGIN ti.
 au	30	IN	A	77.248.29.174
 $ORIGIN au.ti.
 \042	30	IN	A	77.248.29.174
+$ORIGIN ti.
+auc	30	IN	CNAME	parked.ti.
+$ORIGIN auc.ti.
+\042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
 auco	30	IN	CNAME	proxify.ti.
 $ORIGIN auco.ti.
@@ -1330,6 +1366,10 @@ $ORIGIN bhak.ti.
 $ORIGIN ti.
 bhar	30	IN	NS	205.251.192.121.ti.
 	30	IN	NS	205.251.196.144.ti.
+bhara	30	IN	CNAME	parked.ti.
+$ORIGIN bhara.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 bhat	30	IN	CNAME	proxify.ti.
 $ORIGIN bhat.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -1683,6 +1723,10 @@ bunti	30	IN	CNAME	proxify.ti.
 $ORIGIN bunti.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
+buonarro	30	IN	CNAME	parked.ti.
+$ORIGIN buonarro.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 bur	30	IN	CNAME	parked.ti.
 $ORIGIN bur.ti.
 \042	30	IN	CNAME	parked.ti.
@@ -1965,10 +2009,6 @@ cesar	30	IN	CNAME	parked.ti.
 $ORIGIN cesar.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
-cesaret	30	IN	A	31.220.16.16
-$ORIGIN cesaret.ti.
-\042	30	IN	A	31.220.16.16
-$ORIGIN ti.
 cesarloureiro	30	IN	CNAME	proxify.ti.
 $ORIGIN cesarloureiro.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -2147,6 +2187,10 @@ $ORIGIN ti.
 cintama	30	IN	CNAME	parked.ti.
 $ORIGIN cintama.ti.
 \042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+cira	30	IN	CNAME	proxify.ti.
+$ORIGIN cira.ti.
+\042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
 cisco	30	IN	NS	89.145.82.162.ti.
 	30	IN	NS	89.145.82.163.ti.
@@ -2447,8 +2491,6 @@ $ORIGIN cop.ti.
 $ORIGIN ti.
 cor	30	IN	NS	173.236.85.194.ti.
 	30	IN	NS	173.236.85.195.ti.
-coredumpcentral	30	IN	NS	209.200.236.2.ti.
-	30	IN	NS	209.200.238.4.ti.
 corp	30	IN	CNAME	proxify.ti.
 $ORIGIN corp.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -2763,14 +2805,6 @@ danielbatista	30	IN	A	50.97.177.37
 $ORIGIN danielbatista.ti.
 \042	30	IN	A	50.97.177.37
 $ORIGIN ti.
-danielquin	30	IN	NS	209.200.236.2.ti.
-	30	IN	NS	209.200.238.4.ti.
-danielrquin	30	IN	NS	209.200.236.2.ti.
-	30	IN	NS	209.200.238.4.ti.
-danq	30	IN	NS	209.200.236.2.ti.
-	30	IN	NS	209.200.238.4.ti.
-danquin	30	IN	NS	209.200.236.2.ti.
-	30	IN	NS	209.200.238.4.ti.
 darego	30	IN	CNAME	proxify.ti.
 $ORIGIN darego.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -2865,6 +2899,10 @@ defenda	30	IN	NS	65.254.254.100.ti.
 	30	IN	NS	65.254.254.101.ti.
 defesa	30	IN	NS	65.254.254.100.ti.
 	30	IN	NS	65.254.254.101.ti.
+dei	30	IN	CNAME	parked.ti.
+$ORIGIN dei.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 deit	30	IN	CNAME	proxify.ti.
 $ORIGIN deit.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -3413,6 +3451,10 @@ easyspot	30	IN	CNAME	proxify.ti.
 $ORIGIN easyspot.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
+eat	30	IN	CNAME	proxify.ti.
+$ORIGIN eat.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
 eau	30	IN	CNAME	proxify.ti.
 $ORIGIN eau.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -3633,6 +3675,10 @@ enter	30	IN	CNAME	proxify.ti.
 $ORIGIN enter.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
+enterpriseaio	30	IN	CNAME	proxify.ti.
+$ORIGIN enterpriseaio.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
 entia	30	IN	CNAME	proxify.ti.
 $ORIGIN entia.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -3654,6 +3700,10 @@ $ORIGIN ti.
 equali	30	IN	NS	162.217.177.21.ti.
 equinoxarmy	30	IN	CNAME	parked.ti.
 $ORIGIN equinoxarmy.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+equipe	30	IN	CNAME	parked.ti.
+$ORIGIN equipe.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
 er	30	IN	CNAME	proxify.ti.
@@ -3816,6 +3866,10 @@ evonetworks	30	IN	CNAME	proxify.ti.
 $ORIGIN evonetworks.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
+ex	30	IN	CNAME	proxify.ti.
+$ORIGIN ex.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
 exa	30	IN	CNAME	proxify.ti.
 $ORIGIN exa.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -3843,6 +3897,10 @@ exi	30	IN	NS	50.97.101.12.ti.
 exo	30	IN	CNAME	parked.ti.
 $ORIGIN exo.ti.
 \042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+expansao	30	IN	CNAME	proxify.ti.
+$ORIGIN expansao.ti.
+\042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
 expedia	30	IN	CNAME	proxify.ti.
 $ORIGIN expedia.ti.
@@ -3907,6 +3965,10 @@ $ORIGIN ti.
 facili	30	IN	CNAME	proxify.ti.
 $ORIGIN facili.ti.
 \042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
+facoet	30	IN	CNAME	parked.ti.
+$ORIGIN facoet.ti.
+\042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
 factor	30	IN	CNAME	proxify.ti.
 $ORIGIN factor.ti.
@@ -4151,6 +4213,10 @@ flavio	30	IN	A	186.202.185.27
 $ORIGIN flavio.ti.
 \042	30	IN	A	186.202.185.27
 $ORIGIN ti.
+flexlab	30	IN	CNAME	parked.ti.
+$ORIGIN flexlab.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 flickr	30	IN	CNAME	proxify.ti.
 $ORIGIN flickr.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -4364,6 +4430,10 @@ fuse	30	IN	CNAME	parked.ti.
 $ORIGIN fuse.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
+fysioterapeut	30	IN	CNAME	proxify.ti.
+$ORIGIN fysioterapeut.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
 g4net	30	IN	CNAME	proxify.ti.
 $ORIGIN g4net.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -4384,6 +4454,8 @@ gabriel	30	IN	A	200.98.224.23
 $ORIGIN gabriel.ti.
 \042	30	IN	A	200.98.224.23
 $ORIGIN ti.
+gabrielsantos	30	IN	NS	216.172.161.45.ti.
+	30	IN	NS	216.172.161.46.ti.
 gabut	30	IN	CNAME	parked.ti.
 $ORIGIN gabut.ti.
 \042	30	IN	CNAME	parked.ti.
@@ -4445,6 +4517,10 @@ gary	30	IN	NS	188.246.204.149.ti.
 gasco477	30	IN	CNAME	parked.ti.
 $ORIGIN gasco477.ti.
 \042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+gasivi	30	IN	CNAME	proxify.ti.
+$ORIGIN gasivi.ti.
+\042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
 gat	30	IN	CNAME	parked.ti.
 $ORIGIN gat.ti.
@@ -4528,6 +4604,10 @@ $ORIGIN ti.
 geosen	30	IN	CNAME	proxify.ti.
 $ORIGIN geosen.ti.
 \042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
+ger	30	IN	CNAME	parked.ti.
+$ORIGIN ger.ti.
+\042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
 geracaodevalor	30	IN	CNAME	proxify.ti.
 $ORIGIN geracaodevalor.ti.
@@ -4668,6 +4748,10 @@ $ORIGIN giustizia.ti.
 $ORIGIN ti.
 glauber	30	IN	NS	216.172.172.70.ti.
 	30	IN	NS	216.172.172.71.ti.
+glava	30	IN	CNAME	proxify.ti.
+$ORIGIN glava.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
 gledson	30	IN	CNAME	proxify.ti.
 $ORIGIN gledson.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -4756,6 +4840,10 @@ gouveia	30	IN	NS	69.89.16.126.ti.
 gov	30	IN	CNAME	parked.ti.
 $ORIGIN gov.ti.
 \042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+goviukac	30	IN	A	8.8.8.8
+$ORIGIN goviukac.ti.
+\042	30	IN	A	8.8.8.8
 $ORIGIN ti.
 govt	30	IN	CNAME	proxify.ti.
 $ORIGIN govt.ti.
@@ -4880,6 +4968,10 @@ $ORIGIN ti.
 grupa	30	IN	A	173.255.252.77
 $ORIGIN grupa.ti.
 \042	30	IN	A	173.255.252.77
+$ORIGIN ti.
+grupo	30	IN	CNAME	parked.ti.
+$ORIGIN grupo.ti.
+\042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
 grupocorval	30	IN	CNAME	parked.ti.
 $ORIGIN grupocorval.ti.
@@ -5012,6 +5104,10 @@ hacka	30	IN	CNAME	parked.ti.
 $ORIGIN hacka.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
+hacker	30	IN	CNAME	parked.ti.
+$ORIGIN hacker.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 hacking	30	IN	NS	65.254.254.100.ti.
 	30	IN	NS	65.254.254.101.ti.
 hadimuk	30	IN	NS	111.223.252.66.ti.
@@ -5058,6 +5154,10 @@ $ORIGIN hammera.ti.
 $ORIGIN ti.
 hani	30	IN	CNAME	proxify.ti.
 $ORIGIN hani.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
+hans	30	IN	CNAME	proxify.ti.
+$ORIGIN hans.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
 happyka	30	IN	CNAME	parked.ti.
@@ -5366,6 +5466,10 @@ hotmail	30	IN	A	77.223.141.85
 $ORIGIN hotmail.ti.
 \042	30	IN	A	77.223.141.85
 $ORIGIN ti.
+house	30	IN	CNAME	proxify.ti.
+$ORIGIN house.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
 hp	30	IN	NS	31.170.164.248.ti.
 	30	IN	NS	31.170.167.6.ti.
 hpsi	30	IN	NS	173.254.219.232.ti.
@@ -5519,6 +5623,10 @@ ice	30	IN	CNAME	parked.ti.
 $ORIGIN ice.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
+icedclemen	30	IN	CNAME	proxify.ti.
+$ORIGIN icedclemen.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
 ictsecure	30	IN	NS	93.104.208.26.ti.
 	30	IN	NS	93.104.211.112.ti.
 id	30	IN	CNAME	proxify.ti.
@@ -5586,6 +5694,8 @@ iku	30	IN	CNAME	parked.ti.
 $ORIGIN iku.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
+ilacsepe	30	IN	NS	188.132.217.120.ti.
+	30	IN	NS	188.132.217.202.ti.
 ilfattoquotidiano	30	IN	CNAME	proxify.ti.
 $ORIGIN ilfattoquotidiano.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -5664,6 +5774,10 @@ $ORIGIN imc.ti.
 $ORIGIN ti.
 imdb	30	IN	NS	89.145.82.162.ti.
 	30	IN	NS	89.145.82.163.ti.
+imel	30	IN	CNAME	parked.ti.
+$ORIGIN imel.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 immobiliare	30	IN	CNAME	proxify.ti.
 $ORIGIN immobiliare.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -5779,6 +5893,8 @@ infra	30	IN	CNAME	proxify.ti.
 $ORIGIN infra.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
+infragact	30	IN	NS	191.234.178.255.ti.
+	30	IN	NS	191.235.90.215.ti.
 infragan	30	IN	CNAME	proxify.ti.
 $ORIGIN infragan.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -5829,6 +5945,10 @@ $ORIGIN inps.ti.
 $ORIGIN ti.
 ins	30	IN	CNAME	proxify.ti.
 $ORIGIN ins.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
+insani	30	IN	CNAME	proxify.ti.
+$ORIGIN insani.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
 inside	30	IN	NS	200.175.79.204.ti.
@@ -5929,6 +6049,10 @@ introduce	30	IN	NS	205.251.192.202.ti.
 inven	30	IN	CNAME	proxify.ti.
 $ORIGIN inven.ti.
 \042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
+inves	30	IN	CNAME	parked.ti.
+$ORIGIN inves.ti.
+\042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
 investiga	30	IN	CNAME	parked.ti.
 $ORIGIN investiga.ti.
@@ -6168,6 +6292,10 @@ $ORIGIN jeean.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
 jelli	30	IN	NS	91.121.103.174.ti.
+jequi	30	IN	CNAME	proxify.ti.
+$ORIGIN jequi.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
 jeremyparen	30	IN	CNAME	proxify.ti.
 $ORIGIN jeremyparen.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -6213,6 +6341,10 @@ $ORIGIN jit.ti.
 $ORIGIN ti.
 jj	30	IN	CNAME	parked.ti.
 $ORIGIN jj.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+jk	30	IN	CNAME	parked.ti.
+$ORIGIN jk.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
 jl	30	IN	CNAME	proxify.ti.
@@ -6394,6 +6526,10 @@ $ORIGIN jvmedia-xgrid.ti.
 $ORIGIN ti.
 ka	30	IN	NS	75.125.10.187.ti.
 	30	IN	NS	216.98.150.236.ti.
+kaastos	30	IN	CNAME	parked.ti.
+$ORIGIN kaastos.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 kac	30	IN	NS	88.255.117.217.ti.
 	30	IN	NS	88.255.117.218.ti.
 kaha	30	IN	CNAME	parked.ti.
@@ -6694,6 +6830,10 @@ $ORIGIN kolan.ti.
 $ORIGIN ti.
 kolata	30	IN	NS	5.45.96.220.ti.
 	30	IN	NS	185.82.22.133.ti.
+koleposh	30	IN	CNAME	proxify.ti.
+$ORIGIN koleposh.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
 komik	30	IN	NS	199.101.102.221.ti.
 	30	IN	NS	199.233.233.51.ti.
 konasad	30	IN	CNAME	proxify.ti.
@@ -6739,6 +6879,10 @@ $ORIGIN ti.
 kosinus	30	IN	CNAME	proxify.ti.
 $ORIGIN kosinus.ti.
 \042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
+kosmonaut	30	IN	CNAME	parked.ti.
+$ORIGIN kosmonaut.ti.
+\042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
 kostikos	30	IN	CNAME	parked.ti.
 $ORIGIN kostikos.ti.
@@ -6879,6 +7023,10 @@ kuwai	30	IN	CNAME	parked.ti.
 $ORIGIN kuwai.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
+kvi	30	IN	CNAME	parked.ti.
+$ORIGIN kvi.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 kvo	30	IN	CNAME	proxify.ti.
 $ORIGIN kvo.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -6894,6 +7042,10 @@ $ORIGIN ti.
 la	30	IN	CNAME	proxify.ti.
 $ORIGIN la.ti.
 \042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
+labs	30	IN	CNAME	parked.ti.
+$ORIGIN labs.ti.
+\042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
 lagar	30	IN	CNAME	parked.ti.
 $ORIGIN lagar.ti.
@@ -6957,6 +7109,10 @@ $ORIGIN ti.
 lanueva	30	IN	A	136.243.106.201
 $ORIGIN lanueva.ti.
 \042	30	IN	A	136.243.106.201
+$ORIGIN ti.
+lapurga	30	IN	CNAME	parked.ti.
+$ORIGIN lapurga.ti.
+\042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
 larafafa	30	IN	A	31.15.251.43
 $ORIGIN larafafa.ti.
@@ -7108,6 +7264,10 @@ $ORIGIN lflamarion.ti.
 $ORIGIN ti.
 lg	30	IN	NS	187.45.214.252.ti.
 	30	IN	NS	187.45.214.253.ti.
+lgb	30	IN	CNAME	proxify.ti.
+$ORIGIN lgb.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
 lgsistemas	30	IN	NS	187.45.214.252.ti.
 	30	IN	NS	187.45.214.253.ti.
 li	30	IN	CNAME	proxify.ti.
@@ -7177,6 +7337,10 @@ $ORIGIN ti.
 lightning	30	IN	CNAME	parked.ti.
 $ORIGIN lightning.ti.
 \042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+linden	30	IN	CNAME	proxify.ti.
+$ORIGIN linden.ti.
+\042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
 linka	30	IN	CNAME	parked.ti.
 $ORIGIN linka.ti.
@@ -7361,12 +7525,28 @@ luciamoret	30	IN	CNAME	proxify.ti.
 $ORIGIN luciamoret.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
+lucian	30	IN	CNAME	proxify.ti.
+$ORIGIN lucian.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
 lucidi	30	IN	CNAME	proxify.ti.
 $ORIGIN lucidi.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
+lucioandredelut	30	IN	CNAME	parked.ti.
+$ORIGIN lucioandredelut.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 ludac	30	IN	CNAME	proxify.ti.
 $ORIGIN ludac.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
+ludens	30	IN	CNAME	parked.ti.
+$ORIGIN ludens.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+ludwig	30	IN	CNAME	proxify.ti.
+$ORIGIN ludwig.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
 lugano	30	IN	CNAME	proxify.ti.
@@ -7637,6 +7817,10 @@ marquet	30	IN	CNAME	proxify.ti.
 $ORIGIN marquet.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
+martinot	30	IN	CNAME	proxify.ti.
+$ORIGIN martinot.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
 marvinkur	30	IN	CNAME	parked.ti.
 $ORIGIN marvinkur.ti.
 \042	30	IN	CNAME	parked.ti.
@@ -7747,6 +7931,10 @@ $ORIGIN mdwn.ti.
 $ORIGIN ti.
 me	30	IN	NS	174.142.168.211.ti.
 	30	IN	NS	174.142.168.212.ti.
+meats	30	IN	CNAME	parked.ti.
+$ORIGIN meats.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 mediaset	30	IN	CNAME	proxify.ti.
 $ORIGIN mediaset.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -8311,9 +8499,21 @@ mun	30	IN	CNAME	parked.ti.
 $ORIGIN mun.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
+munasaba	30	IN	CNAME	parked.ti.
+$ORIGIN munasaba.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 munem	30	IN	CNAME	parked.ti.
 $ORIGIN munem.ti.
 \042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+muni	30	IN	CNAME	proxify.ti.
+$ORIGIN muni.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
+muny	30	IN	A	51.68.121.135
+$ORIGIN muny.ti.
+\042	30	IN	A	51.68.121.135
 $ORIGIN ti.
 mur	30	IN	CNAME	parked.ti.
 $ORIGIN mur.ti.
@@ -8367,6 +8567,10 @@ $ORIGIN mygully.ti.
 $ORIGIN ti.
 myl	30	IN	CNAME	parked.ti.
 $ORIGIN myl.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+mymasera	30	IN	CNAME	parked.ti.
+$ORIGIN mymasera.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
 mymovies	30	IN	CNAME	proxify.ti.
@@ -8465,6 +8669,10 @@ naocur	30	IN	CNAME	proxify.ti.
 $ORIGIN naocur.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
+napoan	30	IN	CNAME	proxify.ti.
+$ORIGIN napoan.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
 napunim	30	IN	CNAME	parked.ti.
 $ORIGIN napunim.ti.
 \042	30	IN	CNAME	parked.ti.
@@ -8480,6 +8688,10 @@ $ORIGIN ti.
 nash	30	IN	CNAME	proxify.ti.
 $ORIGIN nash.ti.
 \042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
+nassar	30	IN	A	50.116.112.99
+$ORIGIN nassar.ti.
+\042	30	IN	A	50.116.112.99
 $ORIGIN ti.
 nastacraf	30	IN	A	193.0.159.77
 $ORIGIN nastacraf.ti.
@@ -8511,6 +8723,10 @@ $ORIGIN navajyo.ti.
 $ORIGIN ti.
 nb	30	IN	CNAME	parked.ti.
 $ORIGIN nb.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+ncfxs	30	IN	CNAME	parked.ti.
+$ORIGIN ncfxs.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
 ncn	30	IN	CNAME	proxify.ti.
@@ -8573,6 +8789,10 @@ $ORIGIN ti.
 neorvo	30	IN	CNAME	proxify.ti.
 $ORIGIN neorvo.ti.
 \042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
+nepal	30	IN	CNAME	parked.ti.
+$ORIGIN nepal.ti.
+\042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
 nes	30	IN	CNAME	proxify.ti.
 $ORIGIN nes.ti.
@@ -8704,6 +8924,10 @@ nobre	30	IN	CNAME	parked.ti.
 $ORIGIN nobre.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
+nodagu	30	IN	CNAME	parked.ti.
+$ORIGIN nodagu.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 noh	30	IN	CNAME	parked.ti.
 $ORIGIN noh.ti.
 \042	30	IN	CNAME	parked.ti.
@@ -8736,6 +8960,10 @@ $ORIGIN novaeras.ti.
 $ORIGIN ti.
 novel	30	IN	CNAME	proxify.ti.
 $ORIGIN novel.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
+noveminu	30	IN	CNAME	proxify.ti.
+$ORIGIN noveminu.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
 novinite	30	IN	CNAME	proxify.ti.
@@ -8944,8 +9172,10 @@ $ORIGIN oliva.ti.
 $ORIGIN ti.
 oliveirafabio	30	IN	NS	199.48.166.129.ti.
 	30	IN	NS	199.48.166.130.ti.
-ollin	30	IN	NS	31.170.163.241.ti.
-	30	IN	NS	31.220.23.1.ti.
+ollin	30	IN	CNAME	proxify.ti.
+$ORIGIN ollin.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
 om	30	IN	NS	66.33.206.206.ti.
 	30	IN	NS	208.96.10.221.ti.
 omah	30	IN	CNAME	proxify.ti.
@@ -8958,12 +9188,20 @@ omega	30	IN	CNAME	parked.ti.
 $ORIGIN omega.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
+omin	30	IN	CNAME	proxify.ti.
+$ORIGIN omin.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
 omni	30	IN	CNAME	proxify.ti.
 $ORIGIN omni.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
 omnia	30	IN	CNAME	proxify.ti.
 $ORIGIN omnia.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
+omt	30	IN	CNAME	proxify.ti.
+$ORIGIN omt.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
 omundopara	30	IN	A	136.243.106.201
@@ -9612,6 +9850,10 @@ plen	30	IN	CNAME	parked.ti.
 $ORIGIN plen.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
+pleroma	30	IN	CNAME	parked.ti.
+$ORIGIN pleroma.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 plo	30	IN	CNAME	parked.ti.
 $ORIGIN plo.ti.
 \042	30	IN	CNAME	parked.ti.
@@ -9627,6 +9869,10 @@ plural	30	IN	NS	66.33.206.206.ti.
 pmacedo	30	IN	A	177.20.169.253
 $ORIGIN pmacedo.ti.
 \042	30	IN	A	177.20.169.253
+$ORIGIN ti.
+pn	30	IN	CNAME	parked.ti.
+$ORIGIN pn.ti.
+\042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
 pnlpara	30	IN	CNAME	parked.ti.
 $ORIGIN pnlpara.ti.
@@ -9654,6 +9900,10 @@ $ORIGIN podcas.ti.
 $ORIGIN ti.
 podcast	30	IN	CNAME	parked.ti.
 $ORIGIN podcast.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+poe	30	IN	CNAME	parked.ti.
+$ORIGIN poe.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
 point	30	IN	CNAME	parked.ti.
@@ -9843,6 +10093,10 @@ praga	30	IN	CNAME	proxify.ti.
 $ORIGIN praga.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
+prakri	30	IN	A	149.56.37.25
+$ORIGIN prakri.ti.
+\042	30	IN	A	149.56.37.25
+$ORIGIN ti.
 prap	30	IN	A	77.72.0.106
 $ORIGIN prap.ti.
 \042	30	IN	A	77.72.0.106
@@ -9961,6 +10215,8 @@ profissionais	30	IN	CNAME	proxify.ti.
 $ORIGIN profissionais.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
+profissional	30	IN	NS	77.67.33.81.ti.
+	30	IN	NS	178.254.31.11.ti.
 profissionalde	30	IN	A	45.79.106.54
 $ORIGIN profissionalde.ti.
 \042	30	IN	A	45.79.106.54
@@ -10071,6 +10327,14 @@ punt	30	IN	CNAME	parked.ti.
 $ORIGIN punt.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
+punyako	30	IN	CNAME	proxify.ti.
+$ORIGIN punyako.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
+pupi	30	IN	A	185.199.109.153
+$ORIGIN pupi.ti.
+\042	30	IN	A	185.199.109.153
+$ORIGIN ti.
 pupus	30	IN	CNAME	parked.ti.
 $ORIGIN pupus.ti.
 \042	30	IN	CNAME	parked.ti.
@@ -10176,8 +10440,6 @@ quimera	30	IN	CNAME	proxify.ti.
 $ORIGIN quimera.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
-quin	30	IN	NS	209.200.236.2.ti.
-	30	IN	NS	209.200.238.4.ti.
 raba	30	IN	CNAME	proxify.ti.
 $ORIGIN raba.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -10233,6 +10495,10 @@ $ORIGIN ti.
 rah	30	IN	CNAME	parked.ti.
 $ORIGIN rah.ti.
 \042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+rahulbhar	30	IN	CNAME	proxify.ti.
+$ORIGIN rahulbhar.ti.
+\042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
 rai	30	IN	CNAME	proxify.ti.
 $ORIGIN rai.ti.
@@ -10468,6 +10734,8 @@ republicofyethaenia	30	IN	CNAME	parked.ti.
 $ORIGIN republicofyethaenia.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
+resala	30	IN	NS	162.159.24.43.ti.
+	30	IN	NS	162.159.25.30.ti.
 resep	30	IN	CNAME	proxify.ti.
 $ORIGIN resep.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -10631,10 +10899,6 @@ rogowski	30	IN	CNAME	parked.ti.
 $ORIGIN rogowski.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
-rogue	30	IN	NS	209.200.236.2.ti.
-	30	IN	NS	209.200.238.4.ti.
-roguecentral	30	IN	NS	209.200.236.2.ti.
-	30	IN	NS	209.200.238.4.ti.
 rojas	30	IN	CNAME	parked.ti.
 $ORIGIN rojas.ti.
 \042	30	IN	CNAME	parked.ti.
@@ -10741,6 +11005,10 @@ sabe	30	IN	A	69.58.188.49
 $ORIGIN sabe.ti.
 \042	30	IN	A	69.58.188.49
 $ORIGIN ti.
+sachin	30	IN	CNAME	parked.ti.
+$ORIGIN sachin.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 sadi	30	IN	CNAME	proxify.ti.
 $ORIGIN sadi.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -10770,6 +11038,14 @@ $ORIGIN sah.ti.
 $ORIGIN ti.
 sahar	30	IN	CNAME	proxify.ti.
 $ORIGIN sahar.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
+sahe	30	IN	CNAME	parked.ti.
+$ORIGIN sahe.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+sai	30	IN	CNAME	proxify.ti.
+$ORIGIN sai.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
 saiconsultoria	30	IN	NS	184.107.205.170.ti.
@@ -10852,6 +11128,10 @@ $ORIGIN ti.
 sanchez	30	IN	CNAME	parked.ti.
 $ORIGIN sanchez.ti.
 \042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+sandzak	30	IN	CNAME	proxify.ti.
+$ORIGIN sandzak.ti.
+\042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
 sani	30	IN	CNAME	proxify.ti.
 $ORIGIN sani.ti.
@@ -10969,6 +11249,10 @@ $ORIGIN screwd.ti.
 $ORIGIN ti.
 scriptsepe	30	IN	NS	89.252.129.147.ti.
 	30	IN	NS	89.252.129.148.ti.
+scu	30	IN	CNAME	proxify.ti.
+$ORIGIN scu.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
 sd	30	IN	CNAME	proxify.ti.
 $ORIGIN sd.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -11396,6 +11680,10 @@ singulare	30	IN	CNAME	parked.ti.
 $ORIGIN singulare.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
+singulari	30	IN	CNAME	parked.ti.
+$ORIGIN singulari.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 sirke	30	IN	CNAME	proxify.ti.
 $ORIGIN sirke.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -11626,6 +11914,8 @@ softwares	30	IN	CNAME	proxify.ti.
 $ORIGIN softwares.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
+soge	30	IN	NS	109.201.133.111.ti.
+	30	IN	NS	209.58.140.85.ti.
 soin	30	IN	CNAME	parked.ti.
 $ORIGIN soin.ti.
 \042	30	IN	CNAME	parked.ti.
@@ -11944,6 +12234,10 @@ stud0950584	30	IN	CNAME	proxify.ti.
 $ORIGIN stud0950584.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
+studen	30	IN	A	157.230.102.203
+$ORIGIN studen.ti.
+\042	30	IN	A	157.230.102.203
+$ORIGIN ti.
 studio	30	IN	CNAME	proxify.ti.
 $ORIGIN studio.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -12045,6 +12339,10 @@ suyu	30	IN	CNAME	proxify.ti.
 $ORIGIN suyu.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
+sve	30	IN	CNAME	parked.ti.
+$ORIGIN sve.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 svetujem	30	IN	CNAME	parked.ti.
 $ORIGIN svetujem.ti.
 \042	30	IN	CNAME	parked.ti.
@@ -12136,6 +12434,10 @@ $ORIGIN ti.
 talklike	30	IN	CNAME	parked.ti.
 $ORIGIN talklike.ti.
 \042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+tallerdetiteres	30	IN	CNAME	proxify.ti.
+$ORIGIN tallerdetiteres.ti.
+\042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
 tan	30	IN	CNAME	parked.ti.
 $ORIGIN tan.ti.
@@ -12236,6 +12538,10 @@ $ORIGIN ti.
 tcvcraft	30	IN	CNAME	proxify.ti.
 $ORIGIN tcvcraft.ti.
 \042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
+team	30	IN	CNAME	parked.ti.
+$ORIGIN team.ti.
+\042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
 team-gus	30	IN	CNAME	proxify.ti.
 $ORIGIN team-gus.ti.
@@ -12425,6 +12731,10 @@ $ORIGIN ti.
 therapper	30	IN	A	66.6.44.4
 $ORIGIN therapper.ti.
 \042	30	IN	A	66.6.44.4
+$ORIGIN ti.
+thi	30	IN	CNAME	proxify.ti.
+$ORIGIN thi.ti.
+\042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
 thiago	30	IN	NS	199.48.166.129.ti.
 	30	IN	NS	199.48.166.130.ti.
@@ -12978,6 +13288,10 @@ tun	30	IN	CNAME	parked.ti.
 $ORIGIN tun.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
+tunari-imperiumi	30	IN	CNAME	proxify.ti.
+$ORIGIN tunari-imperiumi.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
 tuon	30	IN	CNAME	parked.ti.
 $ORIGIN tuon.ti.
 \042	30	IN	CNAME	parked.ti.
@@ -13018,6 +13332,10 @@ $ORIGIN tv.ti.
 $ORIGIN ti.
 tvkeletronica	30	IN	NS	209.244.0.3.ti.
 	30	IN	NS	209.244.0.4.ti.
+tvo	30	IN	CNAME	parked.ti.
+$ORIGIN tvo.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 twee	30	IN	CNAME	proxify.ti.
 $ORIGIN twee.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -13028,6 +13346,10 @@ $ORIGIN tweet.ti.
 $ORIGIN ti.
 twen	30	IN	CNAME	parked.ti.
 $ORIGIN twen.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+twentyeighty	30	IN	CNAME	parked.ti.
+$ORIGIN twentyeighty.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
 twi	30	IN	CNAME	proxify.ti.
@@ -13332,9 +13654,21 @@ vanityfair	30	IN	CNAME	proxify.ti.
 $ORIGIN vanityfair.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
+var	30	IN	CNAME	parked.ti.
+$ORIGIN var.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
 vdms	30	IN	CNAME	parked.ti.
 $ORIGIN vdms.ti.
 \042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+ve	30	IN	CNAME	parked.ti.
+$ORIGIN ve.ti.
+\042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+vee	30	IN	CNAME	proxify.ti.
+$ORIGIN vee.ti.
+\042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
 vegan	30	IN	CNAME	parked.ti.
 $ORIGIN vegan.ti.
@@ -13344,6 +13678,8 @@ vegas	30	IN	CNAME	parked.ti.
 $ORIGIN vegas.ti.
 \042	30	IN	CNAME	parked.ti.
 $ORIGIN ti.
+veloci	30	IN	NS	198.251.86.152.ti.
+	30	IN	NS	198.251.86.153.ti.
 ven	30	IN	NS	84.18.207.222.ti.
 	30	IN	NS	194.176.124.129.ti.
 vendas	30	IN	CNAME	proxify.ti.
@@ -13563,6 +13899,10 @@ vri	30	IN	CNAME	proxify.ti.
 $ORIGIN vri.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
+vrit	30	IN	A	148.66.137.15
+$ORIGIN vrit.ti.
+\042	30	IN	A	148.66.137.15
+$ORIGIN ti.
 vrn	30	IN	CNAME	proxify.ti.
 $ORIGIN vrn.ti.
 \042	30	IN	CNAME	proxify.ti.
@@ -13631,6 +13971,10 @@ $ORIGIN wal.ti.
 $ORIGIN ti.
 walyk	30	IN	CNAME	proxify.ti.
 $ORIGIN walyk.ti.
+\042	30	IN	CNAME	proxify.ti.
+$ORIGIN ti.
+wapi	30	IN	CNAME	proxify.ti.
+$ORIGIN wapi.ti.
 \042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
 was	30	IN	CNAME	proxify.ti.
@@ -14088,6 +14432,10 @@ $ORIGIN ti.
 yun	30	IN	CNAME	parked.ti.
 $ORIGIN yun.ti.
 \042	30	IN	CNAME	parked.ti.
+$ORIGIN ti.
+yus	30	IN	CNAME	proxify.ti.
+$ORIGIN yus.ti.
+\042	30	IN	CNAME	proxify.ti.
 $ORIGIN ti.
 yy	30	IN	CNAME	proxify.ti.
 $ORIGIN yy.ti.

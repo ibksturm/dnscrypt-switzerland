@@ -1,8 +1,8 @@
-; zone ku written by NSD 4.1.27 on Wed Jul 17 13:25:06 2019
-; received update to serial 1563367386 at 2019-07-17T12:46:15 from 5.45.96.220
+; zone ku written by NSD 4.2.2 on Mon Mar  9 07:38:36 2020
+; received update to serial 1583738527 at 2020-03-09T07:24:22 from 5.45.96.220
 $ORIGIN .
 ku	30	IN	SOA	ns1.new-nations.ku. contact.new-nations.net. (
-		1563367386 60 30 2419200 604800 )
+		1583738527 60 30 2419200 604800 )
 	30	IN	NS	ns1.new-nations.ku.
 	30	IN	NS	ns2.new-nations.ku.
 $ORIGIN ku.
@@ -10,6 +10,10 @@ a79	30	IN	NS	104.233.109.22.ku.
 aa	30	IN	CNAME	parked.ku.
 $ORIGIN aa.ku.
 \042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
+aaaaaaaaaaaaaaaaaaaaaaaa	30	IN	A	83.97.20.144
+$ORIGIN aaaaaaaaaaaaaaaaaaaaaaaa.ku.
+\042	30	IN	A	83.97.20.144
 $ORIGIN ku.
 ab	30	IN	CNAME	proxify.ku.
 $ORIGIN ab.ku.
@@ -128,6 +132,10 @@ $ORIGIN ku.
 af	30	IN	CNAME	parked.ku.
 $ORIGIN af.ku.
 \042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
+afan	30	IN	CNAME	proxify.ku.
+$ORIGIN afan.ku.
+\042	30	IN	CNAME	proxify.ku.
 $ORIGIN ku.
 afiliasi	30	IN	CNAME	parked.ku.
 $ORIGIN afiliasi.ku.
@@ -350,8 +358,16 @@ alumni	30	IN	A	185.122.58.19
 $ORIGIN alumni.ku.
 \042	30	IN	A	185.122.58.19
 $ORIGIN ku.
+ama	30	IN	CNAME	parked.ku.
+$ORIGIN ama.ku.
+\042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
 amal	30	IN	CNAME	parked.ku.
 $ORIGIN amal.ku.
+\042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
+amamin	30	IN	CNAME	parked.ku.
+$ORIGIN amamin.ku.
 \042	30	IN	CNAME	parked.ku.
 $ORIGIN ku.
 amanoja	30	IN	CNAME	parked.ku.
@@ -1194,6 +1210,10 @@ bi	30	IN	CNAME	parked.ku.
 $ORIGIN bi.ku.
 \042	30	IN	CNAME	parked.ku.
 $ORIGIN ku.
+bias	30	IN	CNAME	parked.ku.
+$ORIGIN bias.ku.
+\042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
 bible	30	IN	CNAME	parked.ku.
 $ORIGIN bible.ku.
 \042	30	IN	CNAME	parked.ku.
@@ -1883,10 +1903,6 @@ chiek	30	IN	CNAME	proxify.ku.
 $ORIGIN chiek.ku.
 \042	30	IN	CNAME	proxify.ku.
 $ORIGIN ku.
-chim	30	IN	A	139.99.56.58
-$ORIGIN chim.ku.
-\042	30	IN	A	139.99.56.58
-$ORIGIN ku.
 chin	30	IN	CNAME	parked.ku.
 $ORIGIN chin.ku.
 \042	30	IN	CNAME	parked.ku.
@@ -1897,6 +1913,10 @@ $ORIGIN chinmo.ku.
 $ORIGIN ku.
 chinta	30	IN	CNAME	parked.ku.
 $ORIGIN chinta.ku.
+\042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
+chiyoda	30	IN	CNAME	parked.ku.
+$ORIGIN chiyoda.ku.
 \042	30	IN	CNAME	parked.ku.
 $ORIGIN ku.
 christian	30	IN	CNAME	parked.ku.
@@ -1998,6 +2018,10 @@ $ORIGIN ku.
 cloudstorage	30	IN	CNAME	proxify.ku.
 $ORIGIN cloudstorage.ku.
 \042	30	IN	CNAME	proxify.ku.
+$ORIGIN ku.
+clovekclove	30	IN	CNAME	parked.ku.
+$ORIGIN clovekclove.ku.
+\042	30	IN	CNAME	parked.ku.
 $ORIGIN ku.
 cms	30	IN	CNAME	parked.ku.
 $ORIGIN cms.ku.
@@ -2111,8 +2135,6 @@ core	30	IN	CNAME	parked.ku.
 $ORIGIN core.ku.
 \042	30	IN	CNAME	parked.ku.
 $ORIGIN ku.
-coredumpcentral	30	IN	NS	209.200.236.2.ku.
-	30	IN	NS	209.200.238.4.ku.
 coretan	30	IN	CNAME	parked.ku.
 $ORIGIN coretan.ku.
 \042	30	IN	CNAME	parked.ku.
@@ -2309,8 +2331,6 @@ danone	30	IN	CNAME	parked.ku.
 $ORIGIN danone.ku.
 \042	30	IN	CNAME	parked.ku.
 $ORIGIN ku.
-danq	30	IN	NS	209.200.236.2.ku.
-	30	IN	NS	209.200.238.4.ku.
 dansk	30	IN	CNAME	parked.ku.
 $ORIGIN dansk.ku.
 \042	30	IN	CNAME	parked.ku.
@@ -2392,6 +2412,10 @@ deallx	30	IN	CNAME	proxify.ku.
 $ORIGIN deallx.ku.
 \042	30	IN	CNAME	proxify.ku.
 $ORIGIN ku.
+dean	30	IN	CNAME	proxify.ku.
+$ORIGIN dean.ku.
+\042	30	IN	CNAME	proxify.ku.
+$ORIGIN ku.
 dear	30	IN	CNAME	parked.ku.
 $ORIGIN dear.ku.
 \042	30	IN	CNAME	parked.ku.
@@ -2451,6 +2475,10 @@ $ORIGIN ku.
 dengubas	30	IN	CNAME	proxify.ku.
 $ORIGIN dengubas.ku.
 \042	30	IN	CNAME	proxify.ku.
+$ORIGIN ku.
+denis	30	IN	CNAME	parked.ku.
+$ORIGIN denis.ku.
+\042	30	IN	CNAME	parked.ku.
 $ORIGIN ku.
 dennis	30	IN	NS	79.98.145.34.ku.
 	30	IN	NS	195.80.237.194.ku.
@@ -2951,6 +2979,10 @@ $ORIGIN ku.
 empekempek	30	IN	CNAME	parked.ku.
 $ORIGIN empekempek.ku.
 \042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
+en	30	IN	CNAME	proxify.ku.
+$ORIGIN en.ku.
+\042	30	IN	CNAME	proxify.ku.
 $ORIGIN ku.
 endonesia	30	IN	NS	192.154.143.119.ku.
 	30	IN	NS	192.154.143.120.ku.
@@ -3518,6 +3550,10 @@ funny	30	IN	CNAME	proxify.ku.
 $ORIGIN funny.ku.
 \042	30	IN	CNAME	proxify.ku.
 $ORIGIN ku.
+furan	30	IN	CNAME	parked.ku.
+$ORIGIN furan.ku.
+\042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
 furo	30	IN	CNAME	proxify.ku.
 $ORIGIN furo.ku.
 \042	30	IN	CNAME	proxify.ku.
@@ -3788,6 +3824,10 @@ $ORIGIN ku.
 gov	30	IN	CNAME	parked.ku.
 $ORIGIN gov.ku.
 \042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
+govnseac	30	IN	A	192.168.43.4
+$ORIGIN govnseac.ku.
+\042	30	IN	A	192.168.43.4
 $ORIGIN ku.
 govt	30	IN	CNAME	proxify.ku.
 $ORIGIN govt.ku.
@@ -4308,6 +4348,10 @@ $ORIGIN hotmail.ku.
 $ORIGIN ku.
 hotspot	30	IN	NS	162.210.102.205.ku.
 	30	IN	NS	198.23.52.5.ku.
+house	30	IN	CNAME	proxify.ku.
+$ORIGIN house.ku.
+\042	30	IN	CNAME	proxify.ku.
+$ORIGIN ku.
 hozan	30	IN	CNAME	parked.ku.
 $ORIGIN hozan.ku.
 \042	30	IN	CNAME	parked.ku.
@@ -4802,6 +4846,10 @@ $ORIGIN italian.ku.
 $ORIGIN ku.
 itizo	30	IN	NS	81.209.164.254.ku.
 	30	IN	NS	198.58.120.169.ku.
+itsma	30	IN	CNAME	parked.ku.
+$ORIGIN itsma.ku.
+\042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
 itu	30	IN	CNAME	proxify.ku.
 $ORIGIN itu.ku.
 \042	30	IN	CNAME	proxify.ku.
@@ -4820,6 +4868,10 @@ $ORIGIN itunes.ku.
 $ORIGIN ku.
 itupunya	30	IN	NS	50.23.197.95.ku.
 	30	IN	NS	208.43.71.243.ku.
+iukac	30	IN	CNAME	proxify.ku.
+$ORIGIN iukac.ku.
+\042	30	IN	CNAME	proxify.ku.
+$ORIGIN ku.
 iwak	30	IN	NS	101.50.2.82.ku.
 izza	30	IN	NS	198.251.86.152.ku.
 	30	IN	NS	198.251.86.153.ku.
@@ -5266,6 +5318,14 @@ karlmarx	30	IN	CNAME	parked.ku.
 $ORIGIN karlmarx.ku.
 \042	30	IN	CNAME	parked.ku.
 $ORIGIN ku.
+karota	30	IN	CNAME	proxify.ku.
+$ORIGIN karota.ku.
+\042	30	IN	CNAME	proxify.ku.
+$ORIGIN ku.
+kartografi	30	IN	CNAME	proxify.ku.
+$ORIGIN kartografi.ku.
+\042	30	IN	CNAME	proxify.ku.
+$ORIGIN ku.
 kartu	30	IN	A	119.82.226.24
 $ORIGIN kartu.ku.
 \042	30	IN	A	119.82.226.24
@@ -5322,6 +5382,10 @@ $ORIGIN ku.
 kdp	30	IN	CNAME	proxify.ku.
 $ORIGIN kdp.ku.
 \042	30	IN	CNAME	proxify.ku.
+$ORIGIN ku.
+ke	30	IN	CNAME	parked.ku.
+$ORIGIN ke.ku.
+\042	30	IN	CNAME	parked.ku.
 $ORIGIN ku.
 keahlian	30	IN	CNAME	parked.ku.
 $ORIGIN keahlian.ku.
@@ -5455,6 +5519,10 @@ kesukaan	30	IN	CNAME	parked.ku.
 $ORIGIN kesukaan.ku.
 \042	30	IN	CNAME	parked.ku.
 $ORIGIN ku.
+kevin	30	IN	CNAME	parked.ku.
+$ORIGIN kevin.ku.
+\042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
 key	30	IN	CNAME	parked.ku.
 $ORIGIN key.ku.
 \042	30	IN	CNAME	parked.ku.
@@ -5515,6 +5583,10 @@ $ORIGIN ku.
 king	30	IN	CNAME	parked.ku.
 $ORIGIN king.ku.
 \042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
+kingdomofjerusalem	30	IN	CNAME	proxify.ku.
+$ORIGIN kingdomofjerusalem.ku.
+\042	30	IN	CNAME	proxify.ku.
 $ORIGIN ku.
 kink	30	IN	CNAME	proxify.ku.
 $ORIGIN kink.ku.
@@ -5590,6 +5662,8 @@ kode	30	IN	CNAME	proxify.ku.
 $ORIGIN kode.ku.
 \042	30	IN	CNAME	proxify.ku.
 $ORIGIN ku.
+koding	30	IN	NS	173.245.58.51.ku.
+	30	IN	NS	173.245.59.41.ku.
 kodo	30	IN	CNAME	proxify.ku.
 $ORIGIN kodo.ku.
 \042	30	IN	CNAME	proxify.ku.
@@ -6860,6 +6934,10 @@ mats	30	IN	CNAME	proxify.ku.
 $ORIGIN mats.ku.
 \042	30	IN	CNAME	proxify.ku.
 $ORIGIN ku.
+matta	30	IN	CNAME	proxify.ku.
+$ORIGIN matta.ku.
+\042	30	IN	CNAME	proxify.ku.
+$ORIGIN ku.
 mau	30	IN	NS	46.37.185.206.ku.
 	30	IN	NS	94.242.219.20.ku.
 max	30	IN	CNAME	parked.ku.
@@ -7012,6 +7090,10 @@ $ORIGIN ku.
 mercury	30	IN	CNAME	parked.ku.
 $ORIGIN mercury.ku.
 \042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
+meredith	30	IN	CNAME	proxify.ku.
+$ORIGIN meredith.ku.
+\042	30	IN	CNAME	proxify.ku.
 $ORIGIN ku.
 merkez	30	IN	CNAME	parked.ku.
 $ORIGIN merkez.ku.
@@ -7516,6 +7598,10 @@ myuta	30	IN	CNAME	proxify.ku.
 $ORIGIN myuta.ku.
 \042	30	IN	CNAME	proxify.ku.
 $ORIGIN ku.
+myweb	30	IN	CNAME	parked.ku.
+$ORIGIN myweb.ku.
+\042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
 na	30	IN	NS	108.174.59.2.ku.
 	30	IN	NS	108.174.59.3.ku.
 naferov	30	IN	CNAME	proxify.ku.
@@ -7995,6 +8081,10 @@ $ORIGIN olympus.ku.
 $ORIGIN ku.
 omah	30	IN	NS	192.154.143.119.ku.
 	30	IN	NS	192.154.143.120.ku.
+omo	30	IN	CNAME	proxify.ku.
+$ORIGIN omo.ku.
+\042	30	IN	CNAME	proxify.ku.
+$ORIGIN ku.
 on	30	IN	CNAME	proxify.ku.
 $ORIGIN on.ku.
 \042	30	IN	CNAME	proxify.ku.
@@ -8434,6 +8524,10 @@ $ORIGIN ku.
 pengacara	30	IN	CNAME	parked.ku.
 $ORIGIN pengacara.ku.
 \042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
+pengadaan	30	IN	A	157.245.197.112
+$ORIGIN pengadaan.ku.
+\042	30	IN	A	157.245.197.112
 $ORIGIN ku.
 pengalaman	30	IN	CNAME	parked.ku.
 $ORIGIN pengalaman.ku.
@@ -9425,6 +9519,10 @@ robot	30	IN	CNAME	parked.ku.
 $ORIGIN robot.ku.
 \042	30	IN	CNAME	parked.ku.
 $ORIGIN ku.
+roc	30	IN	CNAME	parked.ku.
+$ORIGIN roc.ku.
+\042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
 rock	30	IN	CNAME	parked.ku.
 $ORIGIN rock.ku.
 \042	30	IN	CNAME	parked.ku.
@@ -9433,10 +9531,6 @@ rodrigo	30	IN	CNAME	parked.ku.
 $ORIGIN rodrigo.ku.
 \042	30	IN	CNAME	parked.ku.
 $ORIGIN ku.
-rogue	30	IN	NS	209.200.236.2.ku.
-	30	IN	NS	209.200.238.4.ku.
-roguecentral	30	IN	NS	209.200.236.2.ku.
-	30	IN	NS	209.200.238.4.ku.
 roj	30	IN	CNAME	parked.ku.
 $ORIGIN roj.ku.
 \042	30	IN	CNAME	parked.ku.
@@ -9646,6 +9740,10 @@ sak	30	IN	A	193.176.240.249
 $ORIGIN sak.ku.
 \042	30	IN	A	193.176.240.249
 $ORIGIN ku.
+sakrgroup	30	IN	CNAME	parked.ku.
+$ORIGIN sakrgroup.ku.
+\042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
 saku	30	IN	CNAME	proxify.ku.
 $ORIGIN saku.ku.
 \042	30	IN	CNAME	proxify.ku.
@@ -9808,6 +9906,10 @@ $ORIGIN security.ku.
 $ORIGIN ku.
 sedekah	30	IN	NS	192.154.143.119.ku.
 	30	IN	NS	192.154.143.120.ku.
+see	30	IN	CNAME	parked.ku.
+$ORIGIN see.ku.
+\042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
 seifu	30	IN	CNAME	parked.ku.
 $ORIGIN seifu.ku.
 \042	30	IN	CNAME	parked.ku.
@@ -10249,6 +10351,10 @@ $ORIGIN ku.
 sohail	30	IN	CNAME	proxify.ku.
 $ORIGIN sohail.ku.
 \042	30	IN	CNAME	proxify.ku.
+$ORIGIN ku.
+sol	30	IN	CNAME	parked.ku.
+$ORIGIN sol.ku.
+\042	30	IN	CNAME	parked.ku.
 $ORIGIN ku.
 sologcyber	30	IN	CNAME	proxify.ku.
 $ORIGIN sologcyber.ku.
@@ -11163,6 +11269,10 @@ $ORIGIN tsel.ku.
 $ORIGIN ku.
 tsundo	30	IN	NS	66.223.97.114.ku.
 	30	IN	NS	75.125.10.187.ku.
+tsundoku	30	IN	CNAME	parked.ku.
+$ORIGIN tsundoku.ku.
+\042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
 tsuyuda	30	IN	CNAME	proxify.ku.
 $ORIGIN tsuyuda.ku.
 \042	30	IN	CNAME	proxify.ku.
@@ -11517,6 +11627,10 @@ $ORIGIN vhost.ku.
 $ORIGIN ku.
 vibemp3	30	IN	NS	70.39.184.113.ku.
 	30	IN	NS	70.39.184.114.ku.
+vid	30	IN	CNAME	parked.ku.
+$ORIGIN vid.ku.
+\042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
 vidente	30	IN	CNAME	proxify.ku.
 $ORIGIN vidente.ku.
 \042	30	IN	CNAME	proxify.ku.
@@ -11579,6 +11693,10 @@ visualbasic	30	IN	CNAME	parked.ku.
 $ORIGIN visualbasic.ku.
 \042	30	IN	CNAME	parked.ku.
 $ORIGIN ku.
+vj	30	IN	CNAME	proxify.ku.
+$ORIGIN vj.ku.
+\042	30	IN	CNAME	proxify.ku.
+$ORIGIN ku.
 vl	30	IN	CNAME	proxify.ku.
 $ORIGIN vl.ku.
 \042	30	IN	CNAME	proxify.ku.
@@ -11621,6 +11739,8 @@ volvo	30	IN	CNAME	parked.ku.
 $ORIGIN volvo.ku.
 \042	30	IN	CNAME	parked.ku.
 $ORIGIN ku.
+vpanam	30	IN	NS	162.159.24.39.ku.
+	30	IN	NS	162.159.27.72.ku.
 vpn	30	IN	NS	192.154.143.119.ku.
 	30	IN	NS	192.154.143.120.ku.
 vps	30	IN	CNAME	parked.ku.
@@ -11814,6 +11934,10 @@ $ORIGIN ku.
 welcome	30	IN	CNAME	proxify.ku.
 $ORIGIN welcome.ku.
 \042	30	IN	CNAME	proxify.ku.
+$ORIGIN ku.
+wen	30	IN	A	107.172.198.198
+$ORIGIN wen.ku.
+\042	30	IN	A	107.172.198.198
 $ORIGIN ku.
 wene	30	IN	CNAME	parked.ku.
 $ORIGIN wene.ku.
@@ -12045,10 +12169,6 @@ yasyfiena	30	IN	CNAME	proxify.ku.
 $ORIGIN yasyfiena.ku.
 \042	30	IN	CNAME	proxify.ku.
 $ORIGIN ku.
-yattei	30	IN	CNAME	proxify.ku.
-$ORIGIN yattei.ku.
-\042	30	IN	CNAME	proxify.ku.
-$ORIGIN ku.
 yek	30	IN	CNAME	parked.ku.
 $ORIGIN yek.ku.
 \042	30	IN	CNAME	parked.ku.
@@ -12204,6 +12324,10 @@ $ORIGIN ku.
 zanyarmando	30	IN	CNAME	parked.ku.
 $ORIGIN zanyarmando.ku.
 \042	30	IN	CNAME	parked.ku.
+$ORIGIN ku.
+zaowu	30	IN	CNAME	proxify.ku.
+$ORIGIN zaowu.ku.
+\042	30	IN	CNAME	proxify.ku.
 $ORIGIN ku.
 zar	30	IN	CNAME	proxify.ku.
 $ORIGIN zar.ku.

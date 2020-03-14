@@ -1,8 +1,8 @@
-; zone fur written by NSD 4.1.27 on Fri Jun 21 03:25:07 2019
-; received update to serial 592097 at 2019-06-21T02:59:19 from 161.97.219.84
+; zone fur written by NSD 4.2.2 on Sun Mar  1 22:01:28 2020
+; received update to serial 628789 at 2020-03-01T21:29:14 from 161.97.219.84
 $ORIGIN .
 fur	300	IN	SOA	ns15.nic.fur. furnic-operators.fellig.org. (
-		592097 604800 86400 2419200 1200 )
+		628789 604800 86400 2419200 1200 )
 	300	IN	NS	ns2.opennic.glue.
 	300	IN	NS	ns4.opennic.glue.
 	300	IN	NS	ns8.nic.fur.
@@ -86,6 +86,10 @@ brasshopper	300	IN	CNAME	brass-hopper.tumblr.com.
 $ORIGIN brasshopper.fur.
 www	300	IN	CNAME	www.brass-hopper.tumblr.com.
 $ORIGIN fur.
+c0de	300	IN	CNAME	new.fur.
+$ORIGIN c0de.fur.
+www	300	IN	CNAME	www.new.fur.
+$ORIGIN fur.
 carpintino	300	IN	CNAME	new.fur.
 $ORIGIN carpintino.fur.
 www	300	IN	CNAME	www.new.fur.
@@ -111,6 +115,10 @@ $ORIGIN fur.
 coyo	300	IN	A	71.164.138.249
 $ORIGIN coyo.fur.
 www	300	IN	A	71.164.138.249
+$ORIGIN fur.
+coyote	300	IN	CNAME	new.fur.
+$ORIGIN coyote.fur.
+www	300	IN	CNAME	www.new.fur.
 $ORIGIN fur.
 crumax	300	IN	A	127.3.8.7
 $ORIGIN crumax.fur.
@@ -177,6 +185,14 @@ fellig-con	300	IN	CNAME	fellig-con.org.
 $ORIGIN fellig-con.fur.
 www	300	IN	CNAME	www.fellig-con.org.
 $ORIGIN fur.
+fennec	300	IN	CNAME	fennec.404.mn.
+$ORIGIN fennec.fur.
+www	300	IN	CNAME	www.fennec.404.mn.
+$ORIGIN fur.
+foxgate	300	IN	A	134.249.254.228
+$ORIGIN foxgate.fur.
+www	300	IN	A	134.249.254.228
+$ORIGIN fur.
 frinkel	300	IN	A	38.242.7.51
 $ORIGIN frinkel.fur.
 www	300	IN	A	38.242.7.51
@@ -201,10 +217,22 @@ furriesoffirst	300	IN	CNAME	new.fur.
 $ORIGIN furriesoffirst.fur.
 www	300	IN	CNAME	www.new.fur.
 $ORIGIN fur.
+furrtube	300	IN	A	134.249.254.228
+$ORIGIN furrtube.fur.
+www	300	IN	A	134.249.254.228
+$ORIGIN fur.
 furry-os	300	IN	NS	ns10.nic.fur.
 	300	IN	NS	ns15.nic.fur.
+furrygram	300	IN	A	134.249.254.228
+$ORIGIN furrygram.fur.
+www	300	IN	A	134.249.254.228
+$ORIGIN fur.
 fusl	300	IN	NS	ns1.r4ns.com.
 	300	IN	NS	ns2.r4ns.net.
+genstar	300	IN	CNAME	new.fur.
+$ORIGIN genstar.fur.
+www	300	IN	CNAME	www.new.fur.
+$ORIGIN fur.
 hack13	300	IN	NS	ns3.hack13.me.
 	300	IN	NS	ns4.hack13.me.
 halcyon	300	IN	CNAME	new.fur.

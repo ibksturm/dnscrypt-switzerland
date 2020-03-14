@@ -1,8 +1,8 @@
-; zone oz written by NSD 4.1.27 on Sun Jun 30 00:25:06 2019
-; received update to serial 2019062970 at 2019-06-29T23:26:47 from 45.56.115.189
+; zone oz written by NSD 4.2.4 on Fri Mar 13 12:45:06 2020
+; received update to serial 2020031318 at 2020-03-13T12:09:33 from 45.56.115.189
 $ORIGIN .
 oz	86400	IN	SOA	ns10.opennic.glue. dns.bambusoft.com. (
-		2019062970 3600 7200 604800 86400 )
+		2020031318 3600 7200 604800 86400 )
 	86400	IN	TXT	"OpenNIC oz Zone"
 	86400	IN	AAAA	2001:470:1f04:ebf::2
 	86400	IN	A	188.226.146.136
@@ -34,16 +34,24 @@ $ORIGIN oz.
 	86400	IN	NS	ns2.afraid.org.
 4flan	86400	IN	NS	ns1.cloudns.net.
 	86400	IN	NS	ns2.cloudns.net.
+555	86400	IN	NS	kirk.ns.cloudflare.com.
+	86400	IN	NS	bella.ns.cloudflare.com.
+666	86400	IN	NS	kirk.ns.cloudflare.com.
+	86400	IN	NS	bella.ns.cloudflare.com.
 6irc	86400	IN	NS	ns1.6irc.oz.
 	86400	IN	NS	ns2.6irc.oz.
 $ORIGIN 6irc.oz.
 ns1	86400	IN	A	108.61.213.134
 ns2	86400	IN	A	119.252.20.75
 $ORIGIN oz.
+888	86400	IN	NS	kirk.ns.cloudflare.com.
+	86400	IN	NS	bella.ns.cloudflare.com.
 999	86400	IN	NS	ns1.afraid.org.
 	86400	IN	NS	ns2.afraid.org.
 adm	86400	IN	NS	ns1.bambusoft.mx.
 	86400	IN	NS	ns3.bambusoft.mx.
+admin	86400	IN	NS	ns101.cloudns.net.
+	86400	IN	NS	ns102.cloudns.net.
 adult	86400	IN	NS	ns1.elencasino.name.
 	86400	IN	NS	ns2.elencasino.name.
 alekseyvv	86400	IN	NS	na1.epik.com.
@@ -76,6 +84,8 @@ aplusprivateeye	86400	IN	NS	ns1.qc.ca.dns.opennic.glue.
 	86400	IN	NS	ns2.de.dns.opennic.glue.
 apple	86400	IN	NS	ns1.randomdomain1235x.com.
 	86400	IN	NS	ns2.randomdomain1235x.com.
+ayan	86400	IN	NS	ns1.heliohost.org.
+	86400	IN	NS	ns2.heliohost.org.
 ayeru	86400	IN	NS	ayeru.
 backhome	86400	IN	NS	ns1.backhome.oz.
 	86400	IN	NS	ns2.backhome.oz.
@@ -89,6 +99,8 @@ bar	86400	IN	NS	ns1.cloudns.net.
 	86400	IN	NS	ns2.cloudns.net.
 batuhan	86400	IN	NS	ns1.digitalocean.com.
 	86400	IN	NS	ns2.digitalocean.com.
+bec	86400	IN	NS	ns1.an0ns.ru.
+	86400	IN	NS	ns2.an0ns.ru.
 bet	86400	IN	NS	ns1.elencasino.name.
 	86400	IN	NS	ns2.elencasino.name.
 bingo-boom	86400	IN	NS	ns1.elencasino.name.
@@ -99,8 +111,8 @@ bitcoin	86400	IN	NS	ns1.bambusoft.mx.
 	86400	IN	NS	ns3.bambusoft.mx.
 bits	86400	IN	NS	pns31.cloudns.net.
 	86400	IN	NS	pns32.cloudns.net.
-biz	86400	IN	NS	ns1.digitalocean.com.
-	86400	IN	NS	ns2.digitalocean.com.
+biz	86400	IN	NS	ns1.nicmus.com.
+	86400	IN	NS	ns2.nicmus.com.
 blog	86400	IN	NS	ns01.000webhost.com.
 	86400	IN	NS	ns02.000webhost.com.
 bpsys	86400	IN	NS	ns1.afraid.org.
@@ -115,8 +127,22 @@ ns2	86400	IN	A	1.2.3.4
 $ORIGIN oz.
 c0in	86400	IN	NS	ns1.elencasino.name.
 	86400	IN	NS	ns2.elencasino.name.
+cache1	86400	IN	NS	ns2.000webhost.com.
+	86400	IN	NS	ns01.000webhost.com.
 caffeinatedtech	86400	IN	NS	dns1.namecheaphosting.com.
 	86400	IN	NS	dns2.namecheaphosting.com.
+calacipolla	86400	IN	NS	ns1.calacipolla.oz.
+	86400	IN	NS	ns2.calacipolla.oz.
+$ORIGIN calacipolla.oz.
+ns1	86400	IN	A	127.0.0.1
+ns2	86400	IN	A	127.0.0.1
+$ORIGIN oz.
+cannabis	86400	IN	NS	ns1.cannabis.oz.
+	86400	IN	NS	ns2.cannabis.oz.
+$ORIGIN cannabis.oz.
+ns1	86400	IN	A	127.0.0.1
+ns2	86400	IN	A	127.0.0.1
+$ORIGIN oz.
 carobnjak	86400	IN	NS	ns1.hostinger.co.uk.
 	86400	IN	NS	ns2.hostinger.co.uk.
 casin	86400	IN	NS	ns1.elencasino.name.
@@ -131,6 +157,7 @@ caviinae	86400	IN	NS	ns1.cavy.dev.
 	86400	IN	NS	ns2.cavy.dev.
 cavy	86400	IN	NS	ns1.cavy.dev.
 	86400	IN	NS	ns2.cavy.dev.
+cbd	86400	IN	NS	ns1.mywebhost.com.
 china	86400	IN	NS	ns101.cloudns.net.
 	86400	IN	NS	ns102.cloudns.net.
 chrisg	86400	IN	NS	ns1.white-heron.net.
@@ -150,8 +177,12 @@ cloud	86400	IN	NS	ns1.uc.cx.
 	86400	IN	NS	ns2.uc.cx.
 coin	86400	IN	NS	ns2.bambusoft.mx.
 	86400	IN	NS	ns3.bambusoft.mx.
-com	86400	IN	NS	ns1.quanlyvps.com.
-	86400	IN	NS	ns2.quanlyvps.com.
+com	86400	IN	NS	ns1.com.oz.
+	86400	IN	NS	ns2.com.oz.
+$ORIGIN com.oz.
+ns1	86400	IN	A	45.79.91.198
+ns2	86400	IN	A	172.104.237.4
+$ORIGIN oz.
 cowardlylion	86400	IN	NS	ns.hostpoint.ch.
 	86400	IN	NS	ns2.hostpoint.ch.
 crypt	86400	IN	NS	ns1hwy.name.com.
@@ -168,6 +199,8 @@ design	86400	IN	NS	ns1.biz.nf.
 	86400	IN	NS	ns2.biz.nf.
 dianfajar	86400	IN	NS	ns1.cpanelplatform.com.
 	86400	IN	NS	ns2.cpanelplatform.com.
+dog-o-log	86400	IN	NS	ns1.freehostingeu.com.
+	86400	IN	NS	ns2.freehostingeu.com.
 domain	86400	IN	NS	ns1.mywebhost.com.
 	86400	IN	NS	ns2.mywebhost.com.
 dorothy	86400	IN	NS	ns.hostpoint.ch.
@@ -186,8 +219,12 @@ dworin	86400	IN	NS	ns1.dynu.com.
 	86400	IN	NS	ns2.dynu.com.
 edo	86400	IN	NS	ns1.entrydns.net.
 	86400	IN	NS	ns2.entrydns.net.
-edu	86400	IN	NS	ns1.digitalocean.com.
-	86400	IN	NS	ns2.digitalocean.com.
+edu	86400	IN	NS	ns1.edu.oz.
+	86400	IN	NS	ns2.edu.oz.
+$ORIGIN edu.oz.
+ns1	86400	IN	A	45.79.91.198
+ns2	86400	IN	A	172.104.237.4
+$ORIGIN oz.
 edubay	86400	IN	NS	ns01.000webhost.com.
 	86400	IN	NS	ns02.000webhost.com.
 eis	86400	IN	NS	dns1.eis.qiushi.ac.cn.
@@ -204,6 +241,14 @@ emperor	86400	IN	NS	ns1.afraid.org.
 	86400	IN	NS	ns2.afraid.org.
 espresso	86400	IN	NS	ns1.cloudns.net.
 	86400	IN	NS	ns2.cloudns.net.
+eth	86400	IN	NS	ns1.eth.oz.
+	86400	IN	NS	ns2.eth.oz.
+$ORIGIN eth.oz.
+ns1	86400	IN	A	212.227.81.67
+ns2	86400	IN	A	212.227.81.67
+$ORIGIN oz.
+eur	86400	IN	NS	ns1.bankb.it.
+	86400	IN	NS	ns2.bankb.it.
 exmo	86400	IN	NS	ns1.elencasino.name.
 	86400	IN	NS	ns2.elencasino.name.
 facebook	86400	IN	NS	ns1.pro.oz.
@@ -218,6 +263,8 @@ floris	86400	IN	NS	mail.floris.oz.
 $ORIGIN floris.oz.
 mail	86400	IN	A	127.0.0.1
 $ORIGIN oz.
+fly	86400	IN	NS	ns1.45h.it.
+	86400	IN	NS	ns2.45h.it.
 foo	86400	IN	NS	ns1.afraid.org.
 	86400	IN	NS	ns2.afraid.org.
 for	86400	IN	NS	ns1.bambusoft.mx.
@@ -331,7 +378,14 @@ jacintapaper	86400	IN	NS	dns1.freehostia.com.
 	86400	IN	NS	dns2.freehostia.com.
 jack	86400	IN	NS	ns1.searchenginecollege.com.
 	86400	IN	NS	ns2.searchenginecollege.com.
+jing	86400	IN	NS	ns1.jing.oz.
+	86400	IN	NS	ns2.jing.oz.
+$ORIGIN jing.oz.
+ns1	86400	IN	A	127.0.0.1
+ns2	86400	IN	A	127.0.0.1
+$ORIGIN oz.
 jon	86400	IN	NS	ns2.jon.com.
+	86400	IN	NS	jdns.sytes.net.
 jonasmoeller	86400	IN	NS	ns1.frankenhost.net.
 	86400	IN	NS	ns2.frankenhost.net.
 jordan	86400	IN	NS	ns1.searchenginecollege.com.
@@ -349,6 +403,8 @@ klim	86400	IN	NS	ns1.7x7.su.
 kpgltu	86400	IN	NS	kpgltu99.top.
 krazer89	86400	IN	NS	ns1.dynu.com.
 	86400	IN	NS	ns2.dynu.com.
+ksbs	86400	IN	NS	ns1.any.dns.opennic.glue.
+	86400	IN	NS	ns3.any.dns.opennic.glue.
 l2dwarfmode	86400	IN	NS	ns1.byet.org.
 	86400	IN	NS	ns2.byet.org.
 labas	86400	IN	NS	ns1.domenas.eu.
@@ -373,6 +429,8 @@ locamation	86400	IN	NS	ns1.openprovider.nl.
 	86400	IN	NS	ns2.openprovider.nl.
 loto	86400	IN	NS	ns1.elencasino.name.
 	86400	IN	NS	ns2.elencasino.name.
+ludwig	86400	IN	NS	enterherens1.giow1038.siteground.us.
+	86400	IN	NS	enterherens2.giow1038.siteground.us.
 magicien	86400	IN	NS	ns1.magicien.oz.
 	86400	IN	NS	ns2.magicien.oz.
 $ORIGIN magicien.oz.
@@ -398,6 +456,8 @@ medina	86400	IN	NS	ns1.rimuhosting.com.
 	86400	IN	NS	ns2.rimuhosting.com.
 megadice	86400	IN	NS	ns1.elencasino.name.
 	86400	IN	NS	ns2.elencasino.name.
+mic	86400	IN	NS	ns1.an0ns.ru.
+	86400	IN	NS	ns2.an0ns.ru.
 microsoft	86400	IN	NS	ns1.randomdomain1235x.com.
 	86400	IN	NS	ns2.randomdomain1235x.com.
 mikko	86400	IN	NS	ns1.cloudns.net.
@@ -432,15 +492,18 @@ mx	86400	IN	NS	ns1.bambusoft.mx.
 	86400	IN	NS	ns3.bambusoft.mx.
 myfree	86400	IN	NS	ns1.mywebhost.com.
 	86400	IN	NS	ns2.mywebhost.com.
-name	86400	IN	NS	ns1.digitalocean.com.
-	86400	IN	NS	ns2.digitalocean.com.
+name	86400	IN	NS	ns1.nicmus.com.
+	86400	IN	NS	ns2.nicmus.com.
 nangel	86400	IN	NS	dion.ns.cloudflare.com.
 	86400	IN	NS	brenda.ns.cloudflare.com.
-net	86400	IN	NS	ns2.digitalocean.com.
+net	86400	IN	NS	ns1.nicmus.com.
+	86400	IN	NS	ns2.nicmus.com.
 ngn	86400	IN	NS	cody.ns.cloudflare.com.
 	86400	IN	NS	gina.ns.cloudflare.com.
 nic	86400	IN	NS	ns1.bambusoft.mx.
 	86400	IN	NS	ns3.bambusoft.mx.
+nightgen	86400	IN	NS	tani.ns.cloudflare.com.
+	86400	IN	NS	bruce.ns.cloudflare.com.
 nikksno	86400	IN	NS	ns1.mb.nk.ai.
 	86400	IN	NS	ns2.mb.nk.ai.
 nklh	86400	IN	NS	frama.site.
@@ -449,6 +512,8 @@ nome	86400	IN	NS	ns.hostpoint.ch.
 	86400	IN	NS	ns2.hostpoint.ch.
 nsa	86400	IN	NS	ns1.intl.uk.to.
 	86400	IN	NS	ns2.intl.uk.to.
+null	86400	IN	NS	ns1.an0ns.ru.
+	86400	IN	NS	ns2.an0ns.ru.
 nyaa	86400	IN	NS	aida.ns.cloudflare.com.
 	86400	IN	NS	glen.ns.cloudflare.com.
 nzb	86400	IN	NS	ns1.afraid.org.
@@ -495,14 +560,19 @@ ns2	86400	IN	A	127.0.0.1
 $ORIGIN oz.
 ozma	86400	IN	NS	ns.hostpoint.ch.
 	86400	IN	NS	ns2.hostpoint.ch.
+ozzie-osborne	86400	IN	NS	ns1.linode.com.
+	86400	IN	NS	ns2.linode.com.
 paradigm	86400	IN	NS	ns01.000webhost.com.
 	86400	IN	NS	ns02.000webhost.com.
+pay	86400	IN	NS	ns1.pay-b.it.
+	86400	IN	NS	ns2.pay-b.it.
 paypal	86400	IN	NS	ns1.paypal.oz.
 	86400	IN	NS	ns2.paypal.oz.
 $ORIGIN paypal.oz.
 ns1	86400	IN	A	127.0.0.1
 ns2	86400	IN	A	127.0.0.1
 $ORIGIN oz.
+pfdog	86400	IN	NS	ns2.digitalocean.com.
 pimpomboys	86400	IN	NS	ns01.000webhost.com.
 	86400	IN	NS	ns02.000webhost.com.
 piratbit	86400	IN	NS	ns110.inhostedns.com.
@@ -547,7 +617,11 @@ reinodenumancia	86400	IN	NS	ns21.fmserver.net.
 	86400	IN	NS	ns22.fmserver.net.
 rfs	86400	IN	NS	ns1.box.r3df0x.net.
 	86400	IN	NS	ns2.box.r3df0x.net.
+root	86400	IN	NS	kirk.ns.cloudflare.com.
+	86400	IN	NS	bella.ns.cloudflare.com.
 rubin	86400	IN	NS	prohosting3.netsons.net.
+run	86400	IN	NS	ns1.45h.it.
+	86400	IN	NS	ns2.45h.it.
 rutracker	86400	IN	NS	ns1.elencasino.name.
 	86400	IN	NS	ns2.elencasino.name.
 sam	86400	IN	NS	dns1.registrar-servers.com.
@@ -599,6 +673,10 @@ ns2	86400	IN	A	127.0.0.1
 $ORIGIN oz.
 sky	86400	IN	NS	ns1.us4.siteground.us.
 	86400	IN	NS	ns2.us4.siteground.us.
+smashthewizard	86400	IN	NS	ns31.cloudns.net.
+	86400	IN	NS	ns32.cloudns.net.
+soma	86400	IN	NS	ns1.cloudns.net.
+	86400	IN	NS	ns2.cloudns.net.
 sorch	86400	IN	NS	ns1.cloudns.net.
 	86400	IN	NS	ns2.cloudns.net.
 sorcus	86400	IN	NS	ns1.entrydns.net.
@@ -624,10 +702,13 @@ technovantage	86400	IN	NS	ns1.cloudns.net.
 	86400	IN	NS	ns2.cloudns.net.
 teddy	86400	IN	NS	dns.fastdns24.com.
 	86400	IN	NS	dns2.fastdns24.org.
+tenerife	86400	IN	NS	ns1.fozzy.com.
+	86400	IN	NS	ns2.fozzy.com.
 test	86400	IN	NS	ns1.bambusoft.mx.
 	86400	IN	NS	ns3.bambusoft.mx.
 texteditor	86400	IN	NS	ns1.r4ns.com.
 	86400	IN	NS	ns2.r4ns.net.
+thc	86400	IN	NS	ns1.mywebhost.com.
 thebible	86400	IN	NS	freedns1.registrar-servers.com.
 	86400	IN	NS	freedns2.registrar-servers.com.
 thewizardof	86400	IN	NS	ns1.angryhosting.com.
@@ -664,6 +745,8 @@ usa	86400	IN	NS	ns1.freehosting.com.
 	86400	IN	NS	ns2.freehosting.com.
 usdog	86400	IN	NS	ns1.freehosting.com.
 	86400	IN	NS	ns2.freehosting.com.
+vip	86400	IN	NS	kirk.ns.cloudflare.com.
+	86400	IN	NS	bella.ns.cloudflare.com.
 virtu	86400	IN	NS	ns1.virtu.oz.
 	86400	IN	NS	ns2.virtu.oz.
 $ORIGIN virtu.oz.
@@ -678,6 +761,7 @@ vulkan	86400	IN	NS	ns1.elenacasino.name.
 	86400	IN	NS	ns2.elencasino.name.
 wave	86400	IN	NS	ns1.cloudns.io.
 	86400	IN	NS	ns2.cloudns.io.
+weed	86400	IN	NS	ns1.mywebhost.com.
 whsleagueclub	86400	IN	NS	ns01.000webhost.com.
 	86400	IN	NS	ns02.000webhost.com.
 wind	86400	IN	NS	ns01.000webhost.com.

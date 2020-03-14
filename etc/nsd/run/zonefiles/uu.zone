@@ -1,8 +1,8 @@
-; zone uu written by NSD 4.1.27 on Wed Jul 17 13:25:06 2019
-; received update to serial 1563367386 at 2019-07-17T12:46:39 from 5.45.96.220
+; zone uu written by NSD 4.2.2 on Wed Dec 18 08:36:13 2019
+; received update to serial 1576655166 at 2019-12-18T07:49:06 from 5.45.96.220
 $ORIGIN .
 uu	30	IN	SOA	ns1.new-nations.uu. contact.new-nations.net. (
-		1563367386 60 30 2419200 604800 )
+		1576655166 60 30 2419200 604800 )
 	30	IN	NS	ns1.new-nations.uu.
 	30	IN	NS	ns2.new-nations.uu.
 $ORIGIN uu.
@@ -42,6 +42,10 @@ $ORIGIN abv.uu.
 $ORIGIN uu.
 ad	30	IN	CNAME	parked.uu.
 $ORIGIN ad.uu.
+\042	30	IN	CNAME	parked.uu.
+$ORIGIN uu.
+adb	30	IN	CNAME	parked.uu.
+$ORIGIN adb.uu.
 \042	30	IN	CNAME	parked.uu.
 $ORIGIN uu.
 adobe	30	IN	CNAME	parked.uu.
@@ -266,6 +270,10 @@ $ORIGIN bbc.uu.
 $ORIGIN uu.
 bbsst	30	IN	CNAME	parked.uu.
 $ORIGIN bbsst.uu.
+\042	30	IN	CNAME	parked.uu.
+$ORIGIN uu.
+be	30	IN	CNAME	parked.uu.
+$ORIGIN be.uu.
 \042	30	IN	CNAME	parked.uu.
 $ORIGIN uu.
 beeg	30	IN	CNAME	proxify.uu.
@@ -562,6 +570,10 @@ dilindungi	30	IN	CNAME	proxify.uu.
 $ORIGIN dilindungi.uu.
 \042	30	IN	CNAME	proxify.uu.
 $ORIGIN uu.
+discord	30	IN	CNAME	parked.uu.
+$ORIGIN discord.uu.
+\042	30	IN	CNAME	parked.uu.
+$ORIGIN uu.
 discovery	30	IN	CNAME	proxify.uu.
 $ORIGIN discovery.uu.
 \042	30	IN	CNAME	proxify.uu.
@@ -631,6 +643,10 @@ $ORIGIN uu.
 dw	30	IN	A	103.201.27.10
 $ORIGIN dw.uu.
 \042	30	IN	A	103.201.27.10
+$ORIGIN uu.
+dyn	30	IN	CNAME	parked.uu.
+$ORIGIN dyn.uu.
+\042	30	IN	CNAME	parked.uu.
 $ORIGIN uu.
 e1	30	IN	CNAME	proxify.uu.
 $ORIGIN e1.uu.
@@ -807,6 +823,10 @@ $ORIGIN uu.
 fint	30	IN	CNAME	proxify.uu.
 $ORIGIN fint.uu.
 \042	30	IN	CNAME	proxify.uu.
+$ORIGIN uu.
+fix	30	IN	CNAME	parked.uu.
+$ORIGIN fix.uu.
+\042	30	IN	CNAME	parked.uu.
 $ORIGIN uu.
 fiy	30	IN	NS	205.251.192.238.uu.
 	30	IN	NS	205.251.199.94.uu.
@@ -1133,6 +1153,10 @@ hotel	30	IN	CNAME	proxify.uu.
 $ORIGIN hotel.uu.
 \042	30	IN	CNAME	proxify.uu.
 $ORIGIN uu.
+hu	30	IN	A	194.182.84.75
+$ORIGIN hu.uu.
+\042	30	IN	A	194.182.84.75
+$ORIGIN uu.
 huh	30	IN	CNAME	parked.uu.
 $ORIGIN huh.uu.
 \042	30	IN	CNAME	parked.uu.
@@ -1277,6 +1301,10 @@ io	30	IN	CNAME	proxify.uu.
 $ORIGIN io.uu.
 \042	30	IN	CNAME	proxify.uu.
 $ORIGIN uu.
+ip	30	IN	CNAME	parked.uu.
+$ORIGIN ip.uu.
+\042	30	IN	CNAME	parked.uu.
+$ORIGIN uu.
 iphone	30	IN	CNAME	parked.uu.
 $ORIGIN iphone.uu.
 \042	30	IN	CNAME	parked.uu.
@@ -1293,8 +1321,14 @@ is	30	IN	CNAME	proxify.uu.
 $ORIGIN is.uu.
 \042	30	IN	CNAME	proxify.uu.
 $ORIGIN uu.
+isn	30	IN	CNAME	parked.uu.
+$ORIGIN isn.uu.
+\042	30	IN	CNAME	parked.uu.
+$ORIGIN uu.
 its	30	IN	NS	89.145.82.162.uu.
 	30	IN	NS	89.145.82.163.uu.
+iyu	30	IN	NS	62.221.252.7.uu.
+	30	IN	NS	185.175.200.247.uu.
 jack	30	IN	A	66.6.44.4
 $ORIGIN jack.uu.
 \042	30	IN	A	66.6.44.4
@@ -1314,6 +1348,10 @@ $ORIGIN uu.
 jarno	30	IN	CNAME	proxify.uu.
 $ORIGIN jarno.uu.
 \042	30	IN	CNAME	proxify.uu.
+$ORIGIN uu.
+jason	30	IN	CNAME	parked.uu.
+$ORIGIN jason.uu.
+\042	30	IN	CNAME	parked.uu.
 $ORIGIN uu.
 java	30	IN	CNAME	parked.uu.
 $ORIGIN java.uu.
@@ -1622,6 +1660,10 @@ malok	30	IN	CNAME	proxify.uu.
 $ORIGIN malok.uu.
 \042	30	IN	CNAME	proxify.uu.
 $ORIGIN uu.
+manoah	30	IN	CNAME	parked.uu.
+$ORIGIN manoah.uu.
+\042	30	IN	CNAME	parked.uu.
+$ORIGIN uu.
 maria	30	IN	CNAME	parked.uu.
 $ORIGIN maria.uu.
 \042	30	IN	CNAME	parked.uu.
@@ -1879,6 +1921,10 @@ no	30	IN	CNAME	proxify.uu.
 $ORIGIN no.uu.
 \042	30	IN	CNAME	proxify.uu.
 $ORIGIN uu.
+noelia	30	IN	CNAME	proxify.uu.
+$ORIGIN noelia.uu.
+\042	30	IN	CNAME	proxify.uu.
+$ORIGIN uu.
 null	30	IN	CNAME	proxify.uu.
 $ORIGIN null.uu.
 \042	30	IN	CNAME	proxify.uu.
@@ -1951,6 +1997,10 @@ $ORIGIN onlinetv.uu.
 $ORIGIN uu.
 oo	30	IN	CNAME	parked.uu.
 $ORIGIN oo.uu.
+\042	30	IN	CNAME	parked.uu.
+$ORIGIN uu.
+ooft	30	IN	CNAME	parked.uu.
+$ORIGIN ooft.uu.
 \042	30	IN	CNAME	parked.uu.
 $ORIGIN uu.
 ooll	30	IN	CNAME	parked.uu.
@@ -2287,6 +2337,10 @@ rrr	30	IN	CNAME	proxify.uu.
 $ORIGIN rrr.uu.
 \042	30	IN	CNAME	proxify.uu.
 $ORIGIN uu.
+ruben	30	IN	CNAME	parked.uu.
+$ORIGIN ruben.uu.
+\042	30	IN	CNAME	parked.uu.
+$ORIGIN uu.
 rud	30	IN	CNAME	parked.uu.
 $ORIGIN rud.uu.
 \042	30	IN	CNAME	parked.uu.
@@ -2455,6 +2509,10 @@ $ORIGIN uu.
 sonia	30	IN	CNAME	proxify.uu.
 $ORIGIN sonia.uu.
 \042	30	IN	CNAME	proxify.uu.
+$ORIGIN uu.
+spaceflex	30	IN	CNAME	parked.uu.
+$ORIGIN spaceflex.uu.
+\042	30	IN	CNAME	parked.uu.
 $ORIGIN uu.
 spiritofuyghur	30	IN	CNAME	proxify.uu.
 $ORIGIN spiritofuyghur.uu.
@@ -2890,6 +2948,10 @@ uygur	30	IN	CNAME	proxify.uu.
 $ORIGIN uygur.uu.
 \042	30	IN	CNAME	proxify.uu.
 $ORIGIN uu.
+va	30	IN	CNAME	parked.uu.
+$ORIGIN va.uu.
+\042	30	IN	CNAME	parked.uu.
+$ORIGIN uu.
 ve	30	IN	CNAME	proxify.uu.
 $ORIGIN ve.uu.
 \042	30	IN	CNAME	proxify.uu.
@@ -3018,6 +3080,8 @@ woodkat	30	IN	CNAME	proxify.uu.
 $ORIGIN woodkat.uu.
 \042	30	IN	CNAME	proxify.uu.
 $ORIGIN uu.
+wooz	30	IN	NS	67.199.248.12.uu.
+	30	IN	NS	67.199.248.13.uu.
 wordpress	30	IN	CNAME	proxify.uu.
 $ORIGIN wordpress.uu.
 \042	30	IN	CNAME	proxify.uu.

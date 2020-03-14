@@ -1,6 +1,5 @@
 #! /bin/sh
 
-
 KEYS_DIR="/etc/dnscrypt-wrapper"
 STKEYS_DIR="${KEYS_DIR}/short-keys"
 LISTS_DIR="/etc/dnscrypt-wrapper/"

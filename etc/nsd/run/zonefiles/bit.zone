@@ -1,5 +1,5 @@
-; zone bit written by NSD 4.1.27 on Sun Jun  9 21:57:54 2019
-; received update to serial 452805000 at 2019-06-09T19:20:35 from 45.56.115.189
+; zone bit written by NSD 4.2.1 on Sun Jul 21 23:08:48 2019
+; received update to serial 452805000 at 2019-07-21T21:31:36 from 94.103.153.176
 $ORIGIN .
 bit	86400	IN	SOA	ns9.opennic.glue. jonah.opennic.org. (
 		452805000 300 180 604800 3600 )
@@ -223,9 +223,9 @@ $ORIGIN aemet.bit.
 \042	86400	IN	A	144.76.12.6
 $ORIGIN bit.
 aeromail	86400	IN	DNAME	domaindeals.pro.
-aetherc0r3	86400	IN	NS	lou.ns.cloudflare.com.
+aetherc0r3	86400	IN	DNAME	aetherc0r3.eu.
+	86400	IN	NS	lou.ns.cloudflare.com.
 	86400	IN	NS	becky.ns.cloudflare.com.
-	86400	IN	DNAME	aetherc0r3.eu.
 afdgdgafd34r13r14f13e32e	86400	IN	A	185.62.188.219
 $ORIGIN afdgdgafd34r13r14f13e32e.bit.
 \042	86400	IN	A	185.62.188.219
@@ -602,11 +602,11 @@ $ORIGIN assa.bit.
 \042	86400	IN	A	144.76.12.6
 $ORIGIN bit.
 assange	86400	IN	CNAME	mgtowmirror.bit.
-asterisk	86400	IN	AAAA	2a02:16d8:104:5::130
-	86400	IN	A	198.101.10.130
-$ORIGIN asterisk.bit.
-\042	86400	IN	A	198.101.10.130
+asterisk	86400	IN	A	198.101.10.130
 	86400	IN	AAAA	2a02:16d8:104:5::130
+$ORIGIN asterisk.bit.
+\042	86400	IN	AAAA	2a02:16d8:104:5::130
+	86400	IN	A	198.101.10.130
 $ORIGIN bit.
 ataricharles	86400	IN	CNAME	mgtowmirror.bit.
 atech	86400	IN	A	144.76.12.6
@@ -856,8 +856,8 @@ beograd	86400	IN	A	144.76.12.6
 $ORIGIN beograd.bit.
 \042	86400	IN	A	144.76.12.6
 $ORIGIN bit.
-berler	86400	IN	AAAA	2607:f298:5:101d:f816:3eff:fe7c:372d
-	86400	IN	A	208.113.165.129
+berler	86400	IN	A	208.113.165.129
+	86400	IN	AAAA	2607:f298:5:101d:f816:3eff:fe7c:372d
 bernardchapin	86400	IN	CNAME	mgtowmirror.bit.
 bernhouse	86400	IN	NS	ns1.dojki.pk.
 	86400	IN	NS	ns2.fastflux.ug.
@@ -984,9 +984,9 @@ bitcrawl	86400	IN	DNAME	domaindeals.pro.
 bitfi	86400	IN	NS	ns1.mwrlabs.co.uk.
 	86400	IN	NS	ns2.mwrlabs.co.uk.
 bithope	86400	IN	CNAME	bithope.org.
-bitista	86400	IN	NS	ns1.vultr.com.
+bitista	86400	IN	A	45.63.40.193
+	86400	IN	NS	ns1.vultr.com.
 	86400	IN	NS	ns2.vultr.com.
-	86400	IN	A	45.63.40.193
 bitname	86400	IN	NS	ns.bitname.ru.
 	86400	IN	NS	ns2.bitname.ru.
 bitnovosti	86400	IN	A	104.248.200.247
@@ -1112,11 +1112,11 @@ bmgrip	86400	IN	A	144.76.12.6
 $ORIGIN bmgrip.bit.
 \042	86400	IN	A	144.76.12.6
 $ORIGIN bit.
-bmsi	86400	IN	AAAA	2600:3c03::f03c:91ff:fe59:b82f
-	86400	IN	A	50.116.58.80
+bmsi	86400	IN	A	50.116.58.80
+	86400	IN	AAAA	2600:3c03::f03c:91ff:fe59:b82f
 $ORIGIN bmsi.bit.
-mail	86400	IN	AAAA	2600:3c03::f03c:91ff:fe59:b82f
-	86400	IN	A	50.116.58.80
+mail	86400	IN	A	50.116.58.80
+	86400	IN	AAAA	2600:3c03::f03c:91ff:fe59:b82f
 $ORIGIN mail.bmsi.bit.
 h	86400	IN	AAAA	fc2e:6cc0:3aad:22ee:46a4:1006:bc84:c249
 $ORIGIN bit.
@@ -1238,15 +1238,15 @@ busan	86400	IN	A	144.76.12.6
 $ORIGIN busan.bit.
 \042	86400	IN	A	144.76.12.6
 $ORIGIN bit.
-businessbithost	86400	IN	NS	ns1.md-49.webhostbox.net.
+businessbithost	86400	IN	A	199.79.63.142
+	86400	IN	NS	ns1.md-49.webhostbox.net.
 	86400	IN	NS	ns2.md-49.webhostbox.net.
-	86400	IN	A	199.79.63.142
 $ORIGIN businessbithost.bit.
 \042	86400	IN	A	199.79.63.142
 $ORIGIN bit.
-businesshost	86400	IN	NS	ns1.md-49.webhostbox.net.
+businesshost	86400	IN	A	199.79.63.142
+	86400	IN	NS	ns1.md-49.webhostbox.net.
 	86400	IN	NS	ns2.md-49.webhostbox.net.
-	86400	IN	A	199.79.63.142
 $ORIGIN businesshost.bit.
 \042	86400	IN	A	199.79.63.142
 $ORIGIN bit.
@@ -1634,9 +1634,9 @@ coininsurance	86400	IN	NS	ns1.freehosting.com.
 coinkarcass	86400	IN	NS	ns.solidspace.com.
 	86400	IN	NS	ns2.solidspace.com.
 coinminer	86400	IN	DNAME	domaindeals.pro.
-coinnav	86400	IN	NS	ns1.vultr.com.
+coinnav	86400	IN	A	45.63.40.193
+	86400	IN	NS	ns1.vultr.com.
 	86400	IN	NS	ns2.vultr.com.
-	86400	IN	A	45.63.40.193
 coinomist	86400	IN	A	144.76.12.6
 $ORIGIN coinomist.bit.
 \042	86400	IN	A	144.76.12.6
@@ -1777,8 +1777,8 @@ cracky	86400	IN	DNAME	domaindeals.pro.
 craftsman	86400	IN	DNAME	domaindeals.pro.
 craftsmen	86400	IN	DNAME	domaindeals.pro.
 crawlspider	86400	IN	DNAME	domaindeals.pro.
-creativegardens	86400	IN	AAAA	2600:3c03::f03c:91ff:fe37:6461
-	86400	IN	A	45.33.65.68
+creativegardens	86400	IN	A	45.33.65.68
+	86400	IN	AAAA	2600:3c03::f03c:91ff:fe37:6461
 creditkarma	86400	IN	A	144.76.12.6
 $ORIGIN creditkarma.bit.
 \042	86400	IN	A	144.76.12.6
@@ -2208,8 +2208,8 @@ dailytrade	86400	IN	NS	ns1.freehosting.com.
 damon	86400	IN	NS	a.dnspod.com.
 	86400	IN	NS	b.dnspod.com.
 	86400	IN	NS	c.dnspod.com.
-damoon	86400	IN	NS	dns.bit.
-	86400	IN	A	184.105.106.108
+damoon	86400	IN	A	184.105.106.108
+	86400	IN	NS	dns.bit.
 $ORIGIN damoon.bit.
 \042	86400	IN	A	184.105.106.108
 $ORIGIN bit.
@@ -2382,8 +2382,8 @@ digital-print	86400	IN	DNAME	domaindeals.pro.
 digitalbusiness	86400	IN	CNAME	domaindeals.pro.
 digitaldefense	86400	IN	NS	ns1.freehosting.com.
 	86400	IN	NS	ns2.freehosting.com.
-digitalfarms	86400	IN	AAAA	2600:3c03::f03c:91ff:fe37:6461
-	86400	IN	A	45.33.65.68
+digitalfarms	86400	IN	A	45.33.65.68
+	86400	IN	AAAA	2600:3c03::f03c:91ff:fe37:6461
 digitalgod	86400	IN	A	144.76.12.6
 $ORIGIN digitalgod.bit.
 \042	86400	IN	A	144.76.12.6
@@ -2663,11 +2663,11 @@ elepsices	86400	IN	NS	a.dnspod.com.
 	86400	IN	NS	c.dnspod.com.
 elevation	86400	IN	CNAME	domaindeals.pro.
 eleven	86400	IN	A	127.0.0.1
-eligius	86400	IN	NS	ns-480.awsdns-60.com.
+eligius	86400	IN	DNAME	eligius.st.
+	86400	IN	NS	ns-480.awsdns-60.com.
 	86400	IN	NS	ns-780.awsdns-33.net.
 	86400	IN	NS	ns-1066.awsdns-05.org.
 	86400	IN	NS	ns-1676.awsdns-17.co.uk.
-	86400	IN	DNAME	eligius.st.
 elit	86400	IN	A	81.2.247.158
 $ORIGIN elit.bit.
 \042	86400	IN	A	81.2.247.158
@@ -2786,10 +2786,10 @@ eurodollar	86400	IN	A	185.70.185.125
 $ORIGIN eurodollar.bit.
 \042	86400	IN	A	185.70.185.125
 $ORIGIN bit.
-evandro	86400	IN	NS	ns1.digitalocean.com.
+evandro	86400	IN	A	107.170.129.203
+	86400	IN	NS	ns1.digitalocean.com.
 	86400	IN	NS	ns2.digitalocean.com.
 	86400	IN	NS	ns3.digitalocean.com.
-	86400	IN	A	107.170.129.203
 eventbrite	86400	IN	A	144.76.12.6
 $ORIGIN eventbrite.bit.
 \042	86400	IN	A	144.76.12.6
@@ -3093,10 +3093,10 @@ freenote	86400	IN	A	164.132.57.124
 $ORIGIN freenote.bit.
 \042	86400	IN	A	164.132.57.124
 $ORIGIN bit.
-freenuts	86400	IN	AAAA	2400:cb00:2048:1::681c:105b
-	86400	IN	AAAA	2400:cb00:2048:1::681c:115b
-	86400	IN	A	104.28.16.91
+freenuts	86400	IN	A	104.28.16.91
 	86400	IN	A	104.28.17.91
+	86400	IN	AAAA	2400:cb00:2048:1::681c:105b
+	86400	IN	AAAA	2400:cb00:2048:1::681c:115b
 frees	86400	IN	A	144.76.12.6
 $ORIGIN frees.bit.
 \042	86400	IN	A	144.76.12.6
@@ -3104,8 +3104,8 @@ $ORIGIN bit.
 freesample	86400	IN	NS	ns1.freehosting.com.
 	86400	IN	NS	ns2.freehosting.com.
 $ORIGIN freespeechme.bit.
-www	86400	IN	AAAA	2001:19f0:6c00:8567::64
-	86400	IN	A	108.61.170.200
+www	86400	IN	A	108.61.170.200
+	86400	IN	AAAA	2001:19f0:6c00:8567::64
 $ORIGIN bit.
 freethinkingmgtow	86400	IN	CNAME	mgtowmirror.bit.
 freethinkingsilver	86400	IN	CNAME	mgtowmirror.bit.
@@ -3200,9 +3200,9 @@ gathman	86400	IN	NS	ns1.unilit.bit.
 	86400	IN	NS	ns1.gathman.bit.
 $ORIGIN gathman.bit.
 h	86400	IN	AAAA	fcef:a346:73a0:72c4:d56d:1048:88a2:e81d
-ns1	86400	IN	AAAA	2001:470:8:809::1
+ns1	86400	IN	A	70.184.247.44
+	86400	IN	AAAA	2001:470:8:809::1
 	86400	IN	AAAA	fcef:a346:73a0:72c4:d56d:1048:88a2:e81d
-	86400	IN	A	70.184.247.44
 $ORIGIN bit.
 gatya	86400	IN	A	144.76.12.6
 $ORIGIN gatya.bit.
@@ -4120,11 +4120,11 @@ $ORIGIN jameshudon.bit.
 \042	86400	IN	A	144.76.12.6
 $ORIGIN bit.
 jamestkirk	86400	IN	CNAME	mgtowmirror.bit.
-jamieweb	86400	IN	AAAA	2604:a880:400:d1::aad:8001
-	86400	IN	A	139.162.222.67
+jamieweb	86400	IN	A	139.162.222.67
+	86400	IN	AAAA	2604:a880:400:d1::aad:8001
 $ORIGIN jamieweb.bit.
-\042	86400	IN	AAAA	2604:a880:400:d1::aad:8001
-	86400	IN	A	139.162.222.67
+\042	86400	IN	A	139.162.222.67
+	86400	IN	AAAA	2604:a880:400:d1::aad:8001
 $ORIGIN bit.
 jamming	86400	IN	DNAME	domaindeals.pro.
 jaqueline	86400	IN	NS	ns1.freehosting.com.
@@ -4282,10 +4282,10 @@ kainoscoin	86400	IN	A	144.76.12.6
 $ORIGIN kainoscoin.bit.
 \042	86400	IN	A	144.76.12.6
 $ORIGIN bit.
-kakvoiadesh	86400	IN	NS	ns1.instradns.com.
+kakvoiadesh	86400	IN	A	164.138.221.190
+	86400	IN	NS	ns1.instradns.com.
 	86400	IN	NS	ns2.instradns.com.
 	86400	IN	NS	ns3.instradns.com.
-	86400	IN	A	164.138.221.190
 kamilla	86400	IN	NS	ns1.agrilildan.ug.
 	86400	IN	NS	ns4.arore.ug.
 karabas	86400	IN	A	144.76.12.6
@@ -4972,9 +4972,9 @@ $ORIGIN bit.
 maxmind	86400	IN	NS	a.dnspod.com.
 	86400	IN	NS	b.dnspod.com.
 	86400	IN	NS	c.dnspod.com.
-maxweiss	86400	IN	DNAME	maxweiss.io.
-	86400	IN	NS	ns1.box.maxweiss.io.
+maxweiss	86400	IN	NS	ns1.box.maxweiss.io.
 	86400	IN	NS	ns2.box.maxweiss.io.
+	86400	IN	DNAME	maxweiss.io.
 mbixigmtjewpietju	86400	IN	NS	ns1.mwrlabs.co.uk.
 	86400	IN	NS	ns2.mwrlabs.co.uk.
 mcafee	86400	IN	NS	ns1.hostinger.ru.
@@ -5074,8 +5074,8 @@ mgtowliving	86400	IN	CNAME	mgtowmirror.bit.
 mgtowmagic	86400	IN	CNAME	mgtowmirror.bit.
 mgtowmexican	86400	IN	CNAME	mgtowmirror.bit.
 mgtowmindframe	86400	IN	CNAME	mgtowmirror.bit.
-mgtowmirror	86400	IN	AAAA	2a07:85c1:0:2ce::202
-	86400	IN	A	195.144.21.202
+mgtowmirror	86400	IN	A	195.144.21.202
+	86400	IN	AAAA	2a07:85c1:0:2ce::202
 mgtowmoney	86400	IN	CNAME	mgtowmirror.bit.
 mgtowmonger	86400	IN	CNAME	mgtowmirror.bit.
 mgtowmonk	86400	IN	CNAME	mgtowmirror.bit.
@@ -5362,8 +5362,8 @@ $ORIGIN bit.
 namecoinadmin	86400	IN	CNAME	domaindeals.pro.
 namecoinpool	86400	IN	DNAME	domaindeals.pro.
 namecoinpools	86400	IN	DNAME	domaindeals.pro.
-namecoinseed	86400	IN	AAAA	2600:3c03::f03c:91ff:fe37:6461
-	86400	IN	A	45.33.65.68
+namecoinseed	86400	IN	A	45.33.65.68
+	86400	IN	AAAA	2600:3c03::f03c:91ff:fe37:6461
 namestatus	86400	IN	NS	ns0.xname.org.
 	86400	IN	NS	ns0.web-sweet-web.net.
 	86400	IN	NS	ns1.web-sweet-web.net.
@@ -5371,8 +5371,8 @@ namesys	86400	IN	A	127.0.0.1
 $ORIGIN namesys.bit.
 \042	86400	IN	A	127.0.0.1
 $ORIGIN bit.
-nastyfans	86400	IN	AAAA	2a01:488:67:1000:b01c:3239:0:1
-	86400	IN	A	176.28.50.57
+nastyfans	86400	IN	A	176.28.50.57
+	86400	IN	AAAA	2a01:488:67:1000:b01c:3239:0:1
 nationalsecurity	86400	IN	CNAME	mgtowmirror.bit.
 nautics	86400	IN	DNAME	domaindeals.pro.
 navient	86400	IN	NS	a1-51.akam.net.
@@ -5591,9 +5591,9 @@ $ORIGIN bit.
 nosp	86400	IN	A	192.168.1.1
 not-the-slightest	86400	IN	DNAME	domaindeals.pro.
 notallwomen	86400	IN	CNAME	mgtowmirror.bit.
-notfake	86400	IN	NS	ns1.notfake.vip.
+notfake	86400	IN	A	159.253.28.137
+	86400	IN	NS	ns1.notfake.vip.
 	86400	IN	NS	ns2.notfake.vip.
-	86400	IN	A	159.253.28.137
 $ORIGIN notfake.bit.
 \042	86400	IN	A	159.253.28.137
 $ORIGIN bit.
@@ -6154,9 +6154,9 @@ preparedmind	86400	IN	CNAME	mgtowmirror.bit.
 presales	86400	IN	CNAME	domaindeals.pro.
 press-release	86400	IN	DNAME	domaindeals.pro.
 pressrelease	86400	IN	DNAME	domaindeals.pro.
-primalplugins	86400	IN	NS	ivy.ns.cloudflare.com.
+primalplugins	86400	IN	DNAME	primalplugins.net.
+	86400	IN	NS	ivy.ns.cloudflare.com.
 	86400	IN	NS	noah.ns.cloudflare.com.
-	86400	IN	DNAME	primalplugins.net.
 princecharles	86400	IN	CNAME	mgtowmirror.bit.
 princessdiana	86400	IN	CNAME	mgtowmirror.bit.
 priotyers	86400	IN	NS	a.dnspod.com.
@@ -6643,9 +6643,9 @@ salestips	86400	IN	NS	ns1.freehosting.com.
 samadams	86400	IN	NS	ns0.xname.org.
 	86400	IN	NS	ns0.web-sweet-web.net.
 	86400	IN	NS	ns1.web-sweet-web.net.
-sameer	86400	IN	NS	ns1.linode.com.
+sameer	86400	IN	A	88.80.185.175
+	86400	IN	NS	ns1.linode.com.
 	86400	IN	NS	ns2.linode.com.
-	86400	IN	A	88.80.185.175
 sampler	86400	IN	DNAME	domaindeals.pro.
 samplerate	86400	IN	NS	ns1.freehosting.com.
 	86400	IN	NS	ns2.freehosting.com.
@@ -6920,10 +6920,10 @@ shpionistyiwue9128	86400	IN	NS	ns1.kriston.ug.
 shut-off	86400	IN	DNAME	domaindeals.pro.
 shutoff	86400	IN	DNAME	domaindeals.pro.
 shuttered	86400	IN	DNAME	domaindeals.pro.
-sidn	86400	IN	AAAA	2a00:d78:0:712:94:198:159:7
-	86400	IN	A	94.198.159.7
-sidnlabs	86400	IN	AAAA	2a00:d78:0:712:94:198:159:7
-	86400	IN	A	94.198.159.7
+sidn	86400	IN	A	94.198.159.7
+	86400	IN	AAAA	2a00:d78:0:712:94:198:159:7
+sidnlabs	86400	IN	A	94.198.159.7
+	86400	IN	AAAA	2a00:d78:0:712:94:198:159:7
 sigfox	86400	IN	NS	ns39.axc.nl.
 	86400	IN	NS	ns40.axc.nl.
 siled	86400	IN	NS	ns1.crystaldumps.ru.
@@ -6935,8 +6935,8 @@ $ORIGIN simplesmart.bit.
 $ORIGIN bit.
 singed	86400	IN	NS	ns1.mirkadns.xyz.
 	86400	IN	NS	ns2.mirkadns.xyz.
-singpolyma	86400	IN	AAAA	2607:5300:60:9e74:1000::
-	86400	IN	A	192.99.233.116
+singpolyma	86400	IN	A	192.99.233.116
+	86400	IN	AAAA	2607:5300:60:9e74:1000::
 siraya	86400	IN	CNAME	www.tatalag.org.tw.
 $ORIGIN siraya.bit.
 www	86400	IN	CNAME	www.tatalag.org.tw.
@@ -7789,9 +7789,9 @@ $ORIGIN toiletcoin.bit.
 $ORIGIN bit.
 tokiogroup	86400	IN	NS	ns6.tokiogroup.be.
 	86400	IN	NS	ns7.tokiogroup.be.
-tomboliniassociati	86400	IN	NS	ns1.es43.siteground.eu.
+tomboliniassociati	86400	IN	DNAME	tomboliniassociati.com.
+	86400	IN	NS	ns1.es43.siteground.eu.
 	86400	IN	NS	ns2.es43.siteground.eu.
-	86400	IN	DNAME	tomboliniassociati.com.
 tommysotomayor	86400	IN	CNAME	mgtowmirror.bit.
 toms	86400	IN	A	144.76.12.6
 $ORIGIN toms.bit.
@@ -8094,8 +8094,8 @@ uestc	86400	IN	A	202.112.14.178
 $ORIGIN uestc.bit.
 \042	86400	IN	A	202.112.14.178
 $ORIGIN bit.
-uflour	86400	IN	AAAA	2600:3c03::f03c:91ff:fe37:6461
-	86400	IN	A	45.33.65.68
+uflour	86400	IN	A	45.33.65.68
+	86400	IN	AAAA	2600:3c03::f03c:91ff:fe37:6461
 ugnl	86400	IN	A	144.76.12.6
 $ORIGIN ugnl.bit.
 \042	86400	IN	A	144.76.12.6
@@ -8125,8 +8125,8 @@ underdog	86400	IN	CNAME	mgtowmirror.bit.
 underprotection	86400	IN	NS	ns1.freehosting.com.
 	86400	IN	NS	ns2.freehosting.com.
 undisclosed	86400	IN	DNAME	domaindeals.pro.
-unfl	86400	IN	AAAA	2600:3c03::f03c:91ff:fe37:6461
-	86400	IN	A	45.33.65.68
+unfl	86400	IN	A	45.33.65.68
+	86400	IN	AAAA	2600:3c03::f03c:91ff:fe37:6461
 unibo	86400	IN	NS	ns1.rycpokytq.hk.
 	86400	IN	NS	ns2.baben.ug.
 	86400	IN	NS	ns3.maracargo.ug.
@@ -8137,18 +8137,18 @@ unilit	86400	IN	NS	ns1.unilit.bit.
 	86400	IN	NS	ns1.gathman.bit.
 $ORIGIN unilit.bit.
 h	86400	IN	AAAA	fccc:af80:8be4:ce9d:8aaa:766f:60d3:420
-ns1	86400	IN	AAAA	2001:470:5:c85::1
+ns1	86400	IN	A	50.248.53.221
+	86400	IN	AAAA	2001:470:5:c85::1
 	86400	IN	AAAA	fcee:b3cc:3937:97b1:bac2:1fc7:186b:b43c
-	86400	IN	A	50.248.53.221
 $ORIGIN bit.
 unimpairedlife	86400	IN	A	144.76.12.6
 $ORIGIN unimpairedlife.bit.
 \042	86400	IN	A	144.76.12.6
 $ORIGIN bit.
-unionf	86400	IN	AAAA	2600:3c03::f03c:91ff:fe37:6461
-	86400	IN	A	45.33.65.68
-unionflour	86400	IN	AAAA	2600:3c03::f03c:91ff:fe37:6461
-	86400	IN	A	45.33.65.68
+unionf	86400	IN	A	45.33.65.68
+	86400	IN	AAAA	2600:3c03::f03c:91ff:fe37:6461
+unionflour	86400	IN	A	45.33.65.68
+	86400	IN	AAAA	2600:3c03::f03c:91ff:fe37:6461
 unitedchristianoutreach	86400	IN	NS	ns6389.hostgator.com.
 	86400	IN	NS	ns6390.hostgator.com.
 unitypaypal	86400	IN	NS	a.dnspod.com.
@@ -8248,8 +8248,8 @@ validshop	86400	IN	A	185.14.31.18
 $ORIGIN validshop.bit.
 \042	86400	IN	A	185.14.31.18
 $ORIGIN bit.
-valleys	86400	IN	AAAA	2600:3c03::f03c:91ff:fe37:6461
-	86400	IN	A	45.33.65.68
+valleys	86400	IN	A	45.33.65.68
+	86400	IN	AAAA	2600:3c03::f03c:91ff:fe37:6461
 vam	86400	IN	A	10.0.0.1
 vaper	86400	IN	NS	ns0.xname.org.
 	86400	IN	NS	ns0.web-sweet-web.net.
@@ -8503,9 +8503,9 @@ webbtc	86400	IN	A	144.76.183.77
 $ORIGIN webbtc.bit.
 \042	86400	IN	A	144.76.183.77
 $ORIGIN bit.
-webbusiness	86400	IN	NS	ns1.md-49.webhostbox.net.
+webbusiness	86400	IN	A	199.79.63.142
+	86400	IN	NS	ns1.md-49.webhostbox.net.
 	86400	IN	NS	ns2.md-49.webhostbox.net.
-	86400	IN	A	199.79.63.142
 $ORIGIN webbusiness.bit.
 \042	86400	IN	A	199.79.63.142
 $ORIGIN bit.
@@ -8688,10 +8688,10 @@ $ORIGIN bit.
 withdrawn	86400	IN	DNAME	domaindeals.pro.
 wiyrgqtchrss	86400	IN	NS	ns1.mwrlabs.co.uk.
 	86400	IN	NS	ns2.mwrlabs.co.uk.
-wize	86400	IN	NS	ns1.digitalocean.com.
+wize	86400	IN	A	198.199.103.15
+	86400	IN	NS	ns1.digitalocean.com.
 	86400	IN	NS	ns2.digitalocean.com.
 	86400	IN	NS	ns3.digitalocean.com.
-	86400	IN	A	198.199.103.15
 wobmlwltsi	86400	IN	NS	ns1.mwrlabs.co.uk.
 	86400	IN	NS	ns2.mwrlabs.co.uk.
 womanhater	86400	IN	CNAME	mgtowmirror.bit.
@@ -8811,12 +8811,12 @@ $ORIGIN xgd.bit.
 $ORIGIN bit.
 xgqanwnp	86400	IN	NS	ns1.mwrlabs.co.uk.
 	86400	IN	NS	ns2.mwrlabs.co.uk.
-xgtele	86400	IN	NS	dns1.name-services.com.
+xgtele	86400	IN	DNAME	xgtele.com.
+	86400	IN	NS	dns1.name-services.com.
 	86400	IN	NS	dns2.name-services.com.
 	86400	IN	NS	dns3.name-services.com.
 	86400	IN	NS	dns4.name-services.com.
 	86400	IN	NS	dns5.name-services.com.
-	86400	IN	DNAME	xgtele.com.
 xinh	86400	IN	NS	jay.cloudlayar.com.
 	86400	IN	NS	kate.cloudlayar.com.
 xjtytacocdhe	86400	IN	NS	ns1.mwrlabs.co.uk.
@@ -9107,11 +9107,11 @@ zoznam	86400	IN	A	81.2.247.158
 $ORIGIN zoznam.bit.
 \042	86400	IN	A	81.2.247.158
 $ORIGIN bit.
-zpool	86400	IN	A	173.244.48.59
-	86400	IN	NS	dns1.p05.nsone.net.
+zpool	86400	IN	NS	dns1.p05.nsone.net.
 	86400	IN	NS	dns2.p05.nsone.net.
 	86400	IN	NS	dns3.p05.nsone.net.
 	86400	IN	NS	dns4.p05.nsone.net.
+	86400	IN	A	173.244.48.59
 $ORIGIN zpool.bit.
 \042	86400	IN	A	173.244.48.59
 $ORIGIN bit.

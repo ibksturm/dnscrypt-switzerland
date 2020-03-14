@@ -1,0 +1,12 @@
+[Unit]
+Description=encrypted-dns-8440 %I
+After=syslog.target network.target
+Before=nginx.target
+
+[Service]
+Type=simple
+WorkingDirectory=/etc/encrypted-dns/
+ExecStart=/etc/encrypted-dns/encrypted-dns --import-from-dnscrypt-wrapper /etc/dnscrypt-wrapper/secret.key -c /etc/encrypted-dns/encrypted-dns-8442.toml
+
+[Install]
+WantedBy=multi-user.target
