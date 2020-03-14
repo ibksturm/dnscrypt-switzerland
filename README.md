@@ -22,8 +22,12 @@ Router -> NGINX (LoadBalancer)
 Software i Used
 
 Nginx (https://nginx.org/en/download.html)
-dnsproxy (https://github.com/AdguardTeam/dnsproxy) 
+
+dnsproxy (https://github.com/AdguardTeam/dnsproxy)
+
 encrypted-dns-server (https://github.com/jedisct1/encrypted-dns-server)
+
 Unbound (https://nlnetlabs.nl/projects/unbound/download/)
+
 nsd (https://www.nlnetlabs.nl/projects/nsd/download/)
 
