@@ -6,7 +6,7 @@ i'm using a intel nuc with ubuntu server 19.04
 
 ----------------------------
 
-Infrastructur ist now like that
+Infrastructur ist now like that (March 2020)
 
 Router -> NGINX (LoadBalancer) 
 
