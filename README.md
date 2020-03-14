@@ -10,7 +10,7 @@ Infrastructur ist now like that
 
 Router -> NGINX (LoadBalancer) 
 
--> DoT (dnsproxy ) 
+-> DoT (dnsproxy) 
 
 -> DoH (dnsproxy) 
 
