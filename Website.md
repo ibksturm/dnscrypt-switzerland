@@ -1,4 +1,3 @@
-  GNU nano 4.3                              /var/www/ibksturm/index.html                                         
 <html>
 <head>
 <style>
