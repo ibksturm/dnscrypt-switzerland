@@ -1,0 +1,17 @@
+#! /bin/sh
+
+tempFile="/tmp/blacklist.txt.tmp"
+hotFile="/var/www/[webfolder]/blacklist.txt"
+
+cd /etc/dnscrypt-blacklist
+
+./generate-domains-blacklist.py > $tempFile #/var/www/[webfolder]/blacklist.txt.tmp
+
+if test -s "$tempFile"
+ then
+  cp $tempFile $hotFile
+#  rm $tempFile
+ else
+  ./generate-domains-blacklist.py > $tempFile
+   cp $tempFile $hotFile
+ fi

@@ -6,24 +6,22 @@ i'm using a intel nuc with ubuntu server 19.04
 
 ----------------------------
 
-Infrastructur ist now like that (March 2020)
+Infrastructur ist now like that (October 2020)
 
-Router -> NGINX (LoadBalancer) 
+Router -> DNSDIST (LoadBalancer, DoT, DoH, DNS) 
+--> PowerDNS (2x local), Unbound (1x local), NSD (Opennic local)
 
--> DoT (dnsproxy) 
 
--> DoH (dnsproxy) 
-
--> DNSCRYPT (encrypted-dns-server) 
-
---> unbound (resolver)
-  -> nsd (opennic)
+Router -> DNSCRYPT (encrypted-dns-server) 
+--> DNSDIST (LoadBalancer)
 
 Software i Used
 
 Nginx (https://nginx.org/en/download.html)
 
-dnsproxy (https://github.com/AdguardTeam/dnsproxy)
+DNSDist (https://dnsdist.org/)
+
+PowerDNS (https://www.powerdns.com/)
 
 encrypted-dns-server (https://github.com/jedisct1/encrypted-dns-server)
 

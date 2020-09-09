@@ -23,18 +23,20 @@
 # ]
 
 listen_addrs = [
-    { local = "127.0.5.1:8440",    external = "[ExternalIP]:[Port]" }
+    { local = "0.0.0.0:8443",    external = "[ipv4]:8443" },
+    { local = "[::]:8443",    external = "[ipv6]:8443" }
+
 ]
 
 
 ## Upstream DNS server and port
 
-upstream_addr = "127.0.0.1:53"
+upstream_addr = "127.0.0.1:53" #dnsdist
 
 
 ## File name to save the state to
 
-state_file = "encrypted-dns.state"
+state_file = "encrypted-dns-8440.state"
 
 
 ## UDP timeout in seconds
@@ -49,23 +51,23 @@ tcp_timeout = 10
 
 ## Maximum active UDP sockets
 
-udp_max_active_connections = 1000
+udp_max_active_connections = 5000
 
 
 ## Maximum active TCP connections
 
-tcp_max_active_connections = 100
+tcp_max_active_connections = 1000
 
 
 ## IP address to connect to upstream servers from.
 ## You probably do not want to change this. `0.0.0.0` should be fine.
 
-external_addr = "0.0.0.0"
+#external_addr = "0.0.0.0"
 
 
 ## Built-in DNS cache capacity
 
-cache_capacity = 50000
+cache_capacity = 128
 
 
 ## DNS cache: minimum TTL
@@ -82,6 +84,12 @@ cache_ttl_max = 3600
 
 cache_ttl_error = 60
 
+## DNS cache: to avoid bursts of traffic when an RRSET expires,
+## introduce jitter to the decreasing TTL sent to clients when the
+## actual TTL goes below that value.
+
+client_ttl_jitter = 60
+
 
 ## Run as a background process
 
@@ -90,17 +98,17 @@ daemonize = false
 
 ## Log file
 
- log_file = "/var/log/encrypted-dns/encrypted-dns-8440.log"
+ log_file = "[path-to-logfile]"
 
 
 ## PID file
 
- pid_file = "/tmp/encrypted-dns-8440.pid"
+ pid_file = "[path-to-pidfile]"
 
 
 ## User name to drop privileges to, when started as root.
 
-# user = "unbound"
+# user = "dnscrypt"
 
 
 ## Group name to drop privileges to, when started as root.
@@ -123,7 +131,7 @@ daemonize = false
 
 ## Provider name (with or without the `2.dnscrypt-cert.` prefix)
 
-provider_name = "ProviderName"
+provider_name = "[prividername]"
 
 
 ## Does the server support DNSSEC?
@@ -155,7 +163,7 @@ key_cache_capacity = 10000
 
 ## Where to prooxy TLS connections to (e.g. DoH server)
 
- upstream_addr = "127.0.0.1:8080"
+# upstream_addr = "127.0.0.1:8540"
 
 #######################################
 #        Server-side filtering        #
@@ -173,11 +181,11 @@ key_cache_capacity = 10000
 #        Metrics        #
 #########################
 
-# [metrics]
+[metrics]
 
-# type = "prometheus"
-# listen_addr = "0.0.0.0:9100"
-# path = "/metrics"
+ type = "prometheus"
+ listen_addr = "0.0.0.0:9140"
+ path = "/metrics"
 
 
 
@@ -194,9 +202,13 @@ enabled = true
 
 # Allowed upstream ports
 
-allowed_ports = [ 443,8443 ]
+allowed_ports = [ 443,8443,8440 ]
 
+
+# Allow all ports >= 1024 in addition to the list above
+
+allow_non_reserved_ports = false
 
 # Blacklisted upstream IP addresses
 
-blacklisted_ips = [ "PublicIP" ]
+blacklisted_ips = [ "[external-ip]" ]

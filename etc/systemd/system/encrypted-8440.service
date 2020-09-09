@@ -6,8 +6,15 @@ Before=nginx.target
 [Service]
 Type=simple
 WorkingDirectory=/etc/encrypted-dns/
-ExecStart=/etc/encrypted-dns/encrypted-dns --import-from-dnscrypt-wrapper /etc/dnscrypt-wrapper/secret.key -c /etc/encrypted-dns/encrypted-dns-8440.toml
 
+ExecStart=/root/.cargo/bin/encrypted-dns --import-from-dnscrypt-wrapper /etc/encrypted-dns/secret.key -c /etc/encrypted-dns/encrypted-dns-8440.toml
+
+
+LimitNOFILE=500000 #!
+LimitNPROC=500000 #!
+StartLimitBurst=5
+StartLimitInterval=0
+Restart=on-failure
 
 [Install]
 WantedBy=multi-user.target

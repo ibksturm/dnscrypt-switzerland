@@ -1,4 +1,4 @@
 #! /bin/sh
 
-./dnscrypt-wrapper --gen-provider-keypair --provider-name=2.dnscrypt-cert.[Providername] --ext-address=[IP-Address]:[Port]  --nolog --dnssec --nofilter
+./dnscrypt-wrapper --gen-provider-keypair --provider-name=2.dnscrypt-cert.[domaine] --ext-address=[IP]:8443  --nolog --dnssec --nofilter
 
