@@ -8,10 +8,18 @@
 
 #unbound
 
---with-libevent --disable-sha1
+--with-libevent --with-pthreads
+
+#nsd
+
+--with-libevent --with-pthreads
 
 #pdns_recursor
 
  --sysconfdir=/etc/powerdns --with-libsodium --with-lua --with-protobuf=yes --enable-systemd --with-systemd=/lib/systemd/system
  
+ #dnsdist
  
+ cdb  ebpf fstrm ipcipher libsodium lmdb protobuf re2 recvmmsg/sendmmsg snmp systemd
+ 
+--enable-dnscrypt --enable-systemd   --enable-dns-over-tls --enable-dns-over-https --with-systemd --with-libsodium --with-ebpf 
