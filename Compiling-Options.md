@@ -7,4 +7,11 @@
 
 
 #unbound
+
 --with-libevent --disable-sha1
+
+#pdns_recursor
+
+ --sysconfdir=/etc/powerdns --with-libsodium --with-lua --with-protobuf=yes --enable-systemd --with-systemd=/lib/systemd/system
+ 
+ 
